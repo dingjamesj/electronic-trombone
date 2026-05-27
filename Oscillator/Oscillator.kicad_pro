@@ -648,7 +648,7 @@
         "uuid": "1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
       }
     ],
-    "used_designators": "U3,C2,J1-2,TH_Coarse1,RV_CoarseTuning1,R_Coarse1,TH1,#PWR5-11,RV1,R1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
