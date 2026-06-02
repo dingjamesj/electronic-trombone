@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Electronic Trombone.kicad_pro",
+    "filename": "Oscillator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,7 +643,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Electronic Trombone.kicad_sch",
+        "filename": "Oscillator.kicad_sch",
         "name": "Oscillator",
         "uuid": "1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
       }
