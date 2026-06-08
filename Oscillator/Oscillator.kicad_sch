@@ -3033,6 +3033,12 @@
 		(uuid "00afa814-f7fa-4c3d-9aef-a0818c6b7cc0")
 	)
 	(junction
+		(at 93.98 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4027e82a-e0f8-4926-854b-454ba3a1ad95")
+	)
+	(junction
 		(at 210.82 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3045,6 +3051,12 @@
 		(uuid "6b1c2095-7c48-4475-8353-f70a73d17f16")
 	)
 	(junction
+		(at 147.32 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "785d8111-ebe9-407f-b986-0e6981ad448a")
+	)
+	(junction
 		(at 62.23 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3055,18 +3067,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e9f6d52-622e-4ea8-94d8-eb12edee9db0")
-	)
-	(junction
-		(at 144.78 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acfae6e9-2fc4-4235-b166-d7954c7534bf")
-	)
-	(junction
-		(at 93.98 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae4911c7-4b85-444e-9385-68a770d69909")
 	)
 	(junction
 		(at 193.04 111.76)
@@ -3112,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 115.57) (xy 86.36 115.57)
+			(xy 77.47 114.3) (xy 86.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3172,16 +3172,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 119.38) (xy 153.67 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e878dd7-df5b-4d19-a58e-0e998f04d9ba")
-	)
-	(wire
-		(pts
 			(xy 35.56 130.81) (xy 35.56 133.35)
 		)
 		(stroke
@@ -3192,17 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 119.38) (xy 144.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377cf672-b22c-4e6f-a4de-3acb57c59d84")
-	)
-	(wire
-		(pts
-			(xy 144.78 127) (xy 144.78 119.38)
+			(xy 147.32 127) (xy 147.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3292,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 105.41) (xy 93.98 110.49)
+			(xy 93.98 105.41) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3362,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 114.3) (xy 77.47 115.57)
+			(xy 77.47 113.03) (xy 77.47 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3372,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 93.98 105.41)
+			(xy 93.98 101.6) (xy 93.98 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3422,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 129.54 127)
+			(xy 132.08 121.92) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
@@ -3442,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 144.78 127)
+			(xy 132.08 127) (xy 147.32 127)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 116.84) (xy 129.54 116.84)
+			(xy 128.27 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3622,6 +3602,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 119.38) (xy 152.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3632f73-1e2f-4d84-9245-7a4abf04bedd")
+	)
+	(wire
+		(pts
 			(xy 46.99 110.49) (xy 50.8 110.49)
 		)
 		(stroke
@@ -3671,7 +3661,7 @@
 		(uuid "94a38054-3d07-4937-b1a8-7f4f120bdee5")
 	)
 	(label "Amp In"
-		(at 154.94 119.38 0)
+		(at 152.4 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3701,7 +3691,7 @@
 		(uuid "d9139d90-3e6a-46a4-afa0-dc505fc5e8a6")
 	)
 	(label "Core In"
-		(at 77.47 114.3 0)
+		(at 77.47 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3712,7 +3702,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 93.98 96.52 0)
+		(at 93.98 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3723,7 +3713,7 @@
 		(fields_autoplaced yes)
 		(uuid "01bdfcc5-eb22-40f5-a7d5-f8f649aa0348")
 		(property "Reference" "R1"
-			(at 96.52 95.2499 0)
+			(at 96.52 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +3724,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 96.52 97.7899 0)
+			(at 96.52 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3745,7 +3735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.996 96.774 90)
+			(at 94.996 98.044 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +3746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 96.52 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3767,7 +3757,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 93.98 96.52 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3784,7 +3774,7 @@
 			(uuid "3b600a20-15ff-41be-944e-ffca8c5e3d8c")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R1")
 					(unit 1)
@@ -3794,7 +3784,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 120.65 0)
+		(at 93.98 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3805,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "05418cca-452b-42fa-846f-180689756646")
 		(property "Reference" "#PWR04"
-			(at 93.98 127 0)
+			(at 93.98 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 125.73 0)
+			(at 93.98 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3826,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 120.65 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +3827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 120.65 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +3838,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 120.65 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3852,7 @@
 			(uuid "32da0370-49eb-4765-a64d-d5cd857ecf28")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR04")
 					(unit 1)
@@ -3942,7 +3932,7 @@
 			(uuid "4d42c9e5-b08e-48dc-9344-2022f18cec22")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R_Fine")
 					(unit 1)
@@ -4022,7 +4012,7 @@
 			(uuid "1beabe24-3e91-4c83-aee7-d95dd920c3d2")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R_In")
 					(unit 1)
@@ -4032,7 +4022,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 93.98 92.71 0)
+		(at 93.98 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4043,7 +4033,7 @@
 		(fields_autoplaced yes)
 		(uuid "29a3972b-d4e6-4f47-a36d-d2daf1a995f3")
 		(property "Reference" "#PWR03"
-			(at 93.98 96.52 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +4044,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 93.98 87.63 0)
+			(at 93.98 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4064,7 +4054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 92.71 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 92.71 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4086,7 +4076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 93.98 92.71 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4090,7 @@
 			(uuid "6ddb8d20-8aad-44f1-b908-b7694ada0984")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR03")
 					(unit 1)
@@ -4178,7 +4168,7 @@
 			(uuid "5b30f630-e104-4a27-ab89-7b3bbfd865fd")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR011")
 					(unit 1)
@@ -4256,7 +4246,7 @@
 			(uuid "97c2d478-15f5-46d8-82ce-9031c38620a4")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR08")
 					(unit 1)
@@ -4374,7 +4364,7 @@
 			(uuid "cd91fb60-50ee-4f87-b6a6-89a520d7d9f5")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "RV_CoarseTuning")
 					(unit 1)
@@ -4454,7 +4444,7 @@
 			(uuid "17a7950b-0755-42e3-9896-49c01fac647f")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "TH_Coarse")
 					(unit 1)
@@ -4484,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 201.93 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4534,7 +4524,7 @@
 			(uuid "1bb553b6-0548-4fbf-a087-be3da7bfd606")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R3")
 					(unit 1)
@@ -4612,7 +4602,7 @@
 			(uuid "4efff058-1d33-4226-a7de-f2854898466f")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR09")
 					(unit 1)
@@ -4690,7 +4680,7 @@
 			(uuid "b78b70d6-e1e1-4316-997b-ee5b67b174f8")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR06")
 					(unit 1)
@@ -4768,7 +4758,7 @@
 			(uuid "b8b40119-c154-48a6-a6a6-c751dd562f32")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR010")
 					(unit 1)
@@ -4846,7 +4836,7 @@
 			(uuid "cd67bd89-2ce0-4d38-aa01-bc077c725192")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR02")
 					(unit 1)
@@ -4926,7 +4916,7 @@
 			(uuid "2aa6e8eb-4ba8-44f6-a8bb-dc6a555bbc30")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "TH_Fine")
 					(unit 1)
@@ -5028,7 +5018,7 @@
 			(uuid "1e5d9ee8-85ab-46f8-b267-603cfc663975")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "D1")
 					(unit 1)
@@ -5146,7 +5136,7 @@
 			(uuid "d8131443-0310-42d8-b688-412459722332")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "Q1")
 					(unit 1)
@@ -5176,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 177.8 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,7 +5216,7 @@
 			(uuid "52481bcb-d40e-464b-855f-453c61ffff13")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "C2")
 					(unit 1)
@@ -5305,7 +5295,7 @@
 			(uuid "9de32e66-f6c3-493d-8bf3-ca895603690b")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "J_In")
 					(unit 1)
@@ -5335,7 +5325,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer_US"
+		(property "Value" "20k"
 			(at 220.98 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5421,7 +5411,7 @@
 			(uuid "cad859fb-00f4-4e2e-a9cb-543fefaaab75")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "RV1")
 					(unit 1)
@@ -5501,89 +5491,9 @@
 			(uuid "b4e6eaba-c18e-4945-91ae-2fa002d4e278")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R_Coarse")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 149.86 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aab85224-ebcf-4ab3-842e-2e1e38b3a8d4")
-		(property "Reference" "R_CurrentLimit"
-			(at 149.86 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 149.86 115.57 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.114 118.364 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 149.86 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b54d2ae4-3481-40ce-8af4-5cbf69250a8c")
-		)
-		(pin "1"
-			(uuid "57deb6bf-a64f-47b4-a6fb-7661a09b7414")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_CurrentLimit")
 					(unit 1)
 				)
 			)
@@ -5697,7 +5607,7 @@
 			(uuid "6c3a6427-501b-49e8-a0be-7fb0c14c7d73")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "U3")
 					(unit 1)
@@ -5777,7 +5687,7 @@
 			(uuid "2c616245-ffb4-469e-bedb-18d3bc214613")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "TH_In")
 					(unit 1)
@@ -5859,7 +5769,7 @@
 			(uuid "b4165c09-0e56-4136-aa5f-2736cf5b8d1b")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "C1")
 					(unit 1)
@@ -5938,7 +5848,7 @@
 			(uuid "b1d1e005-e4ba-4144-b620-218f2c4a8994")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "J_Out")
 					(unit 1)
@@ -5969,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100k"
 			(at 184.15 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6020,7 +5930,7 @@
 			(uuid "10644505-218f-479f-a070-80ad78d7b486")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R2")
 					(unit 1)
@@ -6051,7 +5961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33k"
 			(at 195.58 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6012,7 @@
 			(uuid "df4c7d07-3a89-4bcc-9138-e6ae56f215e1")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "R4")
 					(unit 1)
@@ -6180,7 +6090,7 @@
 			(uuid "c1da6cc9-4977-4564-8711-17dabe6a5578")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR01")
 					(unit 1)
@@ -6296,7 +6206,7 @@
 			(uuid "ee0a7cfb-df21-4269-ad4f-5c73df903132")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "U1")
 					(unit 1)
@@ -6414,7 +6324,7 @@
 			(uuid "3a8dc2c9-2f9e-46e0-a306-5342b4a09d0d")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "RV_FineTuning")
 					(unit 1)
@@ -6492,7 +6402,7 @@
 			(uuid "acc111ad-e632-4539-883f-b9efdf5cdee3")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR05")
 					(unit 1)
@@ -6502,7 +6412,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PNP")
-		(at 91.44 115.57 0)
+		(at 91.44 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6513,7 +6423,7 @@
 		(fields_autoplaced yes)
 		(uuid "e61d7419-4684-45a7-9c72-c1b5cd411791")
 		(property "Reference" "Q2"
-			(at 96.52 114.2999 0)
+			(at 96.52 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6524,7 +6434,7 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 96.52 116.8399 0)
+			(at 96.52 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6535,7 +6445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 115.57 0)
+			(at 127 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6546,7 +6456,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 127 115.57 0)
+			(at 127 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6557,7 +6467,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 91.44 115.57 0)
+			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +6478,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 91.44 115.57 0)
+			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6489,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 91.44 115.57 0)
+			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6500,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 91.44 115.57 0)
+			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6520,7 @@
 			(uuid "57a29ecc-39d7-4c51-ba61-a86512715fd8")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "Q2")
 					(unit 1)
@@ -6688,7 +6598,7 @@
 			(uuid "168a4463-8291-4814-98f2-2e74782044fb")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "#PWR07")
 					(unit 1)
@@ -6698,7 +6608,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 137.16 119.38 0)
+		(at 139.7 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6709,7 +6619,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff0c5663-966c-4fa9-ad3f-9c37b28f45f3")
 		(property "Reference" "U2"
-			(at 137.16 109.22 0)
+			(at 139.7 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6719,7 +6629,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 137.16 111.76 0)
+			(at 139.7 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6729,7 +6639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 116.84 0)
+			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6650,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 138.43 114.3 0)
+			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +6661,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 137.16 119.38 0)
+			(at 139.7 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,7 +6714,7 @@
 			(uuid "6f12bfb2-ee35-4952-b88f-28db339c57e1")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
 					(reference "U2")
 					(unit 1)
