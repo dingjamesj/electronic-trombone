@@ -1004,159 +1004,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x01"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Screw_Terminal_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3026,6 +2873,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Coarse Tuning 2"
+		(exclude_from_sim no)
+		(at 50.038 106.934 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17c59795-a2e1-40fa-b426-d24dfe997b7b")
+	)
+	(text "Fine Tuning 2"
+		(exclude_from_sim no)
+		(at 51.308 132.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a8d6201-c687-44e5-ad81-1a1f836fbe0f")
+	)
+	(text "Coarse Tuning 1"
+		(exclude_from_sim no)
+		(at 50.546 29.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "313fc36d-3b0f-41ea-8ea9-1744ba60b483")
+	)
+	(text "Fine Tuning 1"
+		(exclude_from_sim no)
+		(at 50.038 55.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "642b1faa-a86f-4774-9bbb-49afb4a7b5a2")
+	)
 	(junction
 		(at 119.38 55.88)
 		(diameter 0)
@@ -3139,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "05e494c8-b460-4363-8ee2-2cdc603af339")
-	)
-	(wire
-		(pts
-			(xy 38.1 163.83) (xy 38.1 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c0aa52-49cb-4aac-9f86-8cc7e6aa0d63")
 	)
 	(wire
 		(pts
@@ -3312,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 86.36) (xy 36.83 88.9)
+			(xy 38.1 86.36) (xy 38.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3422,16 +3299,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 186.69 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa9641b-9242-4fb3-b40b-beb98f7ccf25")
-	)
-	(wire
-		(pts
 			(xy 52.07 39.37) (xy 48.26 39.37)
 		)
 		(stroke
@@ -3449,16 +3316,6 @@
 			(type default)
 		)
 		(uuid "5315fd9d-47e8-4ef1-b9a6-8a58eee3acfb")
-	)
-	(wire
-		(pts
-			(xy 38.1 166.37) (xy 41.91 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f6ce9f-81a8-426f-91ab-d7727cfb9cd6")
 	)
 	(wire
 		(pts
@@ -3529,16 +3386,6 @@
 			(type default)
 		)
 		(uuid "88033ab4-f015-4326-bed4-107a525a16fa")
-	)
-	(wire
-		(pts
-			(xy 182.88 115.57) (xy 186.69 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b4f5604-a8c4-4689-8cff-e3c27e1e4423")
 	)
 	(wire
 		(pts
@@ -3682,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 85.09) (xy 270.51 85.09)
+			(xy 269.24 85.09) (xy 271.78 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3749,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "bf53df94-1b4f-4c33-8e7d-bce3974be4d4")
+	)
+	(wire
+		(pts
+			(xy 39.37 168.91) (xy 39.37 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c047b436-0a7f-4aab-b316-ec0ef0130596")
 	)
 	(wire
 		(pts
@@ -3842,13 +3699,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 88.9) (xy 40.64 88.9)
+			(xy 38.1 88.9) (xy 40.64 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e216b96d-8697-434f-bd14-779af9c48ce5")
+	)
+	(wire
+		(pts
+			(xy 39.37 166.37) (xy 41.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e544e28c-02f8-4add-8105-28c8e3a15067")
 	)
 	(wire
 		(pts
@@ -4010,26 +3877,6 @@
 		)
 		(uuid "6849358c-077e-46dc-a582-b8affc8480dc")
 	)
-	(label "Out"
-		(at 270.51 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b445055-7078-4bb2-925a-11112f226836")
-	)
-	(label "In"
-		(at 36.83 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d12ab97-229f-4956-8d5e-5f344333af55")
-	)
 	(label "Mix In 1"
 		(at 184.15 71.12 0)
 		(effects
@@ -4039,16 +3886,6 @@
 			(justify left bottom)
 		)
 		(uuid "832f5b67-5ef3-4fd2-a05e-4be86cf7b17b")
-	)
-	(label "In"
-		(at 182.88 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a3cb514-0b15-46d2-9d96-d5139ef3012a")
 	)
 	(label "Mix In 1"
 		(at 138.43 72.39 0)
@@ -4080,26 +3917,6 @@
 		)
 		(uuid "b4b389eb-55cc-4174-9806-c2ffba52c6c0")
 	)
-	(label "Out"
-		(at 182.88 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b87af791-1a23-425e-a9db-eeec992463ea")
-	)
-	(label "In"
-		(at 38.1 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da84bd6d-4f1d-4eee-9228-9446da39f1d0")
-	)
 	(label "Core In 1"
 		(at 78.74 68.58 0)
 		(effects
@@ -4109,6 +3926,39 @@
 			(justify left bottom)
 		)
 		(uuid "e053e7c4-7bc4-491b-973e-f13aef996ebc")
+	)
+	(hierarchical_label "In"
+		(shape input)
+		(at 38.1 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05ea9b94-65c8-4458-aee6-495ef15853d5")
+	)
+	(hierarchical_label "In"
+		(shape input)
+		(at 39.37 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70fd8b18-80a4-4b9a-8aff-51fe8836432e")
+	)
+	(hierarchical_label "Out"
+		(shape output)
+		(at 271.78 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6a9afeb-951b-41db-9358-acd6be4f83d1")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -4122,7 +3972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bdfcc5-eb22-40f5-a7d5-f8f649aa0348")
-		(property "Reference" "R1"
+		(property "Reference" "R19"
 			(at 97.79 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4144,7 +3994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 96.266 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -4186,7 +4036,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R1")
+					(reference "R19")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05418cca-452b-42fa-846f-180689756646")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR010"
 			(at 95.25 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4264,7 +4120,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR04")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4b7a33-3912-4eba-87f3-375e89b15443")
-		(property "Reference" "Q3"
+		(property "Reference" "Q6"
 			(at 99.06 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,7 +4166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 129.54 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4244,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "Q3")
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13cb377f-028f-41b4-baf4-5aeea27b5f39")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 96.52 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4460,7 +4328,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR016")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4478,7 +4352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2415dd11-fc0f-489b-8b90-0a7cf9f43557")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 217.17 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Op Amp TL074CD:SOIC_074CD_STM"
 			(at 215.9 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4576,7 +4450,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "U6")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4465,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 139.7 133.35 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4594,7 +4474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b8c217-eebf-49fa-9aa5-d29bd0bcd45d")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 139.7 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4614,7 +4494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
 			(at 139.7 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4692,8 +4572,14 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "U4")
-					(unit 1)
+					(reference "U3")
+					(unit 2)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -4710,7 +4596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2595a67f-166c-41b4-9443-ae8d0a1cb477")
-		(property "Reference" "R_Fine1"
+		(property "Reference" "R14"
 			(at 44.45 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4730,7 +4616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 44.704 65.024 90)
 			(hide yes)
 			(show_name no)
@@ -4772,7 +4658,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_Fine1")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4790,7 +4682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26704dda-5c26-420b-9baf-27b9b35cf511")
-		(property "Reference" "R_In1"
+		(property "Reference" "R15"
 			(at 44.45 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4810,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 44.704 87.884 90)
 			(hide yes)
 			(show_name no)
@@ -4852,7 +4744,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_In1")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4870,7 +4768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27dba423-48a3-42cb-9a92-bd6f336fd0f9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR08"
 			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -4930,7 +4828,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR015")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4948,7 +4852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a3972b-d4e6-4f47-a36d-d2daf1a995f3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 95.25 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5008,7 +4912,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR03")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5026,7 +4936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b3c210-4feb-43aa-9bca-92794b627cbf")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 31.75 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +4996,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR012")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a69396-dc95-4429-8562-0c0fef78be3d")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 139.7 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +5104,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "D2")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5206,7 +5128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3464d456-43e4-4044-b7f9-08f322132093")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5266,7 +5188,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR08")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5284,7 +5212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b01217-fa84-4b38-b6d0-2dae23b2ed1b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR07"
 			(at 35.56 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5344,7 +5272,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR014")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5362,7 +5296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2739c7-b9d5-43bb-8034-85fb3fb095af")
-		(property "Reference" "RV_CoarseTuning1"
+		(property "Reference" "RV6"
 			(at 31.75 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5462,7 +5396,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "RV_CoarseTuning1")
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -5480,7 +5420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52cf1fed-6ec2-482d-9753-52d49cab30bd")
-		(property "Reference" "TH_Coarse1"
+		(property "Reference" "TH7"
 			(at 55.88 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +5482,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_Coarse1")
+					(reference "TH7")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH7")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a4f40eb-c82f-4dfd-9b79-d2bf258b89e4")
-		(property "Reference" "TH_Coarse2"
+		(property "Reference" "TH10"
 			(at 57.15 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5580,7 +5526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 57.15 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5622,7 +5568,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_Coarse2")
+					(reference "TH10")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH10")
 					(unit 1)
 				)
 			)
@@ -5640,7 +5592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1be779-3f3b-4d1c-9aa2-c3feaa0e1a51")
-		(property "Reference" "R3"
+		(property "Reference" "R23"
 			(at 252.73 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5660,7 +5612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 252.984 95.504 90)
 			(hide yes)
 			(show_name no)
@@ -5702,7 +5654,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R3")
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "602caa14-e68d-4e89-8406-5062c9224028")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 234.95 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5738,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR09")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5798,7 +5762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6126dc8c-0656-4885-b1b9-c078f991ec09")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 34.29 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5858,7 +5822,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR06")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5876,7 +5846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9d8ad2-b2fb-4094-99a4-b141dbcb2856")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 96.52 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5936,7 +5906,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR017")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5954,7 +5930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70543c46-05f6-4246-9979-926a9c0231f4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR04"
 			(at 31.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +5990,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR013")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6032,7 +6014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74ecc628-4feb-419e-a800-1a5c77471e01")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 243.84 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6092,7 +6074,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR010")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6110,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6daf42-55f1-4b02-9194-4b68c9e76739")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR013"
 			(at 107.95 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6170,7 +6158,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR02")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6188,7 +6182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "852e6d66-b1b9-4818-b517-c9c0b0cb1bcf")
-		(property "Reference" "TH_Fine1"
+		(property "Reference" "TH8"
 			(at 55.88 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6208,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 55.88 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6250,7 +6244,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_Fine1")
+					(reference "TH8")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH8")
 					(unit 1)
 				)
 			)
@@ -6268,7 +6268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be6d307-9441-4b8a-a998-90ea4f935cab")
-		(property "Reference" "R2"
+		(property "Reference" "R20"
 			(at 99.06 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,7 +6290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 97.536 131.064 90)
 			(hide yes)
 			(show_name no)
@@ -6332,7 +6332,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R2")
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6350,7 +6356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e1ebafb-e751-4a32-abf8-e7cc8bad59fe")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 138.43 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6440,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "D1")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6452,7 +6464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9083d1ab-fa80-4a69-8d0e-52cd5cde787e")
-		(property "Reference" "Q1"
+		(property "Reference" "Q7"
 			(at 110.49 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +6486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 168.91 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6552,7 +6564,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "Q1")
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92be72a3-0ac5-4f90-8a0e-c4e8c76d6127")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 231.14 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
 			(at 234.95 81.5848 0)
 			(hide yes)
 			(show_name no)
@@ -6632,86 +6650,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 191.77 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ba34ceb-d43f-424c-8d34-575427f285fa")
-		(property "Reference" "J_In"
-			(at 194.31 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 194.31 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9de32e66-f6c3-493d-8bf3-ca895603690b")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "J_In")
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6729,7 +6674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e1a0bf-1ad7-4fbc-9d7b-8fda9c93bef3")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 124.46 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
 			(at 121.6152 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6793,7 +6738,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "C2")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6811,7 +6762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9779723-a765-4b13-9daf-cc70e82ef6aa")
-		(property "Reference" "R_Coarse1"
+		(property "Reference" "R13"
 			(at 44.45 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6831,7 +6782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 44.704 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +6824,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_Coarse1")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6839,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 252.73 85.09 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6891,7 +6848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac4a182-4ab9-4b63-89ad-c964f7397585")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 252.73 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Op Amp TL074CD:SOIC_074CD_STM"
 			(at 251.46 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6989,8 +6946,14 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "U3")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -7007,7 +6970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acf1962d-9a94-49eb-8d56-949b1559fd9d")
-		(property "Reference" "TH_In1"
+		(property "Reference" "TH9"
 			(at 55.88 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7027,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7069,7 +7032,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_In1")
+					(reference "TH9")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH9")
 					(unit 1)
 				)
 			)
@@ -7087,7 +7056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adee04bd-d9bb-4efa-a4b8-d5b9abbf6419")
-		(property "Reference" "TH_In2"
+		(property "Reference" "TH12"
 			(at 57.15 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7107,7 +7076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 57.15 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7118,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_In2")
+					(reference "TH12")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH12")
 					(unit 1)
 				)
 			)
@@ -7167,7 +7142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b055344e-ff92-47a8-8f4b-72b1a7f3b05a")
-		(property "Reference" "RV_FineTuning2"
+		(property "Reference" "RV9"
 			(at 33.02 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7189,7 +7164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
 			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7267,7 +7242,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "RV_FineTuning2")
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -7285,7 +7266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd19d082-2435-4b1b-9b73-711650f9c05a")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 123.19 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
 			(at 120.3452 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7349,86 +7330,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 191.77 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bffb0cc2-8ba0-4d01-bcc8-fabbbe400648")
-		(property "Reference" "J_Out"
-			(at 194.31 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x01"
-			(at 194.31 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 191.77 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b1d1e005-e4ba-4144-b620-218f2c4a8994")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "J_Out")
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7446,7 +7354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79dbb8b-4ed0-4565-86fc-cd3be05bd760")
-		(property "Reference" "Q4"
+		(property "Reference" "Q8"
 			(at 111.76 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +7376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 170.18 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7546,7 +7454,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "Q4")
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8c2358c-66c2-4f96-8a3e-1c950ab7f946")
-		(property "Reference" "R_Fine2"
+		(property "Reference" "R17"
 			(at 45.72 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.974 142.494 90)
 			(hide yes)
 			(show_name no)
@@ -7626,7 +7540,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_Fine2")
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7644,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c943beb8-5010-413f-a8c5-ca073a220296")
-		(property "Reference" "R5"
+		(property "Reference" "R21"
 			(at 237.49 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,7 +7586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 235.966 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -7708,7 +7628,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R5")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fd1b89-9aa1-443d-83bf-211586f6aa92")
-		(property "Reference" "R4"
+		(property "Reference" "R22"
 			(at 246.38 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +7674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 242.824 102.616 90)
 			(hide yes)
 			(show_name no)
@@ -7790,7 +7716,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R4")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7808,7 +7740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7eb1e3-2149-4e36-8f3a-f38516a73c26")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7868,7 +7800,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR01")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7886,7 +7824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb108cdb-cca8-434f-aba8-7ac48dde81c6")
-		(property "Reference" "R_Coarse2"
+		(property "Reference" "R16"
 			(at 45.72 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7906,7 +7844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.974 115.824 90)
 			(hide yes)
 			(show_name no)
@@ -7948,7 +7886,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_Coarse2")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7966,7 +7910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc3c0935-20dc-4184-bec3-42c66765b09c")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 138.43 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7986,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
 			(at 138.43 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8064,7 +8008,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "U1")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8082,7 +8032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc3c268-3b94-4059-bfa8-93686f3e5294")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 120.65 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8142,7 +8092,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR019")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8160,7 +8116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4ab0b9d-e149-4cbc-9952-af555d85a68e")
-		(property "Reference" "RV_FineTuning1"
+		(property "Reference" "RV7"
 			(at 31.75 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8182,7 +8138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
 			(at 34.29 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8260,7 +8216,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "RV_FineTuning1")
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -8278,7 +8240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dba52d12-8199-4ee9-9a9e-4b4dab343af1")
-		(property "Reference" "RV_Mixer"
+		(property "Reference" "RV10"
 			(at 190.5 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
 			(at 193.04 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8378,7 +8340,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "RV_Mixer")
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -8396,7 +8364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbe68dd4-5f82-4b72-8dbf-51f98427b092")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 30.48 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8456,7 +8424,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR05")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8474,7 +8448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e148c5aa-dc35-437d-87a9-b989529a136b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 109.22 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8508,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR018")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8552,7 +8532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1aa736a-8709-410a-a95a-3e6d70263435")
-		(property "Reference" "RV_CoarseTuning2"
+		(property "Reference" "RV8"
 			(at 33.02 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8574,7 +8554,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
 			(at 35.56 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8652,7 +8632,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "RV_CoarseTuning2")
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -8670,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e61d7419-4684-45a7-9c72-c1b5cd411791")
-		(property "Reference" "Q2"
+		(property "Reference" "Q5"
 			(at 97.79 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +8678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 128.27 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8756,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "Q2")
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8788,7 +8780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eced07c1-b803-4a78-895f-876cef333b71")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 30.48 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8848,7 +8840,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "#PWR07")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc4609fd-30e2-4dc6-8811-b3a76d61492e")
-		(property "Reference" "R6"
+		(property "Reference" "R24"
 			(at 265.43 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8886,7 +8884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 265.684 84.074 90)
 			(hide yes)
 			(show_name no)
@@ -8928,7 +8926,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R6")
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8946,7 +8950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe40d435-2bd3-49d2-970b-09dfe38b37d7")
-		(property "Reference" "R_In2"
+		(property "Reference" "R18"
 			(at 45.72 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8966,7 +8970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 45.974 165.354 90)
 			(hide yes)
 			(show_name no)
@@ -9008,7 +9012,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "R_In2")
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9026,7 +9036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe48d432-6362-4eef-a9de-2fd4a5c53ca5")
-		(property "Reference" "TH_Fine2"
+		(property "Reference" "TH11"
 			(at 57.15 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 57.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9088,7 +9098,13 @@
 		(instances
 			(project "Oscillator"
 				(path "/1d15d9e6-4459-4ec9-914a-28e0b66d9da3"
-					(reference "TH_Fine2")
+					(reference "TH11")
+					(unit 1)
+				)
+			)
+			(project "Main"
+				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
+					(reference "TH11")
 					(unit 1)
 				)
 			)
@@ -9099,5 +9115,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
