@@ -1022,6 +1022,12 @@
 					(unit 1)
 				)
 			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "B2")
+					(unit 1)
+				)
+			)
 			(project "Main"
 				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
 					(reference "B2")
@@ -1042,7 +1048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767c7543-7a05-42e7-8a99-18a307f8423d")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 74.93 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -1106,6 +1112,12 @@
 					(unit 1)
 				)
 			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "Main"
 				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
 					(reference "#PWR019")
@@ -1126,7 +1138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83625639-15f8-4102-aa7b-a99f483e7817")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 36.83 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -1187,6 +1199,12 @@
 			(project "Oscillator"
 				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1275,6 +1293,12 @@
 		(instances
 			(project "Oscillator"
 				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
+					(reference "B1")
+					(unit 1)
+				)
+			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "B1")
 					(unit 1)
 				)
@@ -1369,6 +1393,12 @@
 					(unit 1)
 				)
 			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "Main"
 				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
 					(reference "J1")
@@ -1389,7 +1419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa097f1-71f8-4da0-83ba-5a7197e01b53")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR02"
 			(at 55.88 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -1450,6 +1480,12 @@
 			(project "Oscillator"
 				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
