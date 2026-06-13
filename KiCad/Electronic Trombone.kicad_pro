@@ -534,7 +534,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "931827f3-33b7-460f-8885-7db258da2648"
       }
     ],
-    "used_designators": "#PWR1-21,B1-2,TH1-12,RV1-10,R1-24,U1-4,Q1-8,D1-4,C1-6,J1,J3-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -661,11 +661,15 @@
       "Oscillator"
     ],
     [
-      "dafa12f3-8578-46eb-846c-c22bb33fcd67",
-      "Power Supply"
+      "74b8cc8a-c8e9-4c6c-8595-9f4dc0e8e565",
+      "Amplifier"
     ],
     [
-      "97e87833-53ee-4e2d-8bfa-1c60125f2a65",
+      "a3194666-3472-4123-b81e-e9952cf44cf4",
+      "Filter"
+    ],
+    [
+      "77fe3443-32fb-46cd-8502-6f8d1ae6ff63",
       "Envelope Generator"
     ]
   ],

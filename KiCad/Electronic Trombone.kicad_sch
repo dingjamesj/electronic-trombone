@@ -249,7 +249,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "691137710002:691137710002"
+		(symbol "Header 691137710003:691137710003"
 			(pin_names
 				(offset 1.016)
 			)
@@ -269,7 +269,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "691137710002"
+			(property "Value" "691137710003"
 				(at -4.83 -2.58 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -280,7 +280,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Footprint" "691137710002:691137710002"
+			(property "Footprint" "691137710003:691137710003"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -314,10 +314,10 @@
 					)
 				)
 			)
-			(symbol "691137710002_0_0"
+			(symbol "691137710003_0_0"
 				(rectangle
 					(start -3.81 -2.54)
-					(end 1.27 0)
+					(end 3.81 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -396,6 +396,41 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.016) (xy 2.286 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -2.54 -5.08 90)
 					(length 2.54)
@@ -432,10 +467,28 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
+		(symbol "power:+9V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -460,7 +513,7 @@
 					)
 				)
 			)
-			(property "Value" "+12V"
+			(property "Value" "+9V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -492,7 +545,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -514,7 +567,7 @@
 					)
 				)
 			)
-			(symbol "+12V_0_1"
+			(symbol "+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -552,7 +605,7 @@
 					)
 				)
 			)
-			(symbol "+12V_1_1"
+			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -574,7 +627,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:-12V"
+		(symbol "power:-9V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -599,7 +652,7 @@
 					)
 				)
 			)
-			(property "Value" "-12V"
+			(property "Value" "-9V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -631,7 +684,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(property "Description" "Power symbol creates a global label with name \"-9V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -653,7 +706,33 @@
 					)
 				)
 			)
-			(symbol "-12V_0_0"
+			(symbol "-9V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -670,20 +749,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "-12V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -805,15 +870,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "10mV pp."
+		(exclude_from_sim no)
+		(at 73.406 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81aad792-4214-485e-b936-6a4a3dfd4dc2")
+	)
+	(text "0V to -2V"
+		(exclude_from_sim no)
+		(at 109.728 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9ed0504-004b-41bd-ab58-8681b713ac95")
+	)
+	(text "Centered at 0V\n"
+		(exclude_from_sim no)
+		(at 73.406 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "baa669c8-e521-4083-8b75-8cd5a6be6999")
+	)
 	(junction
-		(at 55.88 30.48)
+		(at 45.72 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f353f78e-2142-4c53-bd35-3cb21354e701")
 	)
 	(wire
 		(pts
-			(xy 69.85 30.48) (xy 74.93 30.48)
+			(xy 59.69 36.83) (xy 64.77 36.83)
 		)
 		(stroke
 			(width 0)
@@ -823,17 +918,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 44.45) (xy 48.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1655b2ac-7ae7-4fb2-acbd-73481d382e3c")
-	)
-	(wire
-		(pts
-			(xy 36.83 30.48) (xy 41.91 30.48)
+			(xy 26.67 36.83) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 63.5) (xy 50.8 63.5)
+			(xy 25.4 111.76) (xy 35.56 111.76)
 		)
 		(stroke
 			(width 0)
@@ -853,37 +938,57 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 109.22 63.5)
+			(xy 20.32 60.96) (xy 30.48 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b1f43ed-fc02-4865-8865-435d7dcea30a")
+		(uuid "50f2c3e0-8168-4def-a1d9-c0cfe03edca5")
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 109.22 63.5)
+			(xy 60.96 111.76) (xy 87.63 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c24e1fe-4224-43db-9a26-df6cc4ba85bd")
+		(uuid "5232c3f1-870a-465e-9478-15b1bd5aec27")
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 81.28 63.5)
+			(xy 203.2 111.76) (xy 194.31 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bd912a0-1da7-4581-b26b-9d8099c34014")
+		(uuid "58c249bd-b36e-423f-b807-3af7f7aa6e55")
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 55.88 30.48)
+			(xy 104.14 78.74) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72edc7c7-f91d-46b3-8246-e0ebbf150313")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 26.67 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770b1511-2e7e-4321-a1d3-6edfadd087f9")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -893,17 +998,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 44.45) (xy 48.26 44.45)
+			(xy 176.53 78.74) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d1a5d59-25d1-40a9-af94-242dbdb33dba")
+		(uuid "8deb3d00-1440-4e9a-a65d-6afaed544f19")
 	)
 	(wire
 		(pts
-			(xy 52.07 30.48) (xy 55.88 30.48)
+			(xy 41.91 36.83) (xy 45.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -913,27 +1018,67 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 52.07) (xy 64.77 46.99)
+			(xy 26.67 58.42) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cac40b99-423d-434e-a6d5-697dfe5f422e")
+		(uuid "a8e0e04d-3cb0-474e-aa3b-c7de7d5f71af")
 	)
 	(wire
 		(pts
-			(xy 109.22 52.07) (xy 64.77 52.07)
+			(xy 123.19 111.76) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe3d44e8-d972-4fb7-b925-67712a8d866b")
+		(uuid "c3bcfe9d-62f9-4f5d-8359-3e32abc400b8")
 	)
 	(wire
 		(pts
-			(xy 55.88 30.48) (xy 59.69 30.48)
+			(xy 26.67 54.61) (xy 26.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f45739-935d-4a4a-a8fc-1ea261df5bd6")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb099df-7704-49cf-8183-93bd1efaf617")
+	)
+	(wire
+		(pts
+			(xy 26.67 63.5) (xy 26.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e639355a-6503-4766-84d7-23493388bbc9")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f126f1f4-c1fe-4766-8407-3a7b708c1c5f")
+	)
+	(wire
+		(pts
+			(xy 45.72 36.83) (xy 49.53 36.83)
 		)
 		(stroke
 			(width 0)
@@ -941,9 +1086,146 @@
 		)
 		(uuid "fe3d9fd9-5391-4a26-a5f4-5b7e0b6327e3")
 	)
+	(label "V_trigger"
+		(at 26.67 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e06ca1f-1e14-435c-b2b7-88e2ef6bbcfd")
+	)
+	(label "V_out"
+		(at 203.2 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "268944c9-3ede-4aab-95b2-2445748a00b6")
+	)
+	(label "V_in"
+		(at 25.4 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c9a0ccc-1293-4a59-98d0-a1a8aa4720fd")
+	)
+	(label "V_in"
+		(at 26.67 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7e8722d-6c6a-4d69-b7c1-ea605d1c2e71")
+	)
+	(label "V_out"
+		(at 20.32 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd83715d-2e59-41c4-a662-627c78ecd872")
+	)
+	(symbol
+		(lib_id "Header 691137710003:691137710003")
+		(at 35.56 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00fb9e95-f78c-4cc4-bf23-21bafe69c71a")
+		(property "Reference" "J1"
+			(at 36.83 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691137710003"
+			(at 36.83 62.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "691137710003:691137710003"
+			(at 35.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bb8a81f2-5bdc-4920-b988-118201880c9f")
+		)
+		(pin "1"
+			(uuid "272a6c3c-bb0b-43c6-a9de-1d9f2dff31f3")
+		)
+		(pin "3"
+			(uuid "af96f640-1b1f-49b5-a9c8-86a208d25a43")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "2026-06-10_00-17-41:BC9VPC")
-		(at 59.69 30.48 0)
+		(at 49.53 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -954,7 +1236,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ddd02b7-d027-45b8-8cf5-a866d54cdf1c")
 		(property "Reference" "B2"
-			(at 64.77 26.67 0)
+			(at 54.61 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -964,7 +1246,7 @@
 			)
 		)
 		(property "Value" "BC9VPC"
-			(at 64.77 26.67 0)
+			(at 54.61 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,7 +1257,7 @@
 			)
 		)
 		(property "Footprint" "Battery Holder BC9VPC:BC9VPC_MPD"
-			(at 59.69 30.48 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -987,7 +1269,7 @@
 			)
 		)
 		(property "Datasheet" "BC9VPC"
-			(at 59.69 30.48 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -999,7 +1281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 30.48 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1037,8 +1319,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-12V")
-		(at 74.93 30.48 180)
+		(lib_id "power:-9V")
+		(at 64.77 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1047,9 +1329,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "767c7543-7a05-42e7-8a99-18a307f8423d")
+		(uuid "768252d0-31a4-4a51-96b1-137b57e9e0b0")
 		(property "Reference" "#PWR03"
-			(at 74.93 26.67 0)
+			(at 64.77 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1059,8 +1341,8 @@
 				)
 			)
 		)
-		(property "Value" "-12V"
-			(at 74.93 35.56 0)
+		(property "Value" "-9V"
+			(at 64.77 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1070,7 +1352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 30.48 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1081,7 +1363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 30.48 0)
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,8 +1373,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 74.93 30.48 0)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 64.77 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1103,114 +1385,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "daa4884a-634a-4621-afa9-d66b569c7203")
+			(uuid "12a31428-5297-42ab-aaf3-641787892730")
 		)
 		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 36.83 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83625639-15f8-4102-aa7b-a99f483e7817")
-		(property "Reference" "#PWR01"
-			(at 36.83 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 36.83 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 36.83 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25a9401b-179e-4c99-b04a-dacc9179e71c")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -1218,7 +1398,7 @@
 	)
 	(symbol
 		(lib_id "2026-06-10_00-17-41:BC9VPC")
-		(at 41.91 30.48 0)
+		(at 31.75 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1229,7 +1409,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e85f743-a1f6-4732-b408-79747e701943")
 		(property "Reference" "B1"
-			(at 46.99 26.67 0)
+			(at 36.83 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1239,7 +1419,7 @@
 			)
 		)
 		(property "Value" "BC9VPC"
-			(at 46.99 26.67 0)
+			(at 36.83 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1430,7 @@
 			)
 		)
 		(property "Footprint" "Battery Holder BC9VPC:BC9VPC_MPD"
-			(at 41.91 30.48 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1262,7 +1442,7 @@
 			)
 		)
 		(property "Datasheet" "BC9VPC"
-			(at 41.91 30.48 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1274,7 +1454,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 30.48 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1312,8 +1492,8 @@
 		)
 	)
 	(symbol
-		(lib_id "691137710002:691137710002")
-		(at 69.85 46.99 270)
+		(lib_id "power:+9V")
+		(at 26.67 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1322,20 +1502,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a38f4400-7fd9-4cd5-940c-50f78b4309fe")
-		(property "Reference" "J1"
-			(at 71.12 45.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "691137710002"
-			(at 71.12 46.9899 90)
+		(uuid "a346e69d-eaca-4e79-9484-6c3e68e97a10")
+		(property "Reference" "#PWR01"
+			(at 26.67 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1343,11 +1512,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Header 691137710002:691137710002"
-			(at 69.85 46.99 0)
+		(property "Value" "+9V"
+			(at 26.67 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1355,11 +1533,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 46.99 0)
+			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,8 +1546,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 26.67 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1381,27 +1558,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "621cb3e8-39d8-45f8-a5c8-7aeb58015034")
-		)
-		(pin "2"
-			(uuid "aeb63daa-c3b1-4264-95e7-54e46ef9df39")
+			(uuid "0e5c01c6-0911-47a4-8ad3-baebb9aeebba")
 		)
 		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "J1")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1409,7 +1571,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 34.29 0)
+		(at 45.72 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1420,7 +1582,7 @@
 		(fields_autoplaced yes)
 		(uuid "faa097f1-71f8-4da0-83ba-5a7197e01b53")
 		(property "Reference" "#PWR02"
-			(at 55.88 40.64 0)
+			(at 45.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1431,7 +1593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 39.37 0)
+			(at 45.72 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1441,7 +1603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 34.29 0)
+			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1452,7 +1614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 34.29 0)
+			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1463,7 +1625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 34.29 0)
+			(at 45.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1498,8 +1660,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 60.96)
-		(size 26.67 5.08)
+		(at 87.63 104.14)
+		(size 35.56 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1512,9 +1674,85 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "97e87833-53ee-4e2d-8bfa-1c60125f2a65")
+		(uuid "74b8cc8a-c8e9-4c6c-8595-9f4dc0e8e565")
+		(property "Sheetname" "Amplifier"
+			(at 87.63 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 87.63 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Control In" input
+			(at 104.14 104.14 90)
+			(uuid "47c5ac4e-6c31-4b85-8220-871e27a155d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 123.19 111.76 0)
+			(uuid "55acad62-c155-4b4b-8ea4-4662e960a81d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Signal In" input
+			(at 87.63 111.76 180)
+			(uuid "d03d4947-1f41-45a5-b448-3e8e8714ec97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 71.12)
+		(size 26.67 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77fe3443-32fb-46cd-8502-6f8d1ae6ff63")
 		(property "Sheetname" "Envelope Generator"
-			(at 81.28 60.2484 0)
+			(at 125.73 70.4084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,7 +1763,7 @@
 			)
 		)
 		(property "Sheetfile" "Envelope Generator.kicad_sch"
-			(at 81.28 66.6246 0)
+			(at 125.73 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1536,8 +1774,18 @@
 			)
 		)
 		(pin "In" input
-			(at 81.28 63.5 180)
-			(uuid "a56ebb47-052f-4254-8601-10a7e6d703fd")
+			(at 138.43 71.12 90)
+			(uuid "d7c50a93-6ba6-4bd0-877a-f71b54a5bc5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier Out" output
+			(at 125.73 78.74 180)
+			(uuid "97538d48-56b1-47c0-9c08-48cdda1e3028")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,9 +1793,9 @@
 				(justify left)
 			)
 		)
-		(pin "Out" output
-			(at 107.95 63.5 0)
-			(uuid "6be2b9ac-ec74-4da2-9765-95cc745d4dd6")
+		(pin "Filter Out" output
+			(at 152.4 78.74 0)
+			(uuid "4d69ddda-486f-4de1-b73f-087c14587632")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,15 +1804,102 @@
 			)
 		)
 		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(page "3")
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 60.96)
+		(at 160.02 104.14)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a3194666-3472-4123-b81e-e9952cf44cf4")
+		(property "Sheetname" "Filter"
+			(at 160.02 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filter.kicad_sch"
+			(at 160.02 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 160.02 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Control In" input
+			(at 176.53 104.14 90)
+			(uuid "2c3e7409-5697-404f-9b3e-18d7bdf02211")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 194.31 111.76 0)
+			(uuid "21159b77-b86d-43e4-a4e8-31d0f85d0f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Signal In" input
+			(at 160.02 111.76 180)
+			(uuid "504cf0ae-18cc-44cf-bc15-0d9a9d25efdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 109.22)
 		(size 25.4 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1580,7 +1915,7 @@
 		)
 		(uuid "c601a773-7a8a-4dbf-b4ab-ef5ea2e44138")
 		(property "Sheetname" "Oscillator"
-			(at 50.8 60.2484 0)
+			(at 35.56 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1591,7 +1926,7 @@
 			)
 		)
 		(property "Sheetfile" "Oscillator.kicad_sch"
-			(at 50.8 66.6246 0)
+			(at 35.56 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1602,7 +1937,7 @@
 			)
 		)
 		(pin "Out" output
-			(at 76.2 63.5 0)
+			(at 60.96 111.76 0)
 			(uuid "a2ba5ed1-564b-42cd-a6ae-56c0bb749771")
 			(effects
 				(font
@@ -1612,7 +1947,7 @@
 			)
 		)
 		(pin "In" input
-			(at 50.8 63.5 180)
+			(at 35.56 111.76 180)
 			(uuid "d17f95cf-9f18-4bf5-ae05-6e030859dc2e")
 			(effects
 				(font
@@ -1627,49 +1962,8 @@
 					(page "2")
 				)
 			)
-		)
-	)
-	(sheet
-		(at 58.42 85.09)
-		(size 24.13 11.43)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "dafa12f3-8578-46eb-846c-c22bb33fcd67")
-		(property "Sheetname" "Power Supply"
-			(at 58.42 84.3784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power Supply.kicad_sch"
-			(at 58.42 97.1046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(page "2")
 				)
 			)

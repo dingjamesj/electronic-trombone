@@ -5,7 +5,7 @@
 	(uuid "11ec4f2c-7dba-4ae5-8466-3ce9b44101b0")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "Out"
+	(hierarchical_label "Amplifier Out"
 		(shape output)
 		(at 39.37 86.36 0)
 		(effects
@@ -15,6 +15,17 @@
 			(justify left)
 		)
 		(uuid "1213b37a-e92a-460f-a1bb-88454a877bdc")
+	)
+	(hierarchical_label "Filter Out"
+		(shape output)
+		(at 43.18 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63131b96-2b60-44dd-84a4-2833b8d55a8a")
 	)
 	(hierarchical_label "In"
 		(shape input)
