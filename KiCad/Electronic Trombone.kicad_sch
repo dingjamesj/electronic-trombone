@@ -880,6 +880,16 @@
 		)
 		(uuid "3ad26cdf-197b-4e98-b9d4-c179e99d36c9")
 	)
+	(text "9V peak"
+		(exclude_from_sim no)
+		(at 105.156 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d7840be-71be-4b83-bf46-0d82d2b52fa8")
+	)
 	(text "Centered at 0V\n"
 		(exclude_from_sim no)
 		(at 71.882 116.586 0)
@@ -909,6 +919,16 @@
 			)
 		)
 		(uuid "c3f137f4-8eed-4dd6-a204-e96acbaf2441")
+	)
+	(text "9V peak"
+		(exclude_from_sim no)
+		(at 159.004 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df1f98e7-fa15-4a1d-b3c7-9965a4ffb9a1")
 	)
 	(text "0V to -2V"
 		(exclude_from_sim no)
@@ -1814,24 +1834,24 @@
 				(justify right)
 			)
 		)
-		(pin "Amplifier Out" output
-			(at 146.05 87.63 0)
-			(uuid "c9026c8a-8984-4624-ba62-61e1d75ac783")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Filter Out" output
+		(pin "Out 1" output
 			(at 119.38 87.63 180)
-			(uuid "01accba5-dd08-473b-8d77-80886dc8fcb3")
+			(uuid "9c72a62e-8c9d-4aa5-874f-c3a0775667e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Out 2" output
+			(at 146.05 87.63 0)
+			(uuid "445599d2-2a6e-46a6-909c-7ed64e2407f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
