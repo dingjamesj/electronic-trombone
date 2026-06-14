@@ -11,6 +11,9 @@
 *.log
 *.net
 *.raw
+*.fft
+*.op.txt
+*.plt
 
 # =================
 #      KiCad:
