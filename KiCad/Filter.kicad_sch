@@ -1358,6 +1358,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 90.17) (xy 26.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6891b4df-b29f-4d95-8912-b2a3225445d7")
+	)
+	(wire
+		(pts
 			(xy 91.44 69.85) (xy 91.44 77.47)
 		)
 		(stroke
@@ -1586,6 +1596,17 @@
 		)
 		(uuid "ff6e95df-39ea-4c1b-88a1-97e05b593373")
 	)
+	(hierarchical_label "Control In"
+		(shape input)
+		(at 22.86 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f6af708-4810-4614-ab4b-3c7588cc0565")
+	)
 	(hierarchical_label "Out"
 		(shape output)
 		(at 173.99 104.14 0)
@@ -1607,17 +1628,6 @@
 			(justify right)
 		)
 		(uuid "db640ae7-bd40-4de2-8d14-741f9b8603e6")
-	)
-	(hierarchical_label "Control In"
-		(shape input)
-		(at 64.77 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0c9ac26-3996-4288-8b36-fd7d36371cdb")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2569,6 +2579,86 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 30.48 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "871f87c8-f547-438d-b6b5-90266f11deab")
+		(property "Reference" "R27"
+			(at 30.48 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 30.48 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.734 89.154 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 30.48 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16b2cb2e-f7e7-4faf-ad09-7ca513d8d23e")
+		)
+		(pin "2"
+			(uuid "3684ec96-582f-4f50-bb02-36765b6f295d")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 74.93 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -3067,37 +3157,37 @@
 			)
 		)
 		(pin "11"
-			(uuid "543d1569-89e2-4149-a04b-8b1f6c3afc4e")
+			(uuid "543d1569-89e2-4149-a04b-8b1f6c3afc4f")
 		)
 		(pin "4"
-			(uuid "18cf9b4f-54e5-41e4-ba79-05d15e8fde1e")
+			(uuid "18cf9b4f-54e5-41e4-ba79-05d15e8fde1f")
 		)
 		(pin "14"
-			(uuid "cc91e309-2d89-475c-849a-26446d59a284")
+			(uuid "cc91e309-2d89-475c-849a-26446d59a285")
 		)
 		(pin "13"
-			(uuid "63ceb507-cecf-49dc-adf5-f14f1d14b5ff")
+			(uuid "63ceb507-cecf-49dc-adf5-f14f1d14b600")
 		)
 		(pin "12"
-			(uuid "55fd8136-b6a1-4913-99e7-b577aaa03d34")
+			(uuid "55fd8136-b6a1-4913-99e7-b577aaa03d35")
 		)
 		(pin "10"
-			(uuid "5cf8a470-d115-4ca9-a7fe-2e2f11c94484")
+			(uuid "5cf8a470-d115-4ca9-a7fe-2e2f11c94485")
 		)
 		(pin "9"
-			(uuid "d277e1e8-e71b-4610-bbb4-3f8777430646")
+			(uuid "d277e1e8-e71b-4610-bbb4-3f8777430647")
 		)
 		(pin "8"
-			(uuid "51424eeb-8f9a-4bdd-949e-f9e236b51c7e")
+			(uuid "51424eeb-8f9a-4bdd-949e-f9e236b51c7f")
 		)
 		(pin "7"
-			(uuid "0a53db95-aa45-4063-8f0d-2c126962c1f3")
+			(uuid "0a53db95-aa45-4063-8f0d-2c126962c1f4")
 		)
 		(pin "6"
-			(uuid "ecfd40da-8969-4ff2-b851-5525fa6e3000")
+			(uuid "ecfd40da-8969-4ff2-b851-5525fa6e3001")
 		)
 		(pin "5"
-			(uuid "17655fdb-3192-4f47-ba4e-13912c48b7b5")
+			(uuid "17655fdb-3192-4f47-ba4e-13912c48b7b6")
 		)
 		(pin "3"
 			(uuid "51bb6266-c9c2-4204-9448-ba4083e23549")
