@@ -648,7 +648,7 @@
         "uuid": "931827f3-33b7-460f-8885-7db258da2648"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C4-6,D3-6,R11-12,R14-20,U3-5,Q5-6,#PWR23-29",
     "variants": []
   },
   "sheets": [
@@ -661,11 +661,11 @@
       "Oscillator"
     ],
     [
-      "74b8cc8a-c8e9-4c6c-8595-9f4dc0e8e565",
+      "816bb702-3331-437a-9032-479a8bfb0343",
       "Amplifier"
     ],
     [
-      "a3194666-3472-4123-b81e-e9952cf44cf4",
+      "6d65ef8f-8235-46d4-95e7-69caf9b93e91",
       "Filter"
     ],
     [

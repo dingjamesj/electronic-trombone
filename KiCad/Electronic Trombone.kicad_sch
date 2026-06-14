@@ -872,39 +872,69 @@
 	)
 	(text "10mV pp."
 		(exclude_from_sim no)
-		(at 73.406 113.792 0)
+		(at 132.334 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "81aad792-4214-485e-b936-6a4a3dfd4dc2")
-	)
-	(text "0V to -2V"
-		(exclude_from_sim no)
-		(at 109.728 102.616 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a9ed0504-004b-41bd-ab58-8681b713ac95")
+		(uuid "3ad26cdf-197b-4e98-b9d4-c179e99d36c9")
 	)
 	(text "Centered at 0V\n"
 		(exclude_from_sim no)
-		(at 73.406 110.49 0)
+		(at 71.882 116.586 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "baa669c8-e521-4083-8b75-8cd5a6be6999")
+		(uuid "b766e0be-95a3-4170-afcf-fd9ba9755a1e")
+	)
+	(text "Centered at 0V\n"
+		(exclude_from_sim no)
+		(at 132.334 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c29abe8b-3a38-4ef0-a157-0ba2424affe4")
+	)
+	(text "100mV pp.\n"
+		(exclude_from_sim no)
+		(at 71.882 119.888 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3f137f4-8eed-4dd6-a204-e96acbaf2441")
+	)
+	(text "0V to -2V"
+		(exclude_from_sim no)
+		(at 168.148 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec434a28-b504-468a-9baf-10127d6e6f18")
 	)
 	(junction
 		(at 45.72 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f353f78e-2142-4c53-bd35-3cb21354e701")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 119.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba7f6a8-ed07-4a63-826f-9d7bce667f8d")
 	)
 	(wire
 		(pts
@@ -918,6 +948,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 118.11) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab51bbe-0afd-418f-905d-9268ff339350")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 162.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21834541-b3e3-40eb-9260-7d5fd268f14f")
+	)
+	(wire
+		(pts
 			(xy 26.67 36.83) (xy 31.75 36.83)
 		)
 		(stroke
@@ -928,7 +978,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 111.76) (xy 35.56 111.76)
+			(xy 190.5 118.11) (xy 181.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309a296b-f336-41fd-b588-4ef1d72b7095")
+	)
+	(wire
+		(pts
+			(xy 24.13 118.11) (xy 34.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -948,33 +1008,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 111.76) (xy 87.63 111.76)
+			(xy 101.6 110.49) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5232c3f1-870a-465e-9478-15b1bd5aec27")
-	)
-	(wire
-		(pts
-			(xy 203.2 111.76) (xy 194.31 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c249bd-b36e-423f-b807-3af7f7aa6e55")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 104.14 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72edc7c7-f91d-46b3-8246-e0ebbf150313")
+		(uuid "549e721d-e5ef-478f-a1c5-1492331fc6fd")
 	)
 	(wire
 		(pts
@@ -998,13 +1038,13 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 176.53 104.14)
+			(xy 146.05 87.63) (xy 162.56 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8deb3d00-1440-4e9a-a65d-6afaed544f19")
+		(uuid "a6364f93-59d1-4f88-a52d-375796d9fed0")
 	)
 	(wire
 		(pts
@@ -1028,13 +1068,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 111.76) (xy 160.02 111.76)
+			(xy 59.69 118.11) (xy 85.09 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3bcfe9d-62f9-4f5d-8359-3e32abc400b8")
+		(uuid "aef8c8e7-6217-414b-9b7c-0b6d39e0ca56")
 	)
 	(wire
 		(pts
@@ -1048,16 +1088,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 176.53 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb099df-7704-49cf-8183-93bd1efaf617")
-	)
-	(wire
-		(pts
 			(xy 26.67 63.5) (xy 26.67 67.31)
 		)
 		(stroke
@@ -1065,16 +1095,6 @@
 			(type default)
 		)
 		(uuid "e639355a-6503-4766-84d7-23493388bbc9")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 125.73 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f126f1f4-c1fe-4766-8407-3a7b708c1c5f")
 	)
 	(wire
 		(pts
@@ -1096,18 +1116,8 @@
 		)
 		(uuid "0e06ca1f-1e14-435c-b2b7-88e2ef6bbcfd")
 	)
-	(label "V_out"
-		(at 203.2 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "268944c9-3ede-4aab-95b2-2445748a00b6")
-	)
 	(label "V_in"
-		(at 25.4 111.76 0)
+		(at 24.13 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1135,6 +1145,16 @@
 			(justify left bottom)
 		)
 		(uuid "cd83715d-2e59-41c4-a662-627c78ecd872")
+	)
+	(label "V_out"
+		(at 190.5 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74875a5-3605-4921-8692-f4e389a8034a")
 	)
 	(symbol
 		(lib_id "Header 691137710003:691137710003")
@@ -1660,159 +1680,7 @@
 		)
 	)
 	(sheet
-		(at 87.63 104.14)
-		(size 35.56 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "74b8cc8a-c8e9-4c6c-8595-9f4dc0e8e565")
-		(property "Sheetname" "Amplifier"
-			(at 87.63 103.4284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Amplifier.kicad_sch"
-			(at 87.63 119.9646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Control In" input
-			(at 104.14 104.14 90)
-			(uuid "47c5ac4e-6c31-4b85-8220-871e27a155d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Out" output
-			(at 123.19 111.76 0)
-			(uuid "55acad62-c155-4b4b-8ea4-4662e960a81d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Signal In" input
-			(at 87.63 111.76 180)
-			(uuid "d03d4947-1f41-45a5-b448-3e8e8714ec97")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 125.73 71.12)
-		(size 26.67 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "77fe3443-32fb-46cd-8502-6f8d1ae6ff63")
-		(property "Sheetname" "Envelope Generator"
-			(at 125.73 70.4084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Envelope Generator.kicad_sch"
-			(at 125.73 85.6746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "In" input
-			(at 138.43 71.12 90)
-			(uuid "d7c50a93-6ba6-4bd0-877a-f71b54a5bc5b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Amplifier Out" output
-			(at 125.73 78.74 180)
-			(uuid "97538d48-56b1-47c0-9c08-48cdda1e3028")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Filter Out" output
-			(at 152.4 78.74 0)
-			(uuid "4d69ddda-486f-4de1-b73f-087c14587632")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 104.14)
+		(at 85.09 110.49)
 		(size 34.29 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1826,9 +1694,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "a3194666-3472-4123-b81e-e9952cf44cf4")
+		(uuid "6d65ef8f-8235-46d4-95e7-69caf9b93e91")
 		(property "Sheetname" "Filter"
-			(at 160.02 103.4284 0)
+			(at 85.09 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1839,7 +1707,7 @@
 			)
 		)
 		(property "Sheetfile" "Filter.kicad_sch"
-			(at 160.02 119.9646 0)
+			(at 85.09 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1850,7 +1718,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 160.02 104.14 0)
+			(at 85.09 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,8 +1729,8 @@
 			)
 		)
 		(pin "Control In" input
-			(at 176.53 104.14 90)
-			(uuid "2c3e7409-5697-404f-9b3e-18d7bdf02211")
+			(at 101.6 110.49 90)
+			(uuid "811cda9d-1b89-4f4e-8c97-5cc07fbd23c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,8 +1739,8 @@
 			)
 		)
 		(pin "Out" output
-			(at 194.31 111.76 0)
-			(uuid "21159b77-b86d-43e4-a4e8-31d0f85d0f8d")
+			(at 119.38 118.11 0)
+			(uuid "abb2832f-0e0d-4398-979c-7709ae542342")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,8 +1749,8 @@
 			)
 		)
 		(pin "Signal In" input
-			(at 160.02 111.76 180)
-			(uuid "504cf0ae-18cc-44cf-bc15-0d9a9d25efdd")
+			(at 85.09 118.11 180)
+			(uuid "dd5f90ec-4a4f-43d9-944e-2155978cb227")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,8 +1767,8 @@
 		)
 	)
 	(sheet
-		(at 35.56 109.22)
-		(size 25.4 5.08)
+		(at 119.38 80.518)
+		(size 26.67 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1913,9 +1781,160 @@
 		(fill
 			(color 0 0 0 0)
 		)
+		(uuid "77fe3443-32fb-46cd-8502-6f8d1ae6ff63")
+		(property "Sheetname" "Envelope Generator"
+			(at 119.38 79.8064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Envelope Generator.kicad_sch"
+			(at 119.38 95.0726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "In" input
+			(at 132.08 80.518 90)
+			(uuid "d7c50a93-6ba6-4bd0-877a-f71b54a5bc5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Amplifier Out" output
+			(at 146.05 87.63 0)
+			(uuid "c9026c8a-8984-4624-ba62-61e1d75ac783")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Filter Out" output
+			(at 119.38 87.63 180)
+			(uuid "01accba5-dd08-473b-8d77-80886dc8fcb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 110.49)
+		(size 35.56 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "816bb702-3331-437a-9032-479a8bfb0343")
+		(property "Sheetname" "Amplifier"
+			(at 146.05 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Amplifier.kicad_sch"
+			(at 146.05 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Control In" input
+			(at 162.56 110.49 90)
+			(uuid "82e95759-2854-4d2d-99b7-5d0c55db6e18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out" output
+			(at 181.61 118.11 0)
+			(uuid "480a2a82-5fcc-4ce0-8007-bd6252d1b939")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Signal In" input
+			(at 146.05 118.11 180)
+			(uuid "108e9e66-6a73-4305-99c7-077f56ebf377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 115.57)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
 		(uuid "c601a773-7a8a-4dbf-b4ab-ef5ea2e44138")
 		(property "Sheetname" "Oscillator"
-			(at 35.56 108.5084 0)
+			(at 34.29 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1926,7 +1945,7 @@
 			)
 		)
 		(property "Sheetfile" "Oscillator.kicad_sch"
-			(at 35.56 114.8846 0)
+			(at 34.29 121.2346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1937,7 +1956,7 @@
 			)
 		)
 		(pin "Out" output
-			(at 60.96 111.76 0)
+			(at 59.69 118.11 0)
 			(uuid "a2ba5ed1-564b-42cd-a6ae-56c0bb749771")
 			(effects
 				(font
@@ -1947,7 +1966,7 @@
 			)
 		)
 		(pin "In" input
-			(at 35.56 111.76 180)
+			(at 34.29 118.11 180)
 			(uuid "d17f95cf-9f18-4bf5-ae05-6e030859dc2e")
 			(effects
 				(font
