@@ -2419,7 +2419,7 @@
 		)
 		(uuid "febfc0e2-f3c1-4949-a82a-cfad9429ecbe")
 	)
-	(label "Comparator Ref"
+	(label "Trigger Ref"
 		(at 76.2 120.65 0)
 		(effects
 			(font
@@ -2429,7 +2429,7 @@
 		)
 		(uuid "04881627-da50-4361-a62d-fcd9028fbca6")
 	)
-	(label "Comparator Ref"
+	(label "Trigger Ref"
 		(at 62.23 30.48 0)
 		(effects
 			(font
@@ -2449,7 +2449,7 @@
 		)
 		(uuid "1f90bc82-e440-465f-a020-0960eeb2ceb3")
 	)
-	(label "Comparator Ref"
+	(label "Trigger Ref"
 		(at 96.52 48.26 0)
 		(effects
 			(font
@@ -2469,7 +2469,7 @@
 		)
 		(uuid "54220233-95db-4708-ae44-f813bcdf4094")
 	)
-	(label "Comparator Ref"
+	(label "Trigger Ref"
 		(at 154.94 48.26 0)
 		(effects
 			(font
