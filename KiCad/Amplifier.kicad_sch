@@ -1166,10 +1166,10 @@
 		(uuid "678ba9e8-e659-4d10-9125-5c01f0dabba6")
 	)
 	(junction
-		(at 128.27 68.58)
+		(at 135.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8fd3d79b-c74c-4344-9b2d-182f9c61368b")
+		(uuid "9dfa2052-91df-467b-93fc-b8c9619115c5")
 	)
 	(junction
 		(at 113.03 63.5)
@@ -1219,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 128.27 49.53)
+			(xy 128.27 49.53) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1269,23 +1269,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 49.53) (xy 128.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53848e5f-03dd-433c-bd74-e278a7fa0ae0")
-	)
-	(wire
-		(pts
-			(xy 113.03 49.53) (xy 116.84 49.53)
+			(xy 113.03 49.53) (xy 120.65 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57c772e7-f880-447a-a875-37e28c08f752")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 139.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3c51f4-b3d6-4da4-a53a-85cc78ee47a8")
 	)
 	(wire
 		(pts
@@ -1296,16 +1296,6 @@
 			(type default)
 		)
 		(uuid "6e36ac64-f221-431e-b1c4-0d7541fcbe48")
-	)
-	(wire
-		(pts
-			(xy 128.27 68.58) (xy 133.35 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738c4d9c-ef9c-4105-847d-6f4bb695f27c")
 	)
 	(wire
 		(pts
@@ -1336,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "a73e891f-52c3-4134-8e91-bd2097666de6")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac40b668-482a-4fb5-b854-3c2109bd2ed1")
 	)
 	(wire
 		(pts
@@ -1441,7 +1441,7 @@
 	)
 	(hierarchical_label "Out"
 		(shape output)
-		(at 133.35 68.58 0)
+		(at 139.7 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,6 +2129,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 132.08 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4f4c8a-5b14-48b2-a4e4-782393fa078f")
+		(property "Reference" "R4"
+			(at 132.08 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 132.08 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.334 67.564 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56729a82-40db-4725-ac68-6c1040a140d2")
+		)
+		(pin "1"
+			(uuid "8fa496f6-d8b8-4419-916e-ff4337b055f7")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 86.36 45.72 0)
 		(unit 1)
@@ -2604,7 +2684,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 49.53 90)
+		(at 124.46 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2615,7 +2695,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd04f978-dd22-4315-8725-9a81459435bf")
 		(property "Reference" "R17"
-			(at 120.65 43.18 90)
+			(at 124.46 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2625,7 +2705,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 120.65 45.72 90)
+			(at 124.46 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2635,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.904 48.514 90)
+			(at 124.714 48.514 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 49.53 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2657,7 +2737,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 49.53 0)
+			(at 124.46 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
