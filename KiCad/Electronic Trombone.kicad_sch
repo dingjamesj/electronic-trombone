@@ -1038,13 +1038,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 26.67 63.5)
+			(xy 132.08 68.58) (xy 132.08 80.518)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "770b1511-2e7e-4321-a1d3-6edfadd087f9")
+		(uuid "56c5db49-7c7f-4005-9f98-532c92df6070")
 	)
 	(wire
 		(pts
@@ -1108,16 +1108,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 63.5) (xy 26.67 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e639355a-6503-4766-84d7-23493388bbc9")
-	)
-	(wire
-		(pts
 			(xy 45.72 36.83) (xy 49.53 36.83)
 		)
 		(stroke
@@ -1126,17 +1116,17 @@
 		)
 		(uuid "fe3d9fd9-5391-4a26-a5f4-5b7e0b6327e3")
 	)
-	(label "V_trigger"
-		(at 26.67 67.31 0)
+	(label "In"
+		(at 132.08 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0e06ca1f-1e14-435c-b2b7-88e2ef6bbcfd")
+		(uuid "6127d482-a0ae-4d38-ab7e-4af72712c0c0")
 	)
-	(label "V_in"
+	(label "In"
 		(at 24.13 118.11 0)
 		(effects
 			(font
@@ -1146,7 +1136,7 @@
 		)
 		(uuid "7c9a0ccc-1293-4a59-98d0-a1a8aa4720fd")
 	)
-	(label "V_in"
+	(label "In"
 		(at 26.67 54.61 0)
 		(effects
 			(font
@@ -1156,7 +1146,7 @@
 		)
 		(uuid "b7e8722d-6c6a-4d69-b7c1-ea605d1c2e71")
 	)
-	(label "V_out"
+	(label "Out"
 		(at 20.32 60.96 0)
 		(effects
 			(font
@@ -1166,7 +1156,7 @@
 		)
 		(uuid "cd83715d-2e59-41c4-a662-627c78ecd872")
 	)
-	(label "V_out"
+	(label "Out"
 		(at 190.5 118.11 0)
 		(effects
 			(font
@@ -1793,7 +1783,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
