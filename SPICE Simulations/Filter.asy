@@ -1,6 +1,7 @@
 Version 4
 SymbolType BLOCK
 RECTANGLE Normal -16 16 96 -48
+TEXT -7 11 Left 0 Nominal 100mV pp
 WINDOW 0 -13 -44 Left 0
 PIN -16 -32 LEFT 8
 PINATTR PinName ControlIn
