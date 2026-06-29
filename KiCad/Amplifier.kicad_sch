@@ -1791,7 +1791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1909,7 +1909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 134.366 82.804 90)
 			(hide yes)
 			(show_name no)
@@ -1969,7 +1969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22991de8-8901-42a2-8fa7-e47ac474d413")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2047,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c0ddd9-4461-4962-8e08-dd1a1f052f28")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2107,7 +2107,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2147,7 +2147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 159.766 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c278f9-24e3-48a8-9a5b-15e957da37e5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2267,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2307,7 +2307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 75.946 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -2387,7 +2387,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2503,7 +2503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 139.7 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2619,7 +2619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 			(at 158.75 67.6148 0)
 			(hide yes)
 			(show_name no)
@@ -2701,7 +2701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 87.376 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960e206b-eb6a-441f-9b0e-2e56723bdad5")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961c7040-3379-49e6-9cdd-f31d2affe679")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2899,7 +2899,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2937,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.954 54.864 90)
 			(hide yes)
 			(show_name no)
@@ -3017,7 +3017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.174 59.944 90)
 			(hide yes)
 			(show_name no)
@@ -3099,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 147.32 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3215,7 +3215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 122.174 75.184 90)
 			(hide yes)
 			(show_name no)
@@ -3295,7 +3295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 104.14 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 64.516 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -3495,7 +3495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
