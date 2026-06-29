@@ -676,9 +676,14 @@
         "filename": "Electronic Trombone.kicad_sch",
         "name": "",
         "uuid": "931827f3-33b7-460f-8885-7db258da2648"
+      },
+      {
+        "filename": "buttons.kicad_sch",
+        "name": "Buttons",
+        "uuid": "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9"
       }
     ],
-    "used_designators": "RV4-5,R58,U9-10",
+    "used_designators": "TH1-6,D1-19,C1-11,B1-2,SW1-3,J1-4,#PWR1-83,RV1-14,R1-74,Q1-6,U1-10",
     "variants": []
   },
   "sheets": [
@@ -701,6 +706,10 @@
     [
       "77fe3443-32fb-46cd-8502-6f8d1ae6ff63",
       "Envelope Generator"
+    ],
+    [
+      "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9",
+      "Buttons"
     ]
   ],
   "text_variables": {},
