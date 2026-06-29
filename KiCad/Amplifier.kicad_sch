@@ -1969,7 +1969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22991de8-8901-42a2-8fa7-e47ac474d413")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2029,7 +2029,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2047,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c0ddd9-4461-4962-8e08-dd1a1f052f28")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 78.74 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2107,7 +2107,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2207,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c278f9-24e3-48a8-9a5b-15e957da37e5")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2267,7 +2267,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2761,7 +2761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960e206b-eb6a-441f-9b0e-2e56723bdad5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2821,7 +2821,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -2839,7 +2839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961c7040-3379-49e6-9cdd-f31d2affe679")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 133.35 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2899,7 +2899,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/816bb702-3331-437a-9032-479a8bfb0343"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

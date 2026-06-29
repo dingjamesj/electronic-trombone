@@ -2726,7 +2726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef57a16-3fe2-4668-ba72-9b3010be00af")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 49.53 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2786,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3703,7 +3703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dfde486-ec6a-4a44-9eb6-c0fbd0f62ef4")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 184.15 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3763,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR067")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3863,7 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb29e5a-457b-479e-b591-a6d0bb146fab")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR069"
 			(at 31.75 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3923,7 +3923,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR068")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4320,7 +4320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557784dd-fe8f-4c0c-a8df-2c668a71b126")
-		(property "Reference" "RV11"
+		(property "Reference" "RV12"
 			(at 31.75 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +4420,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "RV11")
+					(reference "RV12")
 					(unit 1)
 				)
 			)
@@ -5082,7 +5082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d22e79d-f869-4c3a-bd3f-ac74e05cef49")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR070"
 			(at 54.61 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5142,7 +5142,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR069")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "916c6833-22d3-4b69-92a3-6e8c813b3e92")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR067"
 			(at 121.92 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5300,7 +5300,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR066")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5318,7 +5318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94d3e8be-769e-422f-8d89-ac897563d179")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 34.29 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5378,7 +5378,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -5600,7 +5600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b30804a3-c8e5-49f1-aa80-8abef5fbed7b")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 34.29 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5660,7 +5660,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5840,7 +5840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4793aaa-5069-4150-bdbb-fc8636c571e0")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 156.21 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -5900,7 +5900,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d49f189e-4c47-493c-8f8b-a91364e180b8")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR071"
 			(at 49.53 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5978,7 +5978,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR070")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6215,7 +6215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e743855a-a31e-498c-865d-adfa2ec6b8f1")
-		(property "Reference" "RV12"
+		(property "Reference" "RV13"
 			(at 31.75 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6315,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "RV12")
+					(reference "RV13")
 					(unit 1)
 				)
 			)
@@ -6609,7 +6609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeaea234-f13b-4adc-9403-435f28063535")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR072"
 			(at 156.21 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6669,7 +6669,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "#PWR071")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
