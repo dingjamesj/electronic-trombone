@@ -679,11 +679,11 @@
       },
       {
         "filename": "buttons.kicad_sch",
-        "name": "Buttons",
+        "name": "Button Controls",
         "uuid": "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9"
       }
     ],
-    "used_designators": "TH1-6,D1-19,C1-11,B1-2,SW1-3,J1-4,#PWR1-83,RV1-14,R1-74,Q1-6,U1-10",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -709,7 +709,7 @@
     ],
     [
       "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9",
-      "Buttons"
+      "Button Controls"
     ]
   ],
   "text_variables": {},

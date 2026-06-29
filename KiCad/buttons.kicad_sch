@@ -1781,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch Push Button D6R90F2LFS:D6R90_CNK"
 			(at 34.29 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1939,7 +1939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch Push Button D6R90F2LFS:D6R90_CNK"
 			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2019,7 +2019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch Push Button D6R90F2LFS:D6R90_CNK"
 			(at 34.29 68.58 0)
 			(hide yes)
 			(show_name no)

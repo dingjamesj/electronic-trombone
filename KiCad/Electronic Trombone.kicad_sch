@@ -9209,43 +9209,43 @@
 			(uuid "9a8a8bb2-608c-46d5-b8ad-a7a9135baee0")
 		)
 		(pin "4"
-			(uuid "0bd197e7-6475-4c22-b63f-6c7fb7b3ac4c")
+			(uuid "0bd197e7-6475-4c22-b63f-6c7fb7b3ac4d")
 		)
 		(pin "6"
-			(uuid "c12a832c-5a06-4feb-bc9d-7c2f66f937cb")
+			(uuid "c12a832c-5a06-4feb-bc9d-7c2f66f937cc")
 		)
 		(pin "5"
-			(uuid "eb7f4fd4-7c9e-4014-bbdf-dc495828142c")
+			(uuid "eb7f4fd4-7c9e-4014-bbdf-dc495828142d")
 		)
 		(pin "3"
-			(uuid "1a7008c1-0987-4a87-8acd-33a68faf5afc")
+			(uuid "1a7008c1-0987-4a87-8acd-33a68faf5afd")
 		)
 		(pin "2"
-			(uuid "cdff5eb1-a7bd-4171-b615-9cb3c13f5b2a")
+			(uuid "cdff5eb1-a7bd-4171-b615-9cb3c13f5b2b")
 		)
 		(pin "1"
-			(uuid "802a207e-aca9-4265-84f9-8da1658fad34")
+			(uuid "802a207e-aca9-4265-84f9-8da1658fad35")
 		)
 		(pin "14"
 			(uuid "ad1e6616-e67e-40bf-a814-e4285e1f199d")
 		)
 		(pin "7"
-			(uuid "bdfcb70e-0e80-42e9-a991-5a0bd389ec5d")
+			(uuid "bdfcb70e-0e80-42e9-a991-5a0bd389ec5e")
 		)
 		(pin "8"
-			(uuid "f3226132-e197-41c3-acd2-624b211afe4f")
+			(uuid "f3226132-e197-41c3-acd2-624b211afe50")
 		)
 		(pin "11"
-			(uuid "a260b2f3-ac5f-48be-a641-dc9e75da2ac2")
+			(uuid "a260b2f3-ac5f-48be-a641-dc9e75da2ac3")
 		)
 		(pin "10"
-			(uuid "e99cad89-e58f-4d41-b40f-e9530722e20b")
+			(uuid "e99cad89-e58f-4d41-b40f-e9530722e20c")
 		)
 		(pin "12"
 			(uuid "cbaf8376-c902-470a-83f2-c4a15a66c146")
 		)
 		(pin "9"
-			(uuid "f273cc7d-0f70-4fdf-b505-dc03abbb28fa")
+			(uuid "f273cc7d-0f70-4fdf-b505-dc03abbb28fb")
 		)
 		(instances
 			(project "Electronic Trombone"

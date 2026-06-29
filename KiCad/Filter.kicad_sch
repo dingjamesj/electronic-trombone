@@ -4058,7 +4058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9bcc653-f03e-4cf9-930d-aeb5f16c98bc")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 189.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4156,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "U2")
+					(reference "U7")
 					(unit 3)
 				)
 			)
