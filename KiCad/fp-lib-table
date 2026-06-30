@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "DPST Switch RA83231100") (type "KiCad") (uri "${KIPRJMOD}/DPST Switch RA83231100.pretty") (options "") (descr ""))
+	(lib (name "Potentiometer 100k PTV09A-2020F-B104") (type "KiCad") (uri "${KIPRJMOD}/Potentiometer 100k PTV09A-2020F-B104.pretty") (options "") (descr ""))
+)

@@ -681,9 +681,14 @@
         "filename": "Button Controls.kicad_sch",
         "name": "Button Controls",
         "uuid": "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9"
+      },
+      {
+        "filename": "Power.kicad_sch",
+        "name": "Power",
+        "uuid": "3ca3a63e-46c1-4b14-be30-fce478aad491"
       }
     ],
-    "used_designators": "TH1-6,SW1-3,R1-74,J1-4,D1-19,C1-11,B1-2,#PWR1-84,RV1-13,Q1-6,U1-11",
+    "used_designators": "TH1-6,SW1-7,R1-74,J1-4,D1-19,C1-29,B1-2,#PWR1-129,RV1-14,Q1-6,U1-12",
     "variants": []
   },
   "sheets": [
@@ -710,6 +715,10 @@
     [
       "6a13e8a2-3c0e-4e5f-82d8-61d203b1f9b9",
       "Button Controls"
+    ],
+    [
+      "3ca3a63e-46c1-4b14-be30-fce478aad491",
+      "Power"
     ]
   ],
   "text_variables": {},

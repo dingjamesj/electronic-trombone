@@ -5,250 +5,6 @@
 	(uuid "eb5dfeda-fcd2-4f1d-a357-b9820752fa95")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2026-06-10_00-17-41:BC9VPC"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "B"
-				(at 4.826 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BC9VPC"
-				(at 4.826 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "BC9VPC_MPD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "BC9VPC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BC9VPC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "BC9VPC_MPD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BC9VPC_0_1"
-				(polyline
-					(pts
-						(xy 1.778 1.27) (xy 2.794 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0.762) (xy 2.286 1.778)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -1.778) (xy 3.556 1.778)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.762) (xy 4.572 -0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 -1.778) (xy 5.588 1.778)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 0.762) (xy 6.604 -0.762)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.366 1.27) (xy 8.382 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
 				(offset 0.127)
@@ -2476,145 +2232,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+9V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+9V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+9V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+9V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+9V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:-5V"
 			(power global)
 			(pin_numbers
@@ -2725,133 +2342,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:-9V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "-9V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-9V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "-9V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "-9V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3062,18 +2552,6 @@
 		(uuid "95da6fb5-8c0f-410e-ae04-3a3bcf647b14")
 	)
 	(junction
-		(at 125.73 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "978a03c6-0124-4bbb-9b5d-bde82a45d0c1")
-	)
-	(junction
-		(at 156.21 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8db79a0-2b05-43c4-ac5a-faee9416d87c")
-	)
-	(junction
 		(at 264.16 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3096,12 +2574,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb1a5357-79fe-4600-b23e-7a983677ecd5")
-	)
-	(junction
-		(at 35.56 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f353f78e-2142-4c53-bd35-3cb21354e701")
 	)
 	(junction
 		(at 60.96 66.04)
@@ -3167,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 17.78) (xy 96.52 17.78)
+			(xy 24.13 20.32) (xy 38.1 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3204,16 +2676,6 @@
 			(type default)
 		)
 		(uuid "12654e57-7414-4be7-8540-fe2b3d78d725")
-	)
-	(wire
-		(pts
-			(xy 49.53 22.86) (xy 54.61 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13932e34-4462-4d85-ade1-7108f366cc98")
 	)
 	(wire
 		(pts
@@ -3337,16 +2799,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 22.86) (xy 21.59 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306ac518-a8d6-4fb1-90a9-72d1a1b68c5c")
-	)
-	(wire
-		(pts
 			(xy 210.82 120.65) (xy 201.93 120.65)
 		)
 		(stroke
@@ -3374,16 +2826,6 @@
 			(type default)
 		)
 		(uuid "3349d24e-26a0-4aad-b629-f2994b3d0cb0")
-	)
-	(wire
-		(pts
-			(xy 156.21 27.94) (xy 168.91 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b83baf5-a0be-4133-af1c-d481b8321269")
 	)
 	(wire
 		(pts
@@ -3417,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 17.78) (xy 96.52 21.59)
+			(xy 38.1 20.32) (xy 38.1 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 96.52 33.02)
+			(xy 24.13 35.56) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3487,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 20.32) (xy 151.13 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55fdf256-dfd0-4f7a-9a39-a12e381ea5d9")
-	)
-	(wire
-		(pts
 			(xy 85.09 73.66) (xy 85.09 74.93)
 		)
 		(stroke
@@ -3507,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 27.94) (xy 96.52 26.67)
+			(xy 38.1 30.48) (xy 38.1 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 22.86) (xy 96.52 22.86)
+			(xy 24.13 25.4) (xy 38.1 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3644,16 +3076,6 @@
 			(type default)
 		)
 		(uuid "7efeaa67-246c-4605-aab2-1ac63a32b893")
-	)
-	(wire
-		(pts
-			(xy 35.56 26.67) (xy 35.56 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f405b92-44f8-45a0-aa6b-954a46bd2cdb")
 	)
 	(wire
 		(pts
@@ -3777,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 22.86) (xy 35.56 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82dc9fb-69e6-4030-aed6-9d6e55f1d23b")
-	)
-	(wire
-		(pts
 			(xy 91.44 73.66) (xy 85.09 73.66)
 		)
 		(stroke
@@ -3814,16 +3226,6 @@
 			(type default)
 		)
 		(uuid "ae0c9fce-4ac2-421b-abb0-4bde14920d7d")
-	)
-	(wire
-		(pts
-			(xy 125.73 27.94) (xy 138.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae8b5e54-0528-4c4e-81a3-fcfdea1ea4cf")
 	)
 	(wire
 		(pts
@@ -3897,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 22.86) (xy 96.52 24.13)
+			(xy 38.1 25.4) (xy 38.1 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 27.94) (xy 96.52 27.94)
+			(xy 24.13 30.48) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4077,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 29.21) (xy 96.52 33.02)
+			(xy 38.1 31.75) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4165,18 +3567,8 @@
 		)
 		(uuid "fdcb0d7a-e917-4221-895b-118c1c3c4203")
 	)
-	(wire
-		(pts
-			(xy 35.56 22.86) (xy 39.37 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3d9fd9-5391-4a26-a5f4-5b7e0b6327e3")
-	)
 	(label "-Pot"
-		(at 82.55 33.02 0)
+		(at 24.13 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4256,7 +3648,7 @@
 		(uuid "551445ce-b1a4-48e2-8e57-d029b60ae874")
 	)
 	(label "+Pot"
-		(at 82.55 27.94 0)
+		(at 24.13 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,7 +3748,7 @@
 		(uuid "af4711d9-8fa3-4120-affb-5484eb662fbb")
 	)
 	(label "Pot Out"
-		(at 82.55 17.78 0)
+		(at 24.13 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4436,7 +3828,7 @@
 		(uuid "e3ff593e-a7ad-4c1c-8ef1-a6d350bd25d3")
 	)
 	(label "Audio Out"
-		(at 82.55 22.86 0)
+		(at 24.13 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,169 +3848,9 @@
 		(uuid "e705981c-0e60-4ed9-bf08-2bb88ef3c2f0")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 138.43 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0773c1ab-7c8b-46aa-9577-77d7abb36a9e")
-		(property "Reference" "#PWR08"
-			(at 138.43 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 138.43 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 138.43 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aafa065c-099b-462b-90b2-2458d38b3505")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 156.21 24.13 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08abdabf-d58e-4d75-b7e0-bd7d39f802cb")
-		(property "Reference" "R2"
-			(at 158.75 22.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15k"
-			(at 158.75 25.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 155.194 23.876 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 156.21 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6dfd7db2-9a7c-4e1d-84ec-82662c854080")
-		)
-		(pin "2"
-			(uuid "1f57ef54-a3df-4314-8865-dd68f2d85054")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 102.87 163.83 0)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4726,85 +3958,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-9V")
-		(at 156.21 35.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0aeba4a5-bc93-44f9-8c28-9ba3ff6f3d1b")
-		(property "Reference" "#PWR013"
-			(at 156.21 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-9V"
-			(at 156.21 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 156.21 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7984fd12-adf4-481e-9094-2e6861d4b041")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR013")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -4937,7 +4091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5e3d90-e060-4ef9-867d-d2834f29220d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 217.17 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4997,7 +4151,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5005,7 +4159,7 @@
 	)
 	(symbol
 		(lib_id "Header 691137710004:691137710004")
-		(at 101.6 26.67 270)
+		(at 43.18 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5016,7 +4170,7 @@
 		(fields_autoplaced yes)
 		(uuid "149b39fc-b5d6-4abc-807f-91dfffb3c784")
 		(property "Reference" "J1"
-			(at 102.87 25.3999 90)
+			(at 44.45 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5027,7 +4181,7 @@
 			)
 		)
 		(property "Value" "691137710004"
-			(at 102.87 26.6699 90)
+			(at 44.45 29.2099 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +4193,7 @@
 			)
 		)
 		(property "Footprint" "Header 691137710004:691137710004"
-			(at 101.6 26.67 0)
+			(at 43.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +4205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 26.67 0)
+			(at 43.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +4216,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 26.67 0)
+			(at 43.18 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,7 +4250,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 69.85 161.29 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5204,7 +4358,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -5221,7 +4375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab41886-7cba-46b3-832d-c69e02741225")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR013"
 			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5281,7 +4435,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR022")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5415,7 +4569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ff41bf-e830-4b83-8721-e4b4a5fdcc28")
-		(property "Reference" "R11"
+		(property "Reference" "R7"
 			(at 69.85 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5477,7 +4631,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R11")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5495,7 +4649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "236196a3-ab42-4b3a-9e6c-f7e9481a0d63")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR020"
 			(at 257.81 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5555,7 +4709,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR029")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5573,7 +4727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25965fdb-486c-4cea-bd31-4a1a58d0b273")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 39.37 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,7 +4789,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5653,7 +4807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29721b07-17b0-4aa5-a30b-a5c82551dfca")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR014"
 			(at 217.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5713,7 +4867,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR023")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5731,7 +4885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3ea093-3402-4b4d-a794-30764f7abe57")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR04"
 			(at 257.81 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -5791,7 +4945,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR011")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5809,7 +4963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c28605-fc3d-45fd-a553-5b07e7a64e40")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 55.88 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5871,7 +5025,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5911,7 +5065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer 51CAD_E24_A20L:POT_51CAD_12P5X13P25_BRN"
+		(property "Footprint" "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 			(at 238.76 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +5277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386183b8-e7c6-49d5-8747-3af4ade20975")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR015"
 			(at 257.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +5337,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR024")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6201,7 +5355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d91bbdb-e6c7-4c68-abd4-db25c4f85255")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR019"
 			(at 257.81 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +5415,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR028")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6279,7 +5433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4227cb7c-0962-4e1e-b0df-29a519fb3bc9")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 88.9 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,7 +5495,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6466,88 +5620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 24.13 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4576f89d-af24-4eb2-a144-3ad29b749f33")
-		(property "Reference" "R1"
-			(at 128.27 22.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12k"
-			(at 128.27 25.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 124.714 23.876 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec31e50b-4645-4df0-a2f5-685cd115b0c4")
-		)
-		(pin "2"
-			(uuid "dceebfe4-a830-4de9-8827-f391fa9c70b3")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 53.34 0)
 		(unit 1)
@@ -6559,7 +5631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "470429a4-fa15-40e5-9cbe-6c2bc233cd78")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 257.81 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6619,7 +5691,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6628,7 +5700,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 69.85 189.23 0)
-		(unit 3)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6736,102 +5808,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-06-10_00-17-41:BC9VPC")
-		(at 39.37 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ddd02b7-d027-45b8-8cf5-a866d54cdf1c")
-		(property "Reference" "B2"
-			(at 44.45 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BC9VPC"
-			(at 44.45 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Battery Holder BC9VPC:BC9VPC_MPD"
-			(at 39.37 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "BC9VPC"
-			(at 39.37 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfdc4362-3520-4ad6-92c0-c96a8300ed77")
-		)
-		(pin "2"
-			(uuid "44aa3486-e287-4b46-a160-949715e882b4")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "B2")
-					(unit 1)
-				)
-			)
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "B2")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "B2")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -6848,7 +5825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5797910b-56cf-49af-9b5e-df53ca5b7310")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 55.88 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,7 +5887,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6928,7 +5905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "596d86ae-ed13-4003-9444-3ef277f1c782")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR025"
 			(at 62.23 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -6988,7 +5965,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR034")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7113,84 +6090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
-		(at 168.91 27.94 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6183971e-f191-4c33-8f4d-57c1419857b6")
-		(property "Reference" "#PWR09"
-			(at 168.91 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-5V"
-			(at 168.91 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 168.91 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4939c168-8461-44f3-8574-69348ca33669")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 95.25 166.37 0)
 		(unit 1)
@@ -7202,7 +6101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66c10414-dbd7-4561-b35f-a03812dc372f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR024"
 			(at 95.25 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7262,7 +6161,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR033")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7280,7 +6179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679b07e6-b3e6-430d-9b11-0a7823386d58")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 53.34 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7342,88 +6241,6 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 156.21 31.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68fd81cc-fbb6-48c5-ae57-a9a7b53ad777")
-		(property "Reference" "R4"
-			(at 158.75 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "12k"
-			(at 158.75 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 155.194 31.496 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 156.21 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df89035f-860a-4326-940c-eadddf417a14")
-		)
-		(pin "2"
-			(uuid "45541ed2-600f-448f-9ed8-1e99369d7a94")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "R4")
 					(unit 1)
 				)
@@ -7442,7 +6259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ea9a24c-5516-428c-94c7-87465255c07c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 257.81 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7502,7 +6319,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7520,7 +6337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7551102b-7a25-4423-ade9-6c8049e9c47a")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 218.44 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,85 +6399,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-9V")
-		(at 54.61 22.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "768252d0-31a4-4a51-96b1-137b57e9e0b0")
-		(property "Reference" "#PWR04"
-			(at 54.61 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-9V"
-			(at 54.61 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12a31428-5297-42ab-aaf3-641787892730")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR04")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7678,7 +6417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8848df0f-4282-47dd-bf64-825a99213d69")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 54.61 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7740,7 +6479,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7876,7 +6615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2a760e-0641-45df-beaf-b66041d7aeaa")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7936,7 +6675,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7954,7 +6693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c4694f8-5695-4d3b-89d2-dac5862afdf4")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR018"
 			(at 41.91 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8014,184 +6753,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-06-10_00-17-41:BC9VPC")
-		(at 21.59 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e85f743-a1f6-4732-b408-79747e701943")
-		(property "Reference" "B1"
-			(at 26.67 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BC9VPC"
-			(at 26.67 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Battery Holder BC9VPC:BC9VPC_MPD"
-			(at 21.59 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "BC9VPC"
-			(at 21.59 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ddfe36e-b6ca-4fd5-bab2-cead906894ce")
-		)
-		(pin "2"
-			(uuid "aa278dd6-8eec-4b88-91ab-468bd548d93a")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "B1")
-					(unit 1)
-				)
-			)
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "B1")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 125.73 31.75 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "928efd05-cf11-4e92-92f0-899c4c191f75")
-		(property "Reference" "R3"
-			(at 128.27 30.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15k"
-			(at 128.27 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 124.714 31.496 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 125.73 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ecacf729-bde1-42b7-8bc1-24bd035927cd")
-		)
-		(pin "2"
-			(uuid "3eadf56e-1422-40a4-809c-1fada4aa8aa7")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R3")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8209,7 +6771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94807f62-e8e9-4f6b-b85e-0892f0ed7ae0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 257.81 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8269,7 +6831,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8394,84 +6956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 16.51 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a346e69d-eaca-4e79-9484-6c3e68e97a10")
-		(property "Reference" "#PWR03"
-			(at 16.51 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 16.51 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 16.51 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e5c01c6-0911-47a4-8ad3-baebb9aeebba")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 217.17 30.48 0)
 		(unit 1)
@@ -8483,7 +6967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9aa4ad-8af1-45f2-87c4-d43afed55beb")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR03"
 			(at 217.17 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8543,7 +7027,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR010")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8679,7 +7163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad314263-7173-434f-ba24-d058e79f4b3a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8739,85 +7223,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+9V")
-		(at 125.73 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b77ebbbf-a5f3-4c0f-bf65-1d631bcf94d8")
-		(property "Reference" "#PWR01"
-			(at 125.73 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 125.73 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 125.73 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c68dfc5-eec6-41fe-9538-e5fb12724b74")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8835,7 +7241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92ed196-60db-4183-9477-0c60df7ab035")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 102.87 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8897,85 +7303,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9bd3b1a-95cf-478b-a7af-8f42a0b7e359")
-		(property "Reference" "#PWR012"
-			(at 125.73 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14e36ff5-3d36-441a-a7eb-6abb6385e46d")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR012")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8993,7 +7321,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd8559a0-b139-45c6-95e8-736708db7510")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 45.72 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,7 +7383,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9073,7 +7401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf3a7f6-ca0b-4ca8-9701-c517b5cf86a7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 217.17 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9133,7 +7461,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9269,7 +7597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1264749-d7d1-412d-9b75-1223f72d77d2")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 69.85 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +7659,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9419,84 +7747,6 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c67b8cf6-2348-42b6-92a2-dbf9338c000d")
-		(property "Reference" "#PWR02"
-			(at 151.13 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "964448f5-3563-4ef8-bb44-7ddea404f368")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9632,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d937142e-dc04-4613-8677-0d1fd81a2401")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR021"
 			(at 238.76 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9692,7 +7942,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR030")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9710,7 +7960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e508cfda-802b-4215-843b-0976808a4c62")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 213.36 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9774,7 +8024,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9846,43 +8096,43 @@
 			)
 		)
 		(pin "13"
-			(uuid "9a8a8bb2-608c-46d5-b8ad-a7a9135baee0")
+			(uuid "9a8a8bb2-608c-46d5-b8ad-a7a9135baee1")
 		)
 		(pin "4"
-			(uuid "0bd197e7-6475-4c22-b63f-6c7fb7b3ac4d")
+			(uuid "0bd197e7-6475-4c22-b63f-6c7fb7b3ac4e")
 		)
 		(pin "6"
-			(uuid "c12a832c-5a06-4feb-bc9d-7c2f66f937cc")
+			(uuid "c12a832c-5a06-4feb-bc9d-7c2f66f937cd")
 		)
 		(pin "5"
-			(uuid "eb7f4fd4-7c9e-4014-bbdf-dc495828142d")
+			(uuid "eb7f4fd4-7c9e-4014-bbdf-dc495828142e")
 		)
 		(pin "3"
-			(uuid "1a7008c1-0987-4a87-8acd-33a68faf5afd")
+			(uuid "1a7008c1-0987-4a87-8acd-33a68faf5afe")
 		)
 		(pin "2"
-			(uuid "cdff5eb1-a7bd-4171-b615-9cb3c13f5b2b")
+			(uuid "cdff5eb1-a7bd-4171-b615-9cb3c13f5b2c")
 		)
 		(pin "1"
-			(uuid "802a207e-aca9-4265-84f9-8da1658fad35")
+			(uuid "802a207e-aca9-4265-84f9-8da1658fad36")
 		)
 		(pin "14"
-			(uuid "ad1e6616-e67e-40bf-a814-e4285e1f199d")
+			(uuid "ad1e6616-e67e-40bf-a814-e4285e1f199e")
 		)
 		(pin "7"
-			(uuid "bdfcb70e-0e80-42e9-a991-5a0bd389ec5e")
+			(uuid "bdfcb70e-0e80-42e9-a991-5a0bd389ec5f")
 		)
 		(pin "8"
 			(uuid "f3226132-e197-41c3-acd2-624b211afe50")
 		)
 		(pin "11"
-			(uuid "a260b2f3-ac5f-48be-a641-dc9e75da2ac3")
+			(uuid "a260b2f3-ac5f-48be-a641-dc9e75da2ac4")
 		)
 		(pin "10"
 			(uuid "e99cad89-e58f-4d41-b40f-e9530722e20c")
 		)
 		(pin "12"
-			(uuid "cbaf8376-c902-470a-83f2-c4a15a66c146")
+			(uuid "cbaf8376-c902-470a-83f2-c4a15a66c147")
 		)
 		(pin "9"
 			(uuid "f273cc7d-0f70-4fdf-b505-dc03abbb28fb")
@@ -10032,7 +8282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eedff448-b33e-4ca4-bb5e-35cd4b449992")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR017"
 			(at 91.44 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10092,7 +8342,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR026")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10110,7 +8360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f166b19c-39b0-47a2-82c0-799e8c5c8d23")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 86.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -10170,7 +8420,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10188,7 +8438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5aef416-5aff-4f88-8c1c-c38ef42ad078")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR022"
 			(at 210.82 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10248,7 +8498,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR031")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10266,7 +8516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5af9402-36fc-4884-be7d-a6379f17930c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 217.17 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10326,7 +8576,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10344,7 +8594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c12f5a-8971-488a-b3b9-fa50ffb5cb88")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR011"
 			(at 257.81 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10404,7 +8654,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10422,7 +8672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8fe1d4c-4940-4875-8b01-e51df293134f")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR023"
 			(at 62.23 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10482,7 +8732,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR032")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10500,7 +8750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f5dcb5-8673-44c8-9365-afc5c44d58a9")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR07"
 			(at 217.17 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10560,97 +8810,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faa097f1-71f8-4da0-83ba-5a7197e01b53")
-		(property "Reference" "#PWR07"
-			(at 35.56 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 31.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "500ac8ec-c7fd-45bd-8f01-720fc53fb99a")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/6a7eb3fc-2661-4872-957e-53c59e0a332f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-			(project "Main"
-				(path "/eb5dfeda-fcd2-4f1d-a357-b9820752fa95"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
