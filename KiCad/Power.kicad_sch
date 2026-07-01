@@ -3107,7 +3107,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 120.65 105.41 0)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3215,7 +3215,7 @@
 			(project "Electronic Trombone"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U5")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -4442,6 +4442,7 @@
 	(symbol
 		(lib_id "Switch:SW_DPST")
 		(at 97.79 38.1 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4449,10 +4450,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2dded2a2-df99-469b-8e94-47f0ce8e1934")
 		(property "Reference" "SW4"
-			(at 97.79 31.75 0)
+			(at 97.79 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Value" "SW_DPST"
-			(at 97.79 31.75 0)
+			(at 97.79 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

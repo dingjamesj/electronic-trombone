@@ -3607,6 +3607,16 @@
 		)
 		(uuid "281c8fd7-2a03-49ef-bbe3-bc76e3ec10fb")
 	)
+	(label "Pot Out"
+		(at 24.13 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a813b98-2f47-4a28-b4eb-8589c3e16873")
+	)
 	(label "+Pot 6th Partial"
 		(at 74.93 63.5 0)
 		(effects
@@ -3777,6 +3787,16 @@
 		)
 		(uuid "a2156123-7cf8-48db-8f23-653c7503b18c")
 	)
+	(label "Audio Out"
+		(at 24.13 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7b7c2a3-56e9-43f1-8f40-3dce769210c1")
+	)
 	(label "+Pot 4th Partial"
 		(at 74.93 60.96 0)
 		(effects
@@ -3786,16 +3806,6 @@
 			(justify left bottom)
 		)
 		(uuid "af4711d9-8fa3-4120-affb-5484eb662fbb")
-	)
-	(label "Pot Out"
-		(at 24.13 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6af6fee-2457-4df7-bbc9-e30b5a9b70e8")
 	)
 	(label "+Pot 3rd Partial"
 		(at 149.86 71.12 0)
@@ -3866,16 +3876,6 @@
 			(justify left bottom)
 		)
 		(uuid "e3ff593e-a7ad-4c1c-8ef1-a6d350bd25d3")
-	)
-	(label "Audio Out"
-		(at 24.13 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4acfedd-a13d-4fea-b517-9c61fe96b349")
 	)
 	(label "+Pot 2nd Partial"
 		(at 149.86 63.5 0)
