@@ -2659,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 149.86 77.47)
+			(xy 157.48 73.66) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 149.86 73.66)
+			(xy 147.32 73.66) (xy 157.48 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 82.55) (xy 149.86 82.55)
+			(xy 154.94 81.28) (xy 157.48 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 148.59 76.2)
+			(xy 147.32 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 82.55)
+			(xy 154.94 78.74) (xy 154.94 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3409,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 80.01) (xy 149.86 80.01)
+			(xy 156.21 78.74) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3469,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76257d5-1f70-4101-8587-4db8024c4942")
+	)
+	(wire
+		(pts
 			(xy 248.92 144.78) (xy 264.16 144.78)
 		)
 		(stroke
@@ -3499,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 76.2) (xy 148.59 80.01)
+			(xy 156.21 76.2) (xy 156.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3576,6 +3586,16 @@
 			(justify left bottom)
 		)
 		(uuid "0c9bcceb-db4c-4139-a7f0-26ee20f20ec6")
+	)
+	(label "Trigger 3"
+		(at 147.32 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f5ea963-6d16-47d6-a0f7-ff3239728a37")
 	)
 	(label "+Pot 2nd Partial"
 		(at 223.52 49.53 0)
@@ -3667,6 +3687,16 @@
 		)
 		(uuid "560394b9-e562-4982-b1c7-cd10ccd534da")
 	)
+	(label "Trigger 2"
+		(at 147.32 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d869b4f-4c7a-4146-8a8f-92819022959c")
+	)
 	(label "In"
 		(at 12.7 172.72 0)
 		(effects
@@ -3686,6 +3716,16 @@
 			(justify left bottom)
 		)
 		(uuid "6226d652-611c-45e2-af66-55c2ac8704da")
+	)
+	(label "Trigger 1"
+		(at 147.32 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6aa56d6d-8d52-4076-b4cf-6f862037f764")
 	)
 	(label "+Pot"
 		(at 60.96 59.69 0)
@@ -7667,7 +7707,7 @@
 	)
 	(symbol
 		(lib_id "Header 691137710003:691137710003")
-		(at 154.94 80.01 270)
+		(at 162.56 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7678,7 +7718,7 @@
 		(fields_autoplaced yes)
 		(uuid "c593cb8e-967a-4050-94e5-6262341aba7e")
 		(property "Reference" "J2"
-			(at 156.21 80.0099 90)
+			(at 163.83 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,7 +7729,7 @@
 			)
 		)
 		(property "Value" "691137710003"
-			(at 156.21 81.2799 90)
+			(at 163.83 80.0099 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7701,7 +7741,7 @@
 			)
 		)
 		(property "Footprint" "Header 691137710003:691137710003"
-			(at 154.94 80.01 0)
+			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +7753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 80.01 0)
+			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7724,7 +7764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 80.01 0)
+			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

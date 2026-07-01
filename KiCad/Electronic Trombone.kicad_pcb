@@ -90,7 +90,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0069e685-4826-41ee-b4f6-bc19d6089259")
-		(at 124.425 116.475)
+		(at -88.985 119.675)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R52"
@@ -310,7 +310,7 @@
 	(footprint "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
 		(layer "F.Cu")
 		(uuid "01003917-e0b7-4c38-9a4d-e94b7b7061af")
-		(at 33.045 149.525)
+		(at -180.365 152.725)
 		(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
 		(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 5mm Capacitor")
 		(property "Reference" "C7"
@@ -490,7 +490,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "02fbb27f-d9d4-44bf-ac59-ab248a59d5d0")
-		(at 67.585 119.875)
+		(at -145.825 123.075)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R32"
@@ -710,7 +710,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "041fc102-fa80-4a12-9064-a02a6e669fa7")
-		(at 73.305 93.655)
+		(at -140.105 96.855)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U3"
@@ -931,7 +931,7 @@
 			)
 		)
 		(point
-			(at 77.115 101.275)
+			(at -136.295 104.475)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "78f49dc4-39b9-45a1-a3d0-e969c135fd20")
@@ -1103,7 +1103,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "056306be-94e1-4b57-888e-ea717db4dc0d")
-		(at 140.085 68.385)
+		(at -73.325 71.585)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -1255,7 +1255,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0e4101bb-1dcd-4d8e-bf18-3812bc338397")
-		(at 28.575 107.425)
+		(at -184.835 110.625)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R73"
@@ -1407,7 +1407,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0fcbf6b0-7da7-4159-81a5-5a320f2f2182")
-		(at 21.225 110.925)
+		(at -192.185 114.125)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C19"
@@ -1559,7 +1559,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0ff2d29c-f93f-46ba-aa7b-59691295fcbc")
-		(at 124.425 120.525)
+		(at -88.985 123.725)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R53"
@@ -1779,7 +1779,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "10945bc0-5948-4eb3-9cb0-40158045fb62")
-		(at 21.575 136.875)
+		(at -191.835 140.075)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
@@ -2081,7 +2081,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "13dcf5c4-ee9d-4171-a469-a87378c7ac65")
-		(at 113.655 86.575)
+		(at -99.755 89.775)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D10"
@@ -2383,7 +2383,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "19e5a1f9-4031-4b3b-9138-db5b8c2de0da")
-		(at 141.705 135.265)
+		(at -71.705 138.465)
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV13"
@@ -2646,7 +2646,7 @@
 	(footprint "DPST Switch RA83231100:DPST Switch RA83231100"
 		(layer "F.Cu")
 		(uuid "1b850bce-9247-48f7-903d-21505e0f6be9")
-		(at 99.03 66.8)
+		(at -114.38 70)
 		(property "Reference" "SW4"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -2780,7 +2780,7 @@
 	(footprint "Header 691137710002:691137710002"
 		(layer "F.Cu")
 		(uuid "1c0f4ed9-00fd-47a6-9013-499f94684105")
-		(at 35.6135 102.1135)
+		(at -177.7965 105.3135)
 		(property "Reference" "J4"
 			(at 0 -5.135 0)
 			(layer "F.SilkS")
@@ -2966,7 +2966,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2307dfda-7672-4621-96fa-0af052081efe")
-		(at 73.745 130.875)
+		(at -139.665 134.075)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -3118,7 +3118,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "2340365f-cf73-4bc9-a55d-ec559e8760a5")
-		(at 91.155 51.625)
+		(at -122.255 54.825)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV6"
@@ -3467,7 +3467,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "24eba94b-f225-435d-a7ab-a95b281bf396")
-		(at 91.155 56.375)
+		(at -122.255 59.575)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV7"
@@ -3816,7 +3816,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "256f770b-d85a-48a6-91b2-ac570db739a8")
-		(at 113.655 114.975)
+		(at -99.755 118.175)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D18"
@@ -4118,7 +4118,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "267bcf4e-074c-4272-b467-e430bd395672")
-		(at 95.705 35.625)
+		(at -117.705 38.825)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
@@ -4338,7 +4338,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "29d6d715-7f5a-48b8-bc9b-db1fd615a722")
-		(at 113.655 111.425)
+		(at -99.755 114.625)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D17"
@@ -4640,7 +4640,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2b34e09f-4085-48dd-9b67-1db92674a070")
-		(at 113.955 123.325)
+		(at -99.455 126.525)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C8"
@@ -4820,7 +4820,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2b41dee2-ce20-40f0-b291-67006bf3ab25")
-		(at 21.225 100.425)
+		(at -192.185 103.625)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -4972,7 +4972,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2d1ddb59-f401-4683-bfb5-9acefddba184")
-		(at 116.355 49.375)
+		(at -97.055 52.575)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH3"
@@ -5192,7 +5192,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2db87196-9640-4072-8652-3827c5aaf562")
-		(at 116.355 68.475)
+		(at -97.055 71.675)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH5"
@@ -5412,7 +5412,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2e2c9944-660c-490a-a675-01b50addad9d")
-		(at 95.705 43.725)
+		(at -117.705 46.925)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R11"
@@ -5632,7 +5632,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2eca963e-4400-4058-af66-c58d099d0515")
-		(at 26.125 110.925)
+		(at -187.285 114.125)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -5784,7 +5784,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "2fcf10c7-a301-4e43-8c4e-7969bf737c05")
-		(at 37.9738 88.475605)
+		(at -175.4362 91.675605)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW2"
 			(at 2.5 2.499995 0)
@@ -6057,7 +6057,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "30f8c50f-2430-4856-8ed3-b4bd04e0e038")
-		(at 116.355 30.275)
+		(at -97.055 33.475)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH1"
@@ -6277,13 +6277,13 @@
 	(footprint "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
 		(layer "F.Cu")
 		(uuid "32dd47fb-3a34-4dcf-b540-0df4d53e1a6f")
-		(at 138.685 52.935)
+		(at 226 72.5 90)
 		(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
 		(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 7mm Capacitor")
 		(property "Reference" "C1"
-			(at 7.5 -4.75 0)
+			(at 7.5 -4.75 90)
 			(layer "F.SilkS")
-			(uuid "3a6c9fbd-2820-4a93-8686-da671140a76b")
+			(uuid "69b04bd3-cb08-481a-8326-49d85f303d73")
 			(effects
 				(font
 					(size 1 1)
@@ -6292,9 +6292,9 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 7.5 4.75 0)
+			(at 7.5 4.75 90)
 			(layer "F.Fab")
-			(uuid "06643109-49cf-4684-aa64-b0bdca54affe")
+			(uuid "25465c06-ecc9-4869-96e3-f36644a93bdd")
 			(effects
 				(font
 					(size 1 1)
@@ -6303,10 +6303,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7aca82b8-5259-4cf9-87a5-5907ab924e2f")
+			(uuid "4d13cc3d-c053-4afb-a931-e5f8bba18c78")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,10 +6314,10 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "baa96b70-9096-4d34-b03b-2898000c2bbd")
+			(uuid "1d4268ed-82ac-4547-a180-487a722330e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6325,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "78bdf272-9b88-47c6-b2a1-2cc02cd139f7")
@@ -6349,26 +6349,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.62 -3.62)
-			(end 16.62 -3.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "57b13b55-8667-4753-8dee-6fe59d170fed")
-		)
-		(fp_line
-			(start -1.62 3.62)
-			(end -1.62 -3.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a208ba14-a153-4c60-9629-8a0a54f2a908")
-		)
-		(fp_line
 			(start 16.62 -3.62)
 			(end 16.62 3.62)
 			(stroke
@@ -6379,6 +6359,16 @@
 			(uuid "e82c3a3e-df01-434b-b15b-e924ed8c272d")
 		)
 		(fp_line
+			(start -1.62 -3.62)
+			(end 16.62 -3.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57b13b55-8667-4753-8dee-6fe59d170fed")
+		)
+		(fp_line
 			(start 16.62 3.62)
 			(end -1.62 3.62)
 			(stroke
@@ -6387,6 +6377,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b84a4a73-4f6a-43a8-b2e3-6bdf478c459b")
+		)
+		(fp_line
+			(start -1.62 3.62)
+			(end -1.62 -3.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a208ba14-a153-4c60-9629-8a0a54f2a908")
 		)
 		(fp_rect
 			(start -1.75 -3.75)
@@ -6411,7 +6411,7 @@
 			(uuid "0a7f7a56-2440-4875-a8f9-80fb88126310")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 0 0)
+			(at 7.5 0 90)
 			(layer "F.Fab")
 			(uuid "aad58798-04d1-4467-aba9-0407f14d0f34")
 			(effects
@@ -6422,17 +6422,17 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "//Oscillator/Sch Inv In 1")
 			(pintype "passive")
 			(uuid "091e2f77-2fc2-4fa3-b1ca-10e5dffbb21f")
 		)
 		(pad "2" thru_hole circle
-			(at 15 0)
+			(at 15 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -6457,7 +6457,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3535937b-3b66-419b-af51-a7c396f2bac5")
-		(at 26.125 109.175)
+		(at -187.285 112.375)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -6609,7 +6609,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3ae33690-43c6-45e3-ac39-e2dfe8228311")
-		(at 51.545 142.775)
+		(at -161.865 145.975)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R45"
@@ -6761,13 +6761,13 @@
 	(footprint "Capacitor_THT:C_Rect_L18.0mm_W7.0mm_P15.00mm_FKS3_FKP3"
 		(layer "F.Cu")
 		(uuid "3bc9ff39-798f-4a7d-9508-d6d8b372dd12")
-		(at 138.685 61.485)
+		(at 244.4 86.2 90)
 		(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*7mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
 		(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 7mm Capacitor")
 		(property "Reference" "C3"
-			(at 7.5 -4.75 0)
+			(at 7.5 -4.75 90)
 			(layer "F.SilkS")
-			(uuid "40b91299-ca5e-4e1d-9258-040e97814da7")
+			(uuid "147e91a7-4dd5-4acf-88ea-e800608944c5")
 			(effects
 				(font
 					(size 1 1)
@@ -6776,9 +6776,9 @@
 			)
 		)
 		(property "Value" "2.2n"
-			(at 7.5 4.75 0)
+			(at 7.5 4.75 90)
 			(layer "F.Fab")
-			(uuid "0417f0f1-80a6-47cf-90f0-f3a9c90e3f32")
+			(uuid "8e745415-7bae-482e-94d9-8a392fba3c30")
 			(effects
 				(font
 					(size 1 1)
@@ -6787,10 +6787,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee30accb-9fa2-4ef4-8271-3f6c8b943679")
+			(uuid "374764e1-6d25-4887-a92a-7b8b17ff0b94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,10 +6798,10 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43d1a9de-63a7-4f2d-b9bd-e2fd9f16c9da")
+			(uuid "4b87467f-e25e-4524-8f51-3ec117872bd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +6809,7 @@
 			)
 		)
 		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "806f9a6e-2487-462b-9ed4-2cc60c71878f")
@@ -6833,26 +6833,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.62 -3.62)
-			(end 16.62 -3.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "46917ae8-8854-47cf-9b10-fb3b80331cd7")
-		)
-		(fp_line
-			(start -1.62 3.62)
-			(end -1.62 -3.62)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "80504660-41d3-40fd-b97f-26fd4ef29c66")
-		)
-		(fp_line
 			(start 16.62 -3.62)
 			(end 16.62 3.62)
 			(stroke
@@ -6863,6 +6843,16 @@
 			(uuid "9f689876-db54-404d-8e58-45ec512372de")
 		)
 		(fp_line
+			(start -1.62 -3.62)
+			(end 16.62 -3.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46917ae8-8854-47cf-9b10-fb3b80331cd7")
+		)
+		(fp_line
 			(start 16.62 3.62)
 			(end -1.62 3.62)
 			(stroke
@@ -6871,6 +6861,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "8d70f81c-781c-4809-86ad-442a6e78114b")
+		)
+		(fp_line
+			(start -1.62 3.62)
+			(end -1.62 -3.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "80504660-41d3-40fd-b97f-26fd4ef29c66")
 		)
 		(fp_rect
 			(start -1.75 -3.75)
@@ -6895,7 +6895,7 @@
 			(uuid "e155643c-968e-498a-9a0f-edfc56bae0c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 0 0)
+			(at 7.5 0 90)
 			(layer "F.Fab")
 			(uuid "659e0dbd-011f-4937-9e73-e0842492b592")
 			(effects
@@ -6906,17 +6906,17 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-K)")
+			(net "//Oscillator/Sch Inv In 2")
 			(pintype "passive")
 			(uuid "e01ffc31-3a0d-4581-b959-faa359a0cb96")
 		)
 		(pad "2" thru_hole circle
-			(at 15 0)
+			(at 15 0 90)
 			(size 2.4 2.4)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -6941,7 +6941,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "418cf90f-5525-441f-9de9-670ad54689e6")
-		(at 140.085 70.135)
+		(at -73.325 73.335)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
@@ -7093,7 +7093,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "41bf8fea-f453-4e61-b15f-9631facf3770")
-		(at 95.705 27.525)
+		(at -117.705 30.725)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
@@ -7313,7 +7313,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "429e78fa-f831-4626-9efd-f6b463693e8a")
-		(at 23.675 110.925)
+		(at -189.735 114.125)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C27"
@@ -7465,9 +7465,9 @@
 	(footprint "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 		(layer "F.Cu")
 		(uuid "442fe59c-383c-4152-9073-05678c7c8d6e")
-		(at 150.66 29.05)
+		(at 53 72.5 -90)
 		(property "Reference" "RV9"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "77a58e52-2b77-4e08-bef3-f1319498fc4b")
@@ -7479,7 +7479,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1 0)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "48b1164b-1259-4b4d-b1bc-a3bfe9b069e0")
@@ -7491,7 +7491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7517,7 +7517,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7530,7 +7530,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7543,7 +7543,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7579,7 +7579,7 @@
 			(uuid "2dcc5640-6ddb-4a45-877d-9323c69cd631")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "97f52e3e-c38e-4c85-8555-f34fd13a37bf")
@@ -7591,21 +7591,21 @@
 			)
 		)
 		(pad "" np_thru_hole rect
-			(at -5.3 -1.1)
+			(at -5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "4c517e54-c591-4fb9-9526-a04df15b267c")
 		)
 		(pad "" np_thru_hole rect
-			(at 5.3 -1.1)
+			(at 5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "ce3dd9e0-d7ad-4520-93ac-c6f9f01b89c8")
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 2.2)
+			(at -2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7616,18 +7616,18 @@
 			(uuid "bd35d73e-1881-41f9-be96-c3ca5c543a3b")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.2)
+			(at 0 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(R17-Pad1)")
+			(net "//Oscillator/Tuning 1")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "a38a22a5-2821-4a51-a302-8d72023625ec")
 		)
 		(pad "3" thru_hole circle
-			(at 2.5 2.2)
+			(at 2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7642,13 +7642,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "445978ab-7333-41e3-9811-2f81a8dc30ef")
-		(at 137.635 73.635)
+		(at -79.595 83.85)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "2edd04b5-d141-4a07-a1b1-51fe60f95a5d")
+			(uuid "5b0ad1a5-ded7-4db6-b0ed-d55776dd3b17")
 			(effects
 				(font
 					(size 1 1)
@@ -7659,7 +7659,7 @@
 		(property "Value" "1M"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "2900dce9-d296-48fc-a18a-41310c0553d6")
+			(uuid "4cca5434-0f4d-4f83-ad68-d3ba385b26f6")
 			(effects
 				(font
 					(size 1 1)
@@ -7671,7 +7671,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64b41945-9ba3-42ac-8c64-b9dc656f0832")
+			(uuid "36c87878-e170-415c-aff0-f73c32452754")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +7682,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a04537d4-44ab-41e4-890a-be0779f12bc8")
+			(uuid "a206205f-91b7-42ff-bf07-46365981f556")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7765,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(R17-Pad1)")
+			(net "//Oscillator/Tuning 1")
 			(pintype "passive")
 			(uuid "fbc02770-e05d-4399-b51c-9b9b818bbdf5")
 		)
@@ -7794,7 +7794,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "45176c1d-f798-4c97-b060-5416d42fffc5")
-		(at 127.205 70.035)
+		(at -86.205 73.235)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R21"
@@ -8014,7 +8014,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "455a0560-8992-4200-859e-4a297c016728")
-		(at 113.955 135.425)
+		(at -99.455 138.625)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C11"
@@ -8194,7 +8194,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "462b0ee4-ee3c-416e-8473-6c264ad1d2a3")
-		(at 124.425 124.575)
+		(at -88.985 127.775)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R56"
@@ -8414,7 +8414,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "46dbe7c0-5e6b-4e15-81e7-495f4f22a4f7")
-		(at 51.775 148.385)
+		(at -161.635 151.585)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R46"
@@ -8572,7 +8572,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "46f84be3-caed-434c-98b9-c37c75c35de4")
-		(at 26.125 103.925)
+		(at -187.285 107.125)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -8724,7 +8724,7 @@
 	(footprint "Mux CD74HC4051E:N16"
 		(layer "F.Cu")
 		(uuid "471ff4d3-948d-4591-b7c4-49f6a83773e5")
-		(at 91.6379 102.0627)
+		(at -121.7721 105.2627)
 		(tags "CD74HC4051E ")
 		(property "Reference" "U1"
 			(at -3.81 -8.89 0)
@@ -9840,7 +9840,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S2)")
+			(net "//Trigger 3")
 			(pinfunction "S2_9")
 			(pintype "bidirectional")
 			(uuid "8ba5c44d-ae7d-45be-a6df-1a5f44fd9d7e")
@@ -9851,7 +9851,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S1)")
+			(net "//Trigger 2")
 			(pinfunction "S1_10")
 			(pintype "bidirectional")
 			(uuid "1ce813c7-5692-459a-8f49-8f73123f1c02")
@@ -9862,7 +9862,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S0)")
+			(net "//Trigger 1")
 			(pinfunction "S0_11")
 			(pintype "bidirectional")
 			(uuid "7f2d9113-fd6a-43c3-9275-3a3f5cb3ebcd")
@@ -9927,7 +9927,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4735918f-d325-4db1-bb91-18d7f241fe6d")
-		(at 146.165 128.685)
+		(at -67.245 131.885)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R66"
@@ -10085,7 +10085,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "4865ec4d-a58b-49f4-a508-b53cb1e04ea3")
-		(at 145.985 108.405)
+		(at -67.425 111.605)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U10"
@@ -10306,7 +10306,7 @@
 			)
 		)
 		(point
-			(at 149.795 116.025)
+			(at -63.615 119.225)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "eb9eee37-5e18-437e-a78f-c45670b40cf7")
@@ -10478,7 +10478,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "486fb28e-8b04-4feb-b1c2-02e49dcb3389")
-		(at 140.085 71.885)
+		(at -73.325 75.085)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
@@ -10630,7 +10630,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "48f9a63c-d33d-4d57-813a-05eed7298cd2")
-		(at 113.655 97.225)
+		(at -99.755 100.425)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D13"
@@ -10932,7 +10932,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4938df8d-d890-4b24-b37b-40b1de6a691e")
-		(at 156.405 107.225)
+		(at -57.005 110.425)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R54"
@@ -11084,7 +11084,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4b498f69-c6f1-458b-9030-c58636cbbd0d")
-		(at 21.575 122.675)
+		(at -191.835 125.875)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
@@ -11386,7 +11386,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4b5492f0-3309-4d5c-9ab6-07367c4d3447")
-		(at 21.225 107.425)
+		(at -192.185 110.625)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -11538,7 +11538,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4c681a79-4a84-4d8a-a3d5-3a3ae2b8884a")
-		(at 26.125 98.675)
+		(at -187.285 101.875)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C28"
@@ -11690,7 +11690,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4e488e22-a394-479f-b725-94f1067fc6b2")
-		(at 95.705 47.775)
+		(at -117.705 50.975)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R12"
@@ -11910,7 +11910,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "4e5a1988-a5f9-486f-a69d-4a4b10fae3ce")
-		(at 137.635 68.385)
+		(at -75.775 71.585)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
@@ -12062,7 +12062,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "500f299b-b312-4753-9c1c-7567673807f9")
-		(at 21.575 144.725)
+		(at -191.835 147.925)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R43"
@@ -12282,7 +12282,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "57eb0645-ac82-4112-a9c4-34e72cb6ce41")
-		(at 51.545 141.025)
+		(at -161.865 144.225)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R44"
@@ -12434,7 +12434,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "58d82fe6-eac9-4720-9239-673726c90dad")
-		(at 142.535 68.385)
+		(at -70.875 71.585)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
@@ -12557,7 +12557,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(R26-Pad1)")
+			(net "//Oscillator/Tuning 2")
 			(pintype "passive")
 			(uuid "7c21ba58-2832-4456-bc0b-50cd887e3c2a")
 		)
@@ -12586,7 +12586,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "596e67b9-c775-4e22-b100-70cca72f7a12")
-		(at 145.635 75.885)
+		(at -67.775 79.085)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C2"
@@ -12766,7 +12766,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "59e9254d-c736-4cb5-bca9-fed3795a7a00")
-		(at 156.405 110.725)
+		(at -57.005 113.925)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R57"
@@ -12918,7 +12918,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "5b5053bf-a86f-4d66-bb3a-66c8db446ce5")
-		(at 91.155 32.625)
+		(at -122.255 35.825)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV2"
@@ -13267,7 +13267,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5ec0fc7d-279e-4b90-88c4-9e0aaf9f6873")
-		(at 21.575 152.825)
+		(at -191.835 156.025)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R49"
@@ -13487,7 +13487,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "60279890-71f4-45de-b300-80dc776b3596")
-		(at 51.545 139.275)
+		(at -161.865 142.475)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -13639,7 +13639,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "67cdb08d-cc1b-444d-a3aa-0c2932223c58")
-		(at 124.425 128.625)
+		(at -88.985 131.825)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R61"
@@ -13859,7 +13859,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "698a5489-a1e5-48eb-b4d9-80b769875e70")
-		(at 21.225 109.175)
+		(at -192.185 112.375)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -14011,7 +14011,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "69c166b2-2335-484e-8044-97fa3613801d")
-		(at 57.105 136.175)
+		(at -156.305 139.375)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C4"
@@ -14191,7 +14191,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "69ce46e3-8f24-4dd8-968e-e096530a124a")
-		(at 43.135 115.855)
+		(at -170.275 119.055)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U8"
@@ -14412,7 +14412,7 @@
 			)
 		)
 		(point
-			(at 46.945 123.475)
+			(at -166.465 126.675)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "4ba59dbb-3822-4184-9abf-525df971a243")
@@ -14584,7 +14584,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "6a742355-7bcb-4f85-b741-aaa0de7cf02e")
-		(at 91.155 46.875)
+		(at -122.255 50.075)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV5"
@@ -14933,7 +14933,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "6d05dbbc-1555-4676-9ca7-08b920f1a91f")
-		(at 67.995 133.255)
+		(at -145.415 136.455)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q5"
@@ -15198,7 +15198,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "6e87ca3d-89f4-4d7e-a646-6c7f40e36094")
-		(at 113.955 129.375)
+		(at -99.455 132.575)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C9"
@@ -15378,7 +15378,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "70966a87-8bc1-4a3d-897f-b80f6d67e438")
-		(at 23.675 109.175)
+		(at -189.735 112.375)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C26"
@@ -15530,7 +15530,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "71a70965-89ad-462b-83f1-b06e8ec53949")
-		(at 156.405 112.475)
+		(at -57.005 115.675)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R58"
@@ -15682,7 +15682,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "72dab414-8fea-4ca1-a690-5634a7337df0")
-		(at 156.405 108.975)
+		(at -57.005 112.175)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R55"
@@ -15834,7 +15834,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "75d7dd4d-fb48-4101-9876-dd79c15be8f0")
-		(at 124.425 136.725)
+		(at -88.985 139.925)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R67"
@@ -16054,7 +16054,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "777e65af-295d-4b0c-8bb0-7032b00e9df6")
-		(at 26.125 102.175)
+		(at -187.285 105.375)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -16206,7 +16206,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7b3db7ef-be33-49fa-8c40-3dd689813bad")
-		(at 51.775 146.395)
+		(at -161.635 149.595)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -16364,13 +16364,13 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7dbd428f-f82a-4c78-9b8e-98d8cca58c36")
-		(at 145.335 67.535)
+		(at 226 78.1 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
-			(uuid "5e7653f5-0276-4254-bccf-e98ff125d278")
+			(uuid "3bb95718-ddbd-4453-a0b6-0396ec92ac35")
 			(effects
 				(font
 					(size 1 1)
@@ -16379,9 +16379,9 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
-			(uuid "ac518d1f-24f2-4447-bbf1-aeee89c02711")
+			(uuid "0ce76340-d4a4-4783-99d4-2c70ac3c8187")
 			(effects
 				(font
 					(size 1 1)
@@ -16390,10 +16390,10 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a60af110-5218-4784-8e66-18cdcb4c83a0")
+			(uuid "f122e0bf-33cc-41cf-9c15-9c7c33ee87c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16401,10 +16401,10 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06b43d7c-9126-41fb-9de0-3bbf441c1054")
+			(uuid "f484af9f-904c-4031-9239-1d777c38b67b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16412,7 +16412,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e907f156-3786-4ce3-a52d-495e9a4d65f5")
@@ -16424,7 +16424,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16437,7 +16437,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16472,6 +16472,16 @@
 			(uuid "1e412c69-3c67-4481-bcbb-3b080d1fd342")
 		)
 		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9f24925-d523-4b42-97cd-b09364962f79")
+		)
+		(fp_line
 			(start 2.29 -1.12)
 			(end 2.29 1.12)
 			(stroke
@@ -16500,16 +16510,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f0f21190-ce97-44d8-b674-af0e9267d8bc")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a9f24925-d523-4b42-97cd-b09364962f79")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -16544,6 +16544,16 @@
 			(uuid "1d3ee957-7ac6-413e-bb41-377efb38fa29")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "daaf7d10-10b0-46e9-b8e9-ac55515d1e08")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -16573,16 +16583,6 @@
 			(layer "F.Fab")
 			(uuid "9d4b9518-e38d-4013-a7b8-5152d16ed1e5")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "daaf7d10-10b0-46e9-b8e9-ac55515d1e08")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -16595,7 +16595,7 @@
 			(uuid "6f2892ee-8d1e-4cd9-8f18-8842dae98639")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "c4a31d33-b5a4-4fd6-b0b4-2dcf60d208f2")
 			(effects
@@ -16605,19 +16605,8 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.Fab")
-			(uuid "ac62d971-a268-4796-8229-e0c706a7d999")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "99992b20-6118-4e03-91b6-ba3345987a4b")
 			(effects
@@ -16627,20 +16616,31 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at 0 -1.8 90)
+			(layer "F.Fab")
+			(uuid "ac62d971-a268-4796-8229-e0c706a7d999")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "Net-(D1-K)")
+			(net "//Oscillator/Sch Inv In 1")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "03e6f334-bfe6-41a5-ab50-be97abc81a32")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -16666,7 +16666,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7dc48f24-36fd-4ca1-b484-dcf7503929b2")
-		(at 124.425 108.375)
+		(at -88.985 111.575)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R50"
@@ -16886,7 +16886,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e0a34d0-9f30-4ac4-9685-756727e392aa")
-		(at 67.585 123.925)
+		(at -145.825 127.125)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R34"
@@ -17106,7 +17106,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "7f995b8c-ec1c-47cc-bf12-a19a56f18e52")
-		(at 62.525 93.655)
+		(at -150.885 96.855)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U2"
@@ -17166,7 +17166,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/e5865e8d-837b-436d-9425-5f9ef48e4cda")
+		(path "/3595d40e-c9be-42e0-9258-ba109e26bf8a")
 		(sheetname "//")
 		(sheetfile "Electronic Trombone.kicad_sch")
 		(units
@@ -17327,7 +17327,7 @@
 			)
 		)
 		(point
-			(at 66.335 101.275)
+			(at -147.075 104.475)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "f2ff3b98-d0c6-48f9-84db-5dc67dae9896")
@@ -17499,7 +17499,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "80d2fc59-c79a-435f-a58d-e3263c07338a")
-		(at 146.165 126.695)
+		(at -67.245 129.895)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R60"
@@ -17657,7 +17657,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "824f62c8-9ef7-4ca8-a635-10f65f8fe764")
-		(at 113.655 93.675)
+		(at -99.755 96.875)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D12"
@@ -17959,7 +17959,7 @@
 	(footprint "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
 		(layer "F.Cu")
 		(uuid "84c62f39-ace0-423b-9b83-64c106404ba1")
-		(at 33.045 142.975)
+		(at -180.365 146.175)
 		(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
 		(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 5mm Capacitor")
 		(property "Reference" "C6"
@@ -18139,7 +18139,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "84dd0fcf-c5e0-487a-b40b-ec2b2966b4ec")
-		(at 156.405 115.975)
+		(at -57.005 119.175)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R63"
@@ -18291,7 +18291,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "85cf2944-0654-4df6-9a8a-ccf2624b0daa")
-		(at 135.205 108.405)
+		(at -78.205 111.605)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U9"
@@ -18351,7 +18351,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/77fe3443-32fb-46cd-8502-6f8d1ae6ff63/ff1320d4-f41d-456c-82ad-ae545ce15179")
+		(path "/77fe3443-32fb-46cd-8502-6f8d1ae6ff63/e9676ce4-c168-42a3-b550-81452b6d969a")
 		(sheetname "//Envelope Generator/")
 		(sheetfile "Envelope Generator.kicad_sch")
 		(units
@@ -18512,7 +18512,7 @@
 			)
 		)
 		(point
-			(at 139.015 116.025)
+			(at -74.395 119.225)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "124242cf-64b2-478c-ba1e-9e75d25f5193")
@@ -18684,7 +18684,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "85eee81d-62ec-42d1-8c73-1528d4b8db0f")
-		(at 91.155 27.875)
+		(at -122.255 31.075)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV1"
@@ -19033,7 +19033,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "875ed932-c84f-4287-8c3d-b81863aa1486")
-		(at 23.675 100.425)
+		(at -189.735 103.625)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -19185,7 +19185,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "88bc50b0-1744-4e2a-b794-b2eb882707fc")
-		(at 23.675 107.425)
+		(at -189.735 110.625)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C25"
@@ -19337,7 +19337,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "88bdc124-3cfb-485a-9342-ae5bbd8c24d7")
-		(at 113.655 118.525)
+		(at -99.755 121.725)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D19"
@@ -19639,7 +19639,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "8971f86a-c2d0-4b82-bcc5-30727b050824")
-		(at 23.675 105.675)
+		(at -189.735 108.875)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C24"
@@ -19791,7 +19791,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "89ad6d5d-0930-400e-afbb-4319d6219028")
-		(at 51.545 137.525)
+		(at -161.865 140.725)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R40"
@@ -19943,13 +19943,13 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8f33038f-caf8-451f-869e-6e517282233e")
-		(at 145.335 71.085)
+		(at 244.4 90.8 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 -2.12 0)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
-			(uuid "278df78e-1006-4826-8674-8cb7cf06edd5")
+			(uuid "076f6187-90fd-4a56-9d53-784718cd7f99")
 			(effects
 				(font
 					(size 1 1)
@@ -19958,9 +19958,9 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
-			(uuid "eb4645af-5e9d-4363-88ca-a31ac8b9b1c3")
+			(uuid "4f99d706-2547-4da2-baa5-cebbe35a4f31")
 			(effects
 				(font
 					(size 1 1)
@@ -19969,10 +19969,10 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be8619d8-8706-48e5-8fd3-03c2306b653c")
+			(uuid "a3beffed-5616-44a0-9f89-ed06ef8f24ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19980,10 +19980,10 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df955ce2-b726-45c1-9efa-46754436b395")
+			(uuid "0724d453-348f-455c-bb72-69a3712a02ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19991,7 +19991,7 @@
 			)
 		)
 		(property "KiLib_Generator" "diode/THT"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "207a052a-1304-4fdd-86f9-dbde08b3dc99")
@@ -20003,7 +20003,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20016,7 +20016,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20051,6 +20051,16 @@
 			(uuid "b9127968-6d7d-4338-b1f9-75ef8a59b622")
 		)
 		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a993aac6-f332-4498-a03f-aac622ff0e76")
+		)
+		(fp_line
 			(start 2.29 -1.12)
 			(end 2.29 1.12)
 			(stroke
@@ -20079,16 +20089,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "77b5fcdd-bed2-40eb-b7ea-0ec60b6d0eb1")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a993aac6-f332-4498-a03f-aac622ff0e76")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -20123,6 +20123,16 @@
 			(uuid "b73e49e1-963b-4ca7-84aa-7ad90899985e")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7835a373-6252-4bd7-b329-522054822745")
+		)
+		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -20152,16 +20162,6 @@
 			(layer "F.Fab")
 			(uuid "22d7e56d-2dea-4281-9500-d3f4c55c48d6")
 		)
-		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7835a373-6252-4bd7-b329-522054822745")
-		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -20174,7 +20174,7 @@
 			(uuid "3b85a481-40ef-44c9-9f54-c29ffb76125c")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "214e624b-98cb-456c-b57b-78ddfbb472b3")
 			(effects
@@ -20184,19 +20184,8 @@
 				)
 			)
 		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.Fab")
-			(uuid "5acd262f-f1ad-4fea-8dc2-d3e88db4996e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 0)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "ee4edd34-76aa-488e-a73a-c999e8c9b17e")
 			(effects
@@ -20206,20 +20195,31 @@
 				)
 			)
 		)
+		(fp_text user "K"
+			(at 0 -1.8 90)
+			(layer "F.Fab")
+			(uuid "5acd262f-f1ad-4fea-8dc2-d3e88db4996e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.15625)
-			(net "Net-(D2-K)")
+			(net "//Oscillator/Sch Inv In 2")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "bc1d0b07-dfff-4c31-b31d-1e144f14d961")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -20245,7 +20245,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "909517c0-0e3f-4a55-be2b-cc3c9d91dc32")
-		(at 156.405 117.725)
+		(at -57.005 120.925)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R64"
@@ -20397,7 +20397,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "92ad83a9-5b84-476e-8d08-ed88d1ab36e9")
-		(at 26.125 105.675)
+		(at -187.285 108.875)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -20549,7 +20549,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "93982702-0cac-44e8-9b24-20e9b91ec8b1")
-		(at 21.225 105.675)
+		(at -192.185 108.875)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C16"
@@ -20701,7 +20701,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9524211d-dce3-423e-8b1a-a90ee2f0a2d7")
-		(at 124.425 112.425)
+		(at -88.985 115.625)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R51"
@@ -20921,7 +20921,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "9593971b-fd3c-42fc-936b-408c4d6b628f")
-		(at 116.355 58.925)
+		(at -97.055 62.125)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH4"
@@ -21141,7 +21141,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "9774940e-c739-4333-bfb4-395d93e59495")
-		(at 73.745 136.125)
+		(at -139.665 139.325)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R36"
@@ -21293,9 +21293,9 @@
 	(footprint "Header 691137710003:691137710003"
 		(layer "F.Cu")
 		(uuid "99c739f2-7bcd-482a-9032-c21944789753")
-		(at 101.41 86.8)
+		(at 196.25 142.25 -90)
 		(property "Reference" "J2"
-			(at 0 -5.135 0)
+			(at 0 -5.135 90)
 			(layer "F.SilkS")
 			(uuid "b35cd141-c3cb-48e9-9e05-df6476afac10")
 			(effects
@@ -21306,7 +21306,7 @@
 			)
 		)
 		(property "Value" "691137710003"
-			(at 4.12 5.365 0)
+			(at 4.12 5.365 90)
 			(layer "F.Fab")
 			(uuid "97bcc3a7-f1b7-4e90-8fc4-2277ccd0f720")
 			(effects
@@ -21317,7 +21317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9cf9db7-5313-4de2-a886-d5728345834f")
@@ -21328,7 +21328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "901c6470-f53e-4fbe-b683-08608cd79d0f")
@@ -21350,16 +21350,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -7.6 -3.6)
-			(end 7.6 -3.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4b1a98fa-29c1-4809-b365-d5d421a5a46b")
-		)
-		(fp_line
 			(start -7.6 4.1)
 			(end -7.6 -3.6)
 			(stroke
@@ -21370,16 +21360,6 @@
 			(uuid "cf2233e7-9ed4-4158-aea9-eed0e74d1a8c")
 		)
 		(fp_line
-			(start 7.6 -3.6)
-			(end 7.6 4.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6addc624-4813-43c6-adc9-92330478d290")
-		)
-		(fp_line
 			(start 7.6 4.1)
 			(end -7.6 4.1)
 			(stroke
@@ -21388,6 +21368,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "dbc401cb-d262-40aa-bd52-1d8b434816c8")
+		)
+		(fp_line
+			(start -7.6 -3.6)
+			(end 7.6 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b1a98fa-29c1-4809-b365-d5d421a5a46b")
+		)
+		(fp_line
+			(start 7.6 -3.6)
+			(end 7.6 4.1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6addc624-4813-43c6-adc9-92330478d290")
 		)
 		(fp_poly
 			(pts
@@ -21402,16 +21402,6 @@
 			(uuid "359aafb1-386b-4d0d-89f6-9479832a7712")
 		)
 		(fp_line
-			(start -7.5 -3.5)
-			(end 7.5 -3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d725aeb6-019c-41ba-8808-b4d83210e691")
-		)
-		(fp_line
 			(start -7.5 4)
 			(end -7.5 -3.5)
 			(stroke
@@ -21422,16 +21412,6 @@
 			(uuid "ce15b5a8-dbe9-48a6-b102-bc7df3ea8ea7")
 		)
 		(fp_line
-			(start 7.5 -3.5)
-			(end 7.5 4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8c3be14f-9c64-404e-9d5e-1dc40c1d736d")
-		)
-		(fp_line
 			(start 7.5 4)
 			(end -7.5 4)
 			(stroke
@@ -21440,6 +21420,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "74dfd77f-e953-4fef-bc31-0a38aa8c5801")
+		)
+		(fp_line
+			(start -7.5 -3.5)
+			(end 7.5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d725aeb6-019c-41ba-8808-b4d83210e691")
+		)
+		(fp_line
+			(start 7.5 -3.5)
+			(end 7.5 4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c3be14f-9c64-404e-9d5e-1dc40c1d736d")
 		)
 		(fp_circle
 			(center -6.3 -1.9)
@@ -21453,34 +21453,34 @@
 			(uuid "37e4c7a6-9e8f-4475-b9bb-243c49fe8712")
 		)
 		(pad "1" thru_hole circle
-			(at -5 0)
+			(at -5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S0)")
+			(net "//Trigger 1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "d619e75f-1339-49d0-b217-7cc94f250d50")
 		)
 		(pad "2" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S1)")
+			(net "//Trigger 2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "5c173e72-44cc-4a71-bfc3-cce5146cc3b5")
 		)
 		(pad "3" thru_hole circle
-			(at 5 0)
+			(at 5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U1-S2)")
+			(net "//Trigger 3")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "734df0ba-bb49-417f-9419-138f40746416")
@@ -21490,7 +21490,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "99c7cfef-d9f4-44fa-8d1a-206cc7c53f6b")
-		(at 116.355 78.025)
+		(at -97.055 81.225)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH6"
@@ -21710,7 +21710,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "9b342a67-9d65-4a28-82b9-10038204558b")
-		(at 24.3246 88.475605)
+		(at -189.0854 91.675605)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW1"
 			(at 2.5 2.499995 0)
@@ -21983,7 +21983,7 @@
 	(footprint "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 		(layer "F.Cu")
 		(uuid "9ea766ab-1535-4141-a424-e9712a06bda4")
-		(at 150.66 36.15)
+		(at -62.75 39.35)
 		(property "Reference" "RV10"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -22160,7 +22160,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9f938536-a111-484a-b2c4-26f176f5850d")
-		(at 113.655 104.325)
+		(at -99.755 107.525)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
@@ -22462,7 +22462,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a1187dfb-2563-4ce1-91b1-dfa46edcaad6")
-		(at 67.585 127.975)
+		(at -145.825 131.175)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R35"
@@ -22682,7 +22682,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a37ba250-a00d-4d44-8a7f-ee6c7d0ab651")
-		(at 21.225 103.925)
+		(at -192.185 107.125)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -22834,7 +22834,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "a3f12350-f36d-462f-b26e-89c12ba47b3f")
-		(at 56.815 115.855)
+		(at -156.595 119.055)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U6"
@@ -23055,7 +23055,7 @@
 			)
 		)
 		(point
-			(at 60.625 123.475)
+			(at -152.785 126.675)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "cc13857e-d7f6-46cd-865a-fc8164988222")
@@ -23227,7 +23227,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a4c9f723-ce1c-4b89-aec4-9421e124a352")
-		(at 124.425 132.675)
+		(at -88.985 135.875)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R62"
@@ -23447,13 +23447,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a522a0b9-2572-4125-969c-f48dc74785cd")
-		(at 137.635 71.885)
+		(at 217.4 80.92 90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
-			(uuid "c41a0967-f66d-4727-ac74-6b31717a372d")
+			(uuid "67d0d398-dcc6-494a-b293-16f23a6bf9a1")
 			(effects
 				(font
 					(size 1 1)
@@ -23462,9 +23462,9 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "21116872-4081-4dea-8630-3295a5f23ee8")
+			(uuid "9dcbb1ba-3539-4304-8b5e-63c229b33151")
 			(effects
 				(font
 					(size 1 1)
@@ -23473,10 +23473,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9901bfe7-3f0a-4a35-af1d-ff151ae82b09")
+			(uuid "42cb750b-ef99-4b6c-b6b0-46c88275030f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23484,10 +23484,10 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c266e4a0-f20b-4c35-8c2d-1177ff206f99")
+			(uuid "89235e63-c024-446b-8896-2c7175ca5879")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23495,7 +23495,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "524d0343-9ffd-4b71-ad0e-0ea40c03c249")
@@ -23541,7 +23541,7 @@
 			(uuid "6f4c1f9d-96d2-4b30-b4ad-f764359a56df")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "851c5534-6be7-4734-a4b8-16d2daf6f8a6")
 			(effects
@@ -23552,21 +23552,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "76237d61-fa41-4244-aa1b-f1bf72a32379")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 90)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "a6874f43-da19-4f75-9794-092b22ae1370")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23575,7 +23575,7 @@
 			(uuid "788995f6-9d48-4351-bcd1-09bbbd4b06e2")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 90)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -23599,7 +23599,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a7c99f9f-90ae-415e-9b02-9d2ac45c7aed")
-		(at 21.575 140.675)
+		(at -191.835 143.875)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R41"
@@ -23819,13 +23819,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "a7e53003-babf-4365-ab8f-13915dc9555f")
-		(at 127.615 46.125)
+		(at 252.6 90.8 -90)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "4ae98ee0-6c8f-41b7-a69e-a95a3c3940b0")
+			(uuid "0ec894c0-36c6-4e45-a0bf-6883fd5f6c9d")
 			(effects
 				(font
 					(size 1 1)
@@ -23834,9 +23834,9 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 1.27 2.79 0)
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
-			(uuid "4d7d5db2-62fe-45f2-b47f-62893305da83")
+			(uuid "b2be7def-13ec-4464-b958-eb4ab901d60b")
 			(effects
 				(font
 					(size 1 1)
@@ -23845,11 +23845,11 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0f4237f3-026e-4398-a171-76dd0a2ee5d9")
+			(uuid "6c71ad6a-c84f-4aaf-9755-915bd06b26c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23858,11 +23858,11 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92b07c44-0678-49ad-a329-2c9029d533cd")
+			(uuid "2b728e54-313e-4d60-beac-965e043c5132")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23871,7 +23871,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23884,7 +23884,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23897,7 +23897,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23953,26 +23953,6 @@
 			(uuid "88f0a9bd-999a-4c02-ac98-d04a8167e343")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "aacb48d0-083b-4a1e-a7f1-eba548bb43cf")
-		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7edaa16c-9923-4c9c-998a-6694a58db820")
-		)
-		(fp_line
 			(start 4 2.01)
 			(end -1.46 2.01)
 			(stroke
@@ -23991,6 +23971,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "e84d1aa4-5a56-42af-aba0-d4fc35e1ea22")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aacb48d0-083b-4a1e-a7f1-eba548bb43cf")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end 4 -2.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7edaa16c-9923-4c9c-998a-6694a58db820")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -24025,7 +24025,7 @@
 			(uuid "a87f4b03-4717-4655-ba06-2de5a41cc11d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 0)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "9c962314-482d-4e16-9b22-9e2001caef88")
 			(effects
@@ -24036,7 +24036,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -24047,7 +24047,7 @@
 			(uuid "d5129d81-670b-470c-bd01-cc62c09e3dca")
 		)
 		(pad "2" thru_hole circle
-			(at 1.27 -1.27)
+			(at 1.27 -1.27 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -24058,7 +24058,7 @@
 			(uuid "52a55bf6-82dc-4eb7-9f5e-71ff7d91d56b")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -24084,7 +24084,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "a86edc8f-506a-4db1-8614-47f24c4d41da")
-		(at 91.155 37.375)
+		(at -122.255 40.575)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV3"
@@ -24433,7 +24433,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "aa273fb3-93ee-4a79-b1eb-7bba054f8642")
-		(at 28.575 103.925)
+		(at -184.835 107.125)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R71"
@@ -24585,7 +24585,7 @@
 	(footprint "Header 691137710003:691137710003"
 		(layer "F.Cu")
 		(uuid "b0830a50-1d8e-42e9-a350-6eb9691b5166")
-		(at 101.41 95.9)
+		(at -112 99.1)
 		(property "Reference" "J3"
 			(at 0 -5.135 0)
 			(layer "F.SilkS")
@@ -24782,7 +24782,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b1754fb7-64d2-4480-a7cf-2d6cc0c8729f")
-		(at 21.575 115.575)
+		(at -191.835 118.775)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
@@ -25084,7 +25084,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b1b29876-62c3-4917-9195-1c019760e791")
-		(at 142.535 70.135)
+		(at -70.875 73.335)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
@@ -25236,7 +25236,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b2a31208-fa17-4ddf-8fb6-6208099e4bfb")
-		(at 137.635 66.635)
+		(at -75.775 69.835)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -25388,7 +25388,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b66550b4-a0ff-452a-9111-48de7cf47ad8")
-		(at 26.125 100.425)
+		(at -187.285 103.625)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -25540,7 +25540,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b6d4bab1-5c74-47ff-a7c4-4db9ff35f9c5")
-		(at 28.575 105.675)
+		(at -184.835 108.875)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R72"
@@ -25692,9 +25692,9 @@
 	(footprint "Header 691137710004:691137710004"
 		(layer "F.Cu")
 		(uuid "b6e4d1af-d00f-49e2-b117-1c6c84e7e768")
-		(at 71.74 86.8)
+		(at 196 98.5 -90)
 		(property "Reference" "J1"
-			(at 0 -4.935 0)
+			(at 0 -4.935 90)
 			(layer "F.SilkS")
 			(uuid "5b28fb78-4365-4f31-8b88-1ad5d6f3a79c")
 			(effects
@@ -25705,7 +25705,7 @@
 			)
 		)
 		(property "Value" "691137710004"
-			(at 4.12 5.365 0)
+			(at 4.12 5.365 90)
 			(layer "F.Fab")
 			(uuid "ca65856e-411d-4f34-88f6-5fcd69b4e63f")
 			(effects
@@ -25716,7 +25716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f2beb22-23d3-478b-b78b-982f98ace003")
@@ -25727,7 +25727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b2f9367-23fd-4153-97bd-8f79e4b952cf")
@@ -25749,16 +25749,6 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -10.1 -3.6)
-			(end 10.1 -3.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a37b4289-2d61-43dc-9124-92cdfedf9304")
-		)
-		(fp_line
 			(start -10.1 4.1)
 			(end -10.1 -3.6)
 			(stroke
@@ -25769,16 +25759,6 @@
 			(uuid "af1b8922-6e58-455c-b199-44f2e85e7e66")
 		)
 		(fp_line
-			(start 10.1 -3.6)
-			(end 10.1 4.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cdefb64a-a9d6-4eb8-8660-b20dca2fa3c0")
-		)
-		(fp_line
 			(start 10.1 4.1)
 			(end -10.1 4.1)
 			(stroke
@@ -25787,6 +25767,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "79e0f39f-c574-40fe-a4ef-e0696553ee27")
+		)
+		(fp_line
+			(start -10.1 -3.6)
+			(end 10.1 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a37b4289-2d61-43dc-9124-92cdfedf9304")
+		)
+		(fp_line
+			(start 10.1 -3.6)
+			(end 10.1 4.1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdefb64a-a9d6-4eb8-8660-b20dca2fa3c0")
 		)
 		(fp_circle
 			(center -8.3 -1.7)
@@ -25812,16 +25812,6 @@
 			(uuid "534f31e5-a031-4fb9-bda9-07e6b023670b")
 		)
 		(fp_line
-			(start -10 -3.5)
-			(end 10 -3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fc0537d4-d890-47aa-98a8-28a98a8c974b")
-		)
-		(fp_line
 			(start -10 4)
 			(end -10 -3.5)
 			(stroke
@@ -25830,16 +25820,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "9c3b9d20-6923-4dff-855b-3b450ee01fb3")
-		)
-		(fp_line
-			(start 10 -3.5)
-			(end 10 4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "442a2edd-569f-46df-875b-7a14019aa7b5")
 		)
 		(fp_line
 			(start 10 4)
@@ -25851,8 +25831,28 @@
 			(layer "F.Fab")
 			(uuid "308cb25c-427e-4696-8da2-4cbe2b1cb26f")
 		)
+		(fp_line
+			(start -10 -3.5)
+			(end 10 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc0537d4-d890-47aa-98a8-28a98a8c974b")
+		)
+		(fp_line
+			(start 10 -3.5)
+			(end 10 4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "442a2edd-569f-46df-875b-7a14019aa7b5")
+		)
 		(pad "1" thru_hole circle
-			(at -7.5 0)
+			(at -7.5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -25863,7 +25863,7 @@
 			(uuid "76a2abd3-42a1-4f72-9949-bdc222539b47")
 		)
 		(pad "2" thru_hole circle
-			(at -2.5 0)
+			(at -2.5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -25874,7 +25874,7 @@
 			(uuid "ff2f51fc-6430-479e-9b0e-e823d7e694e8")
 		)
 		(pad "3" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -25885,7 +25885,7 @@
 			(uuid "d6c71508-c29c-444f-a15b-876e7315c714")
 		)
 		(pad "4" thru_hole circle
-			(at 7.5 0)
+			(at 7.5 0 270)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -25900,13 +25900,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "bbaefb22-f6de-45ef-9bc2-9fe50148956d")
-		(at 127.615 40.335)
+		(at 247.8 90.8 -90)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "06b13e60-86ce-4fee-8317-23cb010fc2fd")
+			(uuid "fccfa1b6-c891-40a9-96d7-e8ad18a85862")
 			(effects
 				(font
 					(size 1 1)
@@ -25915,9 +25915,9 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 1.27 2.79 0)
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
-			(uuid "031c56bd-81c5-4c28-b5c2-cd4438a6bfd9")
+			(uuid "aa646826-eec1-4ffd-ae76-0f25df8af484")
 			(effects
 				(font
 					(size 1 1)
@@ -25926,11 +25926,11 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "addb9dc1-7083-4818-9ab0-bdb9d46102eb")
+			(uuid "5c578ce1-c2bf-41ff-a9df-f5b8a3aaebf9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25939,11 +25939,11 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3055037b-ef44-4a20-b202-47f14fa10d86")
+			(uuid "91d79fc8-17e5-4da3-a391-9b3853b9952c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25952,7 +25952,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25965,7 +25965,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -25978,7 +25978,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -26034,26 +26034,6 @@
 			(uuid "1fdaf584-f40b-46a3-a922-0e8dcd737063")
 		)
 		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2ccebd56-83c3-4984-9347-3b77e6a356f2")
-		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end 4 -2.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2cb6f67b-f9db-4fe0-a775-2fefa887c0b7")
-		)
-		(fp_line
 			(start 4 2.01)
 			(end -1.46 2.01)
 			(stroke
@@ -26072,6 +26052,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "4d74b1ef-cce9-4c90-88a2-7fd78f23afe5")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2ccebd56-83c3-4984-9347-3b77e6a356f2")
+		)
+		(fp_line
+			(start -1.46 -2.73)
+			(end 4 -2.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2cb6f67b-f9db-4fe0-a775-2fefa887c0b7")
 		)
 		(fp_line
 			(start -0.5 1.75)
@@ -26106,7 +26106,7 @@
 			(uuid "c1f00aa9-d911-4309-bd44-d4fc9f865f49")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 0)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "d73cc536-86d5-40cf-b384-46c4b4a8c5a1")
 			(effects
@@ -26117,18 +26117,18 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-K)")
+			(net "//Oscillator/Sch Inv In 2")
 			(pinfunction "C_1")
 			(pintype "open_collector")
 			(uuid "69c16641-66b1-440e-8cc9-b60afa790e43")
 		)
 		(pad "2" thru_hole circle
-			(at 1.27 -1.27)
+			(at 1.27 -1.27 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -26139,7 +26139,7 @@
 			(uuid "8f359f3e-8572-4558-8e80-5dbaf99281e0")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 270)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -26165,13 +26165,13 @@
 	(footprint "Schmitt Inv. CD40106BE:N14"
 		(layer "F.Cu")
 		(uuid "be50d717-8dc4-4dda-945b-1b50ddaa5d48")
-		(at 141.2379 43.7927)
+		(at 239 93.14)
 		(tags "CD40106BE ")
 		(property "Reference" "U4"
 			(at -3.81 -7.62 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "63b5065c-9f37-42b6-a2b3-efc7ae7450bd")
+			(uuid "9920031a-3270-40dd-83af-8fee226a7780")
 			(effects
 				(font
 					(size 1 1)
@@ -26183,7 +26183,7 @@
 			(at -3.81 -7.62 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "55a00be3-4d71-4dde-a583-6bd06809885a")
+			(uuid "56673368-1955-465e-a008-1e27779bad09")
 			(effects
 				(font
 					(size 1 1)
@@ -26195,7 +26195,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79a277b8-526d-4e02-af3d-928ad9d3f95c")
+			(uuid "026ecd8c-39e2-4293-bc9c-bc7a68d3c15f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26206,7 +26206,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92588088-9c73-43fd-9104-a3e05225c856")
+			(uuid "fba3105f-c532-4240-938c-9d171177c56e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27155,7 +27155,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "//Oscillator/Sch Inv In 1")
 			(pintype "input")
 			(uuid "2644456e-ffd3-4385-b517-a78617c04732")
 		)
@@ -27236,7 +27236,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-K)")
+			(net "//Oscillator/Sch Inv In 2")
 			(pintype "input")
 			(uuid "9974f479-4d89-4d56-9628-52e25437f13b")
 		)
@@ -27296,7 +27296,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c02a6a7c-43d7-4034-b491-76231b1904c9")
-		(at 23.675 103.925)
+		(at -189.735 107.125)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C23"
@@ -27448,7 +27448,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c2d3ba8b-de23-4021-ac46-575f0e3ff2a4")
-		(at 28.575 102.175)
+		(at -184.835 105.375)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R70"
@@ -27600,7 +27600,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c37ffe1d-1a50-4f80-92a3-96d7d0751cfa")
-		(at 21.225 102.175)
+		(at -192.185 105.375)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -27752,7 +27752,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c390119c-31b2-4e15-9150-e2e95bb710f6")
-		(at 95.705 31.575)
+		(at -117.705 34.775)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
@@ -27972,7 +27972,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c4e6bae7-410a-43a1-9f7b-cf3eb19cd5ad")
-		(at 23.675 102.175)
+		(at -189.735 105.375)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -28124,7 +28124,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "c53d3f81-fd4c-4a32-be1d-a828f917601b")
-		(at 91.155 42.125)
+		(at -122.255 45.325)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV4"
@@ -28473,7 +28473,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c775bd07-dd4c-4e39-b2f8-5e5430858ec9")
-		(at 140.085 66.635)
+		(at -73.325 69.835)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -28625,7 +28625,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c84c0314-bfdc-40e5-9497-7168edf4361c")
-		(at 95.705 39.675)
+		(at -117.705 42.875)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
@@ -28845,7 +28845,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "cd8becbb-7f77-4f52-9d15-b9dc53ede88b")
-		(at 51.545 135.775)
+		(at -161.865 138.975)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R38"
@@ -28997,7 +28997,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "cf4deef5-45c1-4bbb-82f2-3f518733fbe0")
-		(at 141.705 128.885)
+		(at -71.705 132.085)
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV12"
@@ -29260,7 +29260,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d2549060-720e-4f46-84ff-6b57f89299ad")
-		(at 67.585 115.825)
+		(at -145.825 119.025)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R31"
@@ -29480,13 +29480,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d2851124-0a30-4810-86b7-74b6e68c93ac")
-		(at 142.535 66.635)
+		(at 250.6 87.2 -90)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
-			(at 0 -1.05 0)
+			(at 0 -1.05 90)
 			(layer "F.SilkS")
-			(uuid "17d54071-66c6-41c2-924b-c3c2227e0ad5")
+			(uuid "8b94c736-664f-4de1-835b-c22455c5de5a")
 			(effects
 				(font
 					(size 1 1)
@@ -29495,9 +29495,9 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.05 0)
+			(at 0 1.05 90)
 			(layer "F.Fab")
-			(uuid "43fde3ed-eaac-4242-8371-fb23d4cd83ce")
+			(uuid "301d2d13-a177-4dd8-88cf-2f066a4bb13d")
 			(effects
 				(font
 					(size 1 1)
@@ -29506,10 +29506,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e62444e-9a07-43cf-823b-335692f7a017")
+			(uuid "55ced8de-20f8-4c7f-aa0f-b54218b40fcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,10 +29517,10 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85ae8b08-51b8-4e3e-ba18-740c4bad31e9")
+			(uuid "c48fcbd1-ce15-46d0-8656-f4b0eefb7d1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29528,7 +29528,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fb6b6e07-4f00-4c92-ba1d-6161f6d21410")
@@ -29574,7 +29574,7 @@
 			(uuid "6b0c9786-3435-46d3-bd4b-7a48afaf9395")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 0)
+			(at 0 -0.68 90)
 			(layer "F.Fab")
 			(uuid "19b5fb24-d947-4b39-b0e0-01f4c2ffd477")
 			(effects
@@ -29585,21 +29585,21 @@
 			)
 		)
 		(pad "" smd roundrect
-			(at -0.345 0)
+			(at -0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "545d2cc3-b7b2-4f12-82cd-a8df6788da26")
 		)
 		(pad "" smd roundrect
-			(at 0.345 0)
+			(at 0.345 0 270)
 			(size 0.318 0.36)
 			(layers "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "26c439cb-a2e8-4682-b1c5-58e2304a80bb")
 		)
 		(pad "1" smd roundrect
-			(at -0.32 0)
+			(at -0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -29608,7 +29608,7 @@
 			(uuid "cf0c730b-aac0-423e-9de0-8efa7dc00a95")
 		)
 		(pad "2" smd roundrect
-			(at 0.32 0)
+			(at 0.32 0 270)
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -29632,13 +29632,13 @@
 	(footprint "Battery Holder BC9VPC:BC9VPC_MPD"
 		(layer "F.Cu")
 		(uuid "d49906a0-45fa-429f-8713-68d478154b6b")
-		(at 31.5998 28.54)
+		(at 58.9958 96.3332)
 		(tags "BC9VPC ")
 		(property "Reference" "B1"
 			(at 6.5024 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c173a53f-db0a-446f-96f5-3967473a613b")
+			(uuid "e1c7f099-6253-4342-aa8e-a234c740480f")
 			(effects
 				(font
 					(size 1 1)
@@ -29650,7 +29650,7 @@
 			(at 6.5024 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "254fc4b4-46cb-490e-91ed-60078655d7e0")
+			(uuid "eaeba0fe-91cb-4b3a-a640-abb080885aa9")
 			(effects
 				(font
 					(size 1 1)
@@ -29662,7 +29662,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f4d25b98-9537-4489-9262-1ea3f89dea02")
+			(uuid "c88d9539-0abd-4cf3-aed7-eff6be555337")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29673,7 +29673,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "251012cc-3256-4b06-8c87-838190a90ebc")
+			(uuid "02f71476-8d67-4e19-a99a-4ee770c59e30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29903,7 +29903,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d4fe168e-c2c3-42f9-86ad-44c613d61314")
-		(at 113.655 100.775)
+		(at -99.755 103.975)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
@@ -30205,7 +30205,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "d6896d23-06b0-44bc-97fd-fe2dc0883c2f")
-		(at 154.515 76.625)
+		(at -58.895 79.825)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
@@ -30363,7 +30363,7 @@
 	(footprint "Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4"
 		(layer "F.Cu")
 		(uuid "d84528fe-d3d0-4dd0-9447-70819e81d05d")
-		(at 125.625 95.575)
+		(at -87.785 98.775)
 		(descr "C, Rect series, Radial, pin pitch=27.50mm, length*width=31.5*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf")
 		(tags "C Rect series Radial pin pitch 27.50mm length 31.5mm width 20mm Capacitor")
 		(property "Reference" "C10"
@@ -30543,7 +30543,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "d9c1d44f-0ba2-439b-9229-c50450e419e0")
-		(at 23.675 98.675)
+		(at -189.735 101.875)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C20"
@@ -30695,7 +30695,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "db2e6f68-acce-44d4-8815-e8ba7add7116")
-		(at 113.655 107.875)
+		(at -99.755 111.075)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D16"
@@ -30997,7 +30997,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "db53dd97-b1de-451a-8051-e8f4230c9b66")
-		(at 28.575 100.425)
+		(at -184.835 103.625)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R69"
@@ -31149,7 +31149,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "dd87521b-fa01-4d92-bfe4-b8f09e470445")
-		(at 28.575 98.675)
+		(at -184.835 101.875)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R68"
@@ -31301,7 +31301,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "ddabe9d6-8d0d-48b6-accb-b9204b0856c4")
-		(at 140.085 73.635)
+		(at -73.325 76.835)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -31453,13 +31453,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "de1a50b9-3b00-4003-8a7a-c841555e6fc9")
-		(at 127.615 28.755)
+		(at 222.6 78.54 90)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "313b29af-458e-4666-a45e-d01a741712d6")
+			(uuid "0be0600e-eed7-4d64-8b81-23f2d4ea69a1")
 			(effects
 				(font
 					(size 1 1)
@@ -31468,9 +31468,9 @@
 			)
 		)
 		(property "Value" "NPN"
-			(at 1.27 2.79 0)
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
-			(uuid "c5c5174b-5401-4aa4-b538-9eb903fb469b")
+			(uuid "74f0e6c6-8167-4224-80ef-bd470fc95e11")
 			(effects
 				(font
 					(size 1 1)
@@ -31479,11 +31479,11 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9cc0f1ab-d622-4275-b6cc-b160cc0988e4")
+			(uuid "dfb13a32-4260-40a2-810f-19f32a0e4edf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31492,11 +31492,11 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "035f2f59-d90a-4b9d-8c3d-2c3558f4dea4")
+			(uuid "c38560ba-c141-44d7-bc0a-78f933c024c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31505,7 +31505,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31518,7 +31518,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31531,7 +31531,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -31565,17 +31565,6 @@
 			(uuid "86e564b7-7685-40d3-b710-ff3ff5e17f93")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f5b8f73c-b222-4c9f-9b38-19550ff760d6")
-		)
-		(fp_arc
 			(start 1.27 -2.6)
 			(mid 3.672087 -0.994977)
 			(end 3.108478 1.838478)
@@ -31586,15 +31575,16 @@
 			(layer "F.SilkS")
 			(uuid "71d9dd63-6764-4409-bc75-6307fdb586f0")
 		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+		(fp_arc
+			(start -0.568478 1.838478)
+			(mid -1.132087 -0.994977)
+			(end 1.27 -2.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "0a2f61c7-2971-47c4-82c8-03f90038e7cc")
+			(layer "F.SilkS")
+			(uuid "f5b8f73c-b222-4c9f-9b38-19550ff760d6")
 		)
 		(fp_line
 			(start -1.46 -2.73)
@@ -31607,14 +31597,14 @@
 			(uuid "ae6650b4-a089-492a-9b07-d1f50e6d8893")
 		)
 		(fp_line
-			(start 4 2.01)
+			(start -1.46 -2.73)
 			(end -1.46 2.01)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a3ea723e-cb8c-426b-930b-25fc739f5c4a")
+			(uuid "0a2f61c7-2971-47c4-82c8-03f90038e7cc")
 		)
 		(fp_line
 			(start 4 2.01)
@@ -31627,6 +31617,16 @@
 			(uuid "9ef20fe7-cf69-442f-a857-89d8d9df4bfe")
 		)
 		(fp_line
+			(start 4 2.01)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a3ea723e-cb8c-426b-930b-25fc739f5c4a")
+		)
+		(fp_line
 			(start -0.5 1.75)
 			(end 3 1.75)
 			(stroke
@@ -31635,17 +31635,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "db2aedb4-ccaf-4af5-95e4-f99cbed4853e")
-		)
-		(fp_arc
-			(start -0.483625 1.753625)
-			(mid -1.021221 -0.949055)
-			(end 1.27 -2.48)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "18ea0b65-bb1d-4683-87e0-08c0312bd56a")
 		)
 		(fp_arc
 			(start 1.27 -2.48)
@@ -31658,8 +31647,19 @@
 			(layer "F.Fab")
 			(uuid "231acdcb-665b-404d-9c8d-1d37937f4646")
 		)
+		(fp_arc
+			(start -0.483625 1.753625)
+			(mid -1.021221 -0.949055)
+			(end 1.27 -2.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "18ea0b65-bb1d-4683-87e0-08c0312bd56a")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 0)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "1d2ed8dc-a4b8-4c23-af40-f9e551f85a6e")
 			(effects
@@ -31670,18 +31670,18 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "//Oscillator/Sch Inv In 1")
 			(pinfunction "C_1")
 			(pintype "open_collector")
 			(uuid "6fbdd260-95b6-4a7c-836f-c7eada4e8e17")
 		)
 		(pad "2" thru_hole circle
-			(at 1.27 -1.27)
+			(at 1.27 -1.27 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -31692,7 +31692,7 @@
 			(uuid "1eb63d12-9350-4ade-8bd4-f205a3cab328")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -31718,7 +31718,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "de944573-061e-418a-b4de-57b70f96aff4")
-		(at 26.125 107.425)
+		(at -187.285 110.625)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -31870,7 +31870,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "df1f5d27-bfaf-4498-8961-b5b09e22795f")
-		(at 21.575 148.775)
+		(at -191.835 151.975)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R48"
@@ -32090,7 +32090,7 @@
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "df2ffff0-2bb2-49dc-98d1-e49ac412fbb5")
-		(at 21.225 98.675)
+		(at -192.185 101.875)
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -32242,7 +32242,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dff376d8-044e-4883-b47e-be4477845bf1")
-		(at 21.575 133.325)
+		(at -191.835 136.525)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D8"
@@ -32544,13 +32544,13 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "e5b3c1f1-00d0-43c3-a93f-ad9b6d78fa31")
-		(at 127.615 34.545)
+		(at 217.8 78.54 90)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 1.27 -3.56 0)
+			(at 1.27 -3.56 90)
 			(layer "F.SilkS")
-			(uuid "26174dae-54f9-410d-9223-d2849a46403c")
+			(uuid "d5ddb59b-50af-4275-8454-c7c8ac78898c")
 			(effects
 				(font
 					(size 1 1)
@@ -32559,9 +32559,9 @@
 			)
 		)
 		(property "Value" "PNP"
-			(at 1.27 2.79 0)
+			(at 1.27 2.79 90)
 			(layer "F.Fab")
-			(uuid "08e2629d-4c70-4c3b-b866-f8548669a6d1")
+			(uuid "b719bafb-3a3f-4ea5-afcf-dfefae2bba54")
 			(effects
 				(font
 					(size 1 1)
@@ -32570,11 +32570,11 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17af6d49-1795-4053-a62f-a396df4ce91a")
+			(uuid "996c3bb3-e533-4a8c-ab2e-0b78aa0c8887")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32583,11 +32583,11 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a537195-392f-45ab-9239-6b177b5bdaf5")
+			(uuid "facc9ffe-aad3-4493-9cc3-7c4101c7596a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32596,7 +32596,7 @@
 			)
 		)
 		(property "Sim.Device" "PNP"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32609,7 +32609,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32622,7 +32622,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32656,17 +32656,6 @@
 			(uuid "fcc38e87-1fc5-4b4c-b43a-0c9006798dbe")
 		)
 		(fp_arc
-			(start -0.568478 1.838478)
-			(mid -1.132087 -0.994977)
-			(end 1.27 -2.6)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b5e92fcc-6e05-4527-895c-eac223880c79")
-		)
-		(fp_arc
 			(start 1.27 -2.6)
 			(mid 3.672087 -0.994977)
 			(end 3.108478 1.838478)
@@ -32677,15 +32666,16 @@
 			(layer "F.SilkS")
 			(uuid "058ad662-a7b9-4f05-b1fc-a138381a0518")
 		)
-		(fp_line
-			(start -1.46 -2.73)
-			(end -1.46 2.01)
+		(fp_arc
+			(start -0.568478 1.838478)
+			(mid -1.132087 -0.994977)
+			(end 1.27 -2.6)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "a43de781-9d1a-498f-9f26-0cd8b96ba664")
+			(layer "F.SilkS")
+			(uuid "b5e92fcc-6e05-4527-895c-eac223880c79")
 		)
 		(fp_line
 			(start -1.46 -2.73)
@@ -32698,14 +32688,14 @@
 			(uuid "eb754b8e-b566-4e92-83a5-47163bd5f46e")
 		)
 		(fp_line
-			(start 4 2.01)
+			(start -1.46 -2.73)
 			(end -1.46 2.01)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d88519a7-4ba4-41df-b211-f2b76eaea31d")
+			(uuid "a43de781-9d1a-498f-9f26-0cd8b96ba664")
 		)
 		(fp_line
 			(start 4 2.01)
@@ -32718,6 +32708,16 @@
 			(uuid "8049c53a-b68b-45b1-8b06-2780d54de8c7")
 		)
 		(fp_line
+			(start 4 2.01)
+			(end -1.46 2.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d88519a7-4ba4-41df-b211-f2b76eaea31d")
+		)
+		(fp_line
 			(start -0.5 1.75)
 			(end 3 1.75)
 			(stroke
@@ -32726,17 +32726,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "192bea16-22d3-4500-b49a-828cedfb820a")
-		)
-		(fp_arc
-			(start -0.483625 1.753625)
-			(mid -1.021221 -0.949055)
-			(end 1.27 -2.48)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8fa6b5ad-e3b3-4912-b57f-c4ab2725e17b")
 		)
 		(fp_arc
 			(start 1.27 -2.48)
@@ -32749,8 +32738,19 @@
 			(layer "F.Fab")
 			(uuid "65731a25-8e03-41cf-a1bd-d1de6d239863")
 		)
+		(fp_arc
+			(start -0.483625 1.753625)
+			(mid -1.021221 -0.949055)
+			(end 1.27 -2.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8fa6b5ad-e3b3-4912-b57f-c4ab2725e17b")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 0)
+			(at 1.27 0 90)
 			(layer "F.Fab")
 			(uuid "f1efe40c-b41e-4553-9680-9e34c72a2e23")
 			(effects
@@ -32761,7 +32761,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -32772,7 +32772,7 @@
 			(uuid "fac25a34-ffd1-4a52-8e85-e59a4cb2a16b")
 		)
 		(pad "2" thru_hole circle
-			(at 1.27 -1.27)
+			(at 1.27 -1.27 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -32783,7 +32783,7 @@
 			(uuid "75f23cfb-3f85-437f-b860-03d91df12e18")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 1.3 1.3)
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
@@ -32809,7 +32809,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e5f9bf25-e451-42d4-8448-cf86c8726462")
-		(at 28.575 109.175)
+		(at -184.835 112.375)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R74"
@@ -32961,7 +32961,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e61be064-42df-4712-a2c8-d1e9e388e1b9")
-		(at 113.655 90.125)
+		(at -99.755 93.325)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D11"
@@ -33263,7 +33263,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e664526e-5be0-463b-9c78-50f1d1536301")
-		(at 21.575 119.125)
+		(at -191.835 122.325)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
@@ -33565,7 +33565,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "ea2004af-21d3-4d04-b677-970e09a1b9ba")
-		(at 51.623 88.475605)
+		(at -161.787 91.675605)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW3"
 			(at 2.5 2.499995 0)
@@ -33838,7 +33838,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92"
 		(layer "F.Cu")
 		(uuid "ecb98eb0-510c-42f7-bae3-398c50554d7e")
-		(at 67.995 139.045)
+		(at -145.415 142.245)
 		(descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q6"
@@ -34103,13 +34103,13 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "ed5685ae-a761-4cac-bc67-f3cef0e5e1e7")
-		(at 127.215 50.715)
+		(at 231.38 105.26)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U5"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "f8dca870-ef47-4382-a568-a1936ecb8c01")
+			(uuid "3f555256-723c-4551-94aa-ef87b49e53cc")
 			(effects
 				(font
 					(size 1 1)
@@ -34120,7 +34120,7 @@
 		(property "Value" "TL074"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "d115bb61-e27c-437d-9ef2-420852c2587c")
+			(uuid "5a18877a-0919-41a8-b886-de531c0c62e8")
 			(effects
 				(font
 					(size 1 1)
@@ -34132,7 +34132,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c7dac3c-7339-4a33-a544-ca10b81a1560")
+			(uuid "d2d8bfba-575c-44d0-89bf-50e41323ad2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34143,7 +34143,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57f6d46d-2ec5-4d91-9c3a-ebe9134073cd")
+			(uuid "aafb3a18-6c33-428e-afdf-3ba63cdfe839")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34324,7 +34324,7 @@
 			)
 		)
 		(point
-			(at 131.025 58.335)
+			(at 235.19 112.88)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "b1b205b7-f2ce-4f63-ba58-caf555e8ad0a")
@@ -34357,7 +34357,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D1-K)")
+			(net "//Oscillator/Sch Inv In 1")
 			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "d9e250a8-e4b4-414a-92f4-d77fee408e41")
@@ -34379,7 +34379,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-K)")
+			(net "//Oscillator/Sch Inv In 2")
 			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "315e1d9b-7367-48c0-bf64-e917b80511a3")
@@ -34496,7 +34496,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "ed6c7efe-4010-4117-9060-38260921646a")
-		(at 156.405 114.225)
+		(at -57.005 117.425)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R59"
@@ -34648,7 +34648,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "ed729185-82ba-405b-b88c-3440862b97af")
-		(at 137.635 70.135)
+		(at -75.775 73.335)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -34800,7 +34800,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "edf249a8-54b5-4689-b2d5-4b52b9d8ec48")
-		(at 73.745 132.625)
+		(at -139.665 135.825)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -34952,7 +34952,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "ef75085e-365e-455e-93d7-903e71af74bc")
-		(at 21.575 129.775)
+		(at -191.835 132.975)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D7"
@@ -35254,7 +35254,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "f15b955d-0368-49e2-90b8-29737e3b61e8")
-		(at 32.355 115.855)
+		(at -181.055 119.055)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U7"
@@ -35314,7 +35314,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/6d65ef8f-8235-46d4-95e7-69caf9b93e91/ca20b913-2f3b-44e7-bb40-c3abe77cc870")
+		(path "/6d65ef8f-8235-46d4-95e7-69caf9b93e91/a9bcc653-f03e-4cf9-930d-aeb5f16c98bc")
 		(sheetname "//Filter/")
 		(sheetfile "Filter.kicad_sch")
 		(units
@@ -35475,7 +35475,7 @@
 			)
 		)
 		(point
-			(at 36.165 123.475)
+			(at -177.245 126.675)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "b5ddf267-74e7-4f36-b86e-d73f8e1a9b25")
@@ -35647,7 +35647,7 @@
 	(footprint "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 		(layer "F.Cu")
 		(uuid "f218295a-1a6f-4f0e-8886-9c713777c5d7")
-		(at 101.06 104.25)
+		(at -112.35 107.45)
 		(property "Reference" "RV8"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -35824,7 +35824,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f29b2865-f761-47b7-8380-03b712c17f46")
-		(at 51.545 134.025)
+		(at -161.865 137.225)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R37"
@@ -35976,7 +35976,7 @@
 	(footprint "Capacitor_THT:C_Rect_L18.0mm_W5.0mm_P15.00mm_FKS3_FKP3"
 		(layer "F.Cu")
 		(uuid "f3cbf0f1-16b1-4d46-a57f-08d541da995b")
-		(at 33.045 136.425)
+		(at -180.365 139.625)
 		(descr "C, Rect series, Radial, pin pitch=15.00mm, length*width=18*5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
 		(tags "C Rect series Radial pin pitch 15.00mm length 18mm width 5mm Capacitor")
 		(property "Reference" "C5"
@@ -36156,7 +36156,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f4afbd08-6665-4af0-8d08-e73988a88108")
-		(at 154.515 74.115)
+		(at -58.895 77.315)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -36314,9 +36314,9 @@
 	(footprint "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 		(layer "F.Cu")
 		(uuid "f4dea504-81d5-4a7d-9249-b2dce808cf15")
-		(at 150.66 43.25)
+		(at 53 57.5 -90)
 		(property "Reference" "RV11"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fd12e1cb-bf5a-4442-94e8-f583cd1420f9")
@@ -36328,7 +36328,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1 0)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ddda6bf1-829b-4329-af03-d73a4676db1b")
@@ -36340,7 +36340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36353,7 +36353,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36366,7 +36366,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36379,7 +36379,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36392,7 +36392,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36428,7 +36428,7 @@
 			(uuid "8bf63cff-e459-48ab-960a-5bbfff8b18ed")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0a9be11c-a94b-4fd6-95ae-834a74cc65f4")
@@ -36440,21 +36440,21 @@
 			)
 		)
 		(pad "" np_thru_hole rect
-			(at -5.3 -1.1)
+			(at -5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "e4644871-21c1-4d70-aab4-840093a655a8")
 		)
 		(pad "" np_thru_hole rect
-			(at 5.3 -1.1)
+			(at 5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "fa65bcc1-d861-4bb3-8998-a535f2f8e67c")
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 2.2)
+			(at -2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -36465,18 +36465,18 @@
 			(uuid "d7c0dd96-c043-4765-a8eb-80c232e47c20")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.2)
+			(at 0 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(R26-Pad1)")
+			(net "//Oscillator/Tuning 2")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "b4b1fde7-cc1a-4e02-b3bb-28234ac1971a")
 		)
 		(pad "3" thru_hole circle
-			(at 2.5 2.2)
+			(at 2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -36491,7 +36491,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f501cea8-5f9e-4026-b4a5-7709fb1f7819")
-		(at 156.405 119.475)
+		(at -57.005 122.675)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R65"
@@ -36643,13 +36643,13 @@
 	(footprint "Battery Holder BC9VPC:BC9VPC_MPD"
 		(layer "F.Cu")
 		(uuid "f7af2963-d422-47ff-826b-c9800414e4ce")
-		(at 65.5944 28.54)
+		(at 92.9904 96.3332)
 		(tags "BC9VPC ")
 		(property "Reference" "B2"
 			(at 6.5024 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "29694af2-17ec-479c-9eb3-1aa796182cb2")
+			(uuid "4399c787-50a2-4450-8077-310374043c87")
 			(effects
 				(font
 					(size 1 1)
@@ -36661,7 +36661,7 @@
 			(at 6.5024 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "66cfb81d-3aac-41a0-b5ac-334bb0ab265b")
+			(uuid "1d23b353-b7e7-4ed2-82b4-5c72e730b43b")
 			(effects
 				(font
 					(size 1 1)
@@ -36673,7 +36673,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6824d58a-9fa3-428a-a7c2-cbdbbef24246")
+			(uuid "d71cd60f-c70c-4d6f-b792-c42d9fc3babc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36684,7 +36684,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b6b87da-eee3-4da4-8dd5-b55dc82b390c")
+			(uuid "683fef2f-c26d-4523-b140-a5d4c40fe512")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36914,7 +36914,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f81d9214-ee81-466f-96fa-b20ee335728f")
-		(at 73.745 134.375)
+		(at -139.665 137.575)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
@@ -37066,7 +37066,7 @@
 	(footprint "Resistor_THT:R_Radial_Power_L12.0mm_W8.0mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "f9f68ff7-9110-46ce-828f-302fdcaaf6ec")
-		(at 116.355 39.825)
+		(at -97.055 43.025)
 		(descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, https://www.vishay.com/docs/30218/cpcp-cpcf.pdf")
 		(tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
 		(property "Reference" "TH2"
@@ -37286,7 +37286,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fcb468b6-25f1-43c3-8fb0-5bd045b3f9d6")
-		(at 21.575 126.225)
+		(at -191.835 129.425)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D6"
@@ -37588,7 +37588,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "fe49220b-d15a-4c43-96a4-bda681bd0ebc")
-		(at 51.545 144.525)
+		(at -161.865 147.725)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R47"
@@ -37736,6 +37736,25 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 50 50)
+		(end 200 150)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b5f7bd7c-ebf9-4622-ba24-43c079b9da04")
+	)
+	(segment
+		(start 71.9498 96.3332)
+		(end 92.9904 96.3332)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "95de3985-5866-4e80-95a2-b57f8d4dbfd6")
 	)
 	(embedded_fonts no)
 )
