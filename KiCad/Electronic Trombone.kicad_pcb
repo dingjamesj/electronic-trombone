@@ -1103,7 +1103,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "056306be-94e1-4b57-888e-ea717db4dc0d")
-		(at -73.325 71.585)
+		(at 65.6 92.1)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -2780,7 +2780,7 @@
 	(footprint "Header 691137710002:691137710002"
 		(layer "F.Cu")
 		(uuid "1c0f4ed9-00fd-47a6-9013-499f94684105")
-		(at 71.75 103)
+		(at 69.4 119.2)
 		(property "Reference" "J4"
 			(at 0 -5.135 0)
 			(layer "F.SilkS")
@@ -5784,7 +5784,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "2fcf10c7-a301-4e43-8c4e-7969bf737c05")
-		(at 69.25 127.25)
+		(at 67.2 139.2)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW2"
 			(at 2.5 2.499995 0)
@@ -7798,7 +7798,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "45176c1d-f798-4c97-b060-5416d42fffc5")
-		(at -86.205 73.235)
+		(at 73.5 94.1 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R21"
@@ -7870,44 +7870,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "144214f6-5bc0-4b17-8447-26bcd052ccb2")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "23175d53-73b1-41d8-a917-042fe06aa6f3")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f1d3e505-d43b-4c29-baf1-82764940e6be")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "36a05949-e134-43e9-aa32-cffff92fda72")
+			(uuid "a91a9b4d-bf94-4100-a67e-895a1a86f456")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -7920,14 +7890,44 @@
 			(uuid "d801beb1-dc33-4833-832f-d871905443ae")
 		)
 		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a91a9b4d-bf94-4100-a67e-895a1a86f456")
+			(uuid "36a05949-e134-43e9-aa32-cffff92fda72")
+		)
+		(fp_line
+			(start 0.54 1.04)
+			(end 0.54 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1d3e505-d43b-4c29-baf1-82764940e6be")
+		)
+		(fp_line
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "23175d53-73b1-41d8-a917-042fe06aa6f3")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "144214f6-5bc0-4b17-8447-26bcd052ccb2")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -7941,16 +7941,6 @@
 			(uuid "c8fcc61a-0532-4188-bb5c-256ea3132299")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "edaac615-9c04-4b2b-998a-2c08e02d88cb")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -7959,6 +7949,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "c1144b8d-298c-41b4-91fb-f79799aa97bf")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "edaac615-9c04-4b2b-998a-2c08e02d88cb")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -7983,7 +7983,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7993,7 +7993,7 @@
 			(uuid "55519521-0eb3-4551-93eb-d4a61ae9541a")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -12596,7 +12596,7 @@
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "596e67b9-c775-4e22-b100-70cca72f7a12")
-		(at -67.775 79.085)
+		(at 58.2 94.2)
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C2"
@@ -21711,7 +21711,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "9b342a67-9d65-4a28-82b9-10038204558b")
-		(at 69.25 113.5)
+		(at 54.5 140.30001)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW1"
 			(at 2.5 2.499995 0)
@@ -21984,9 +21984,9 @@
 	(footprint "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
 		(layer "F.Cu")
 		(uuid "9ea766ab-1535-4141-a424-e9712a06bda4")
-		(at 130 53.1 180)
+		(at 53.2 94.2 -90)
 		(property "Reference" "RV10"
-			(at 0 -0.5 180)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6db6463e-b4de-4755-8917-6c3bf4c91ebd")
@@ -21998,7 +21998,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1 180)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e14366ed-fc6e-4732-a7a6-40713d4c1605")
@@ -22010,7 +22010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22023,7 +22023,7 @@
 			)
 		)
 		(property "Description" "Potentiometer, US symbol"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22036,7 +22036,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22049,7 +22049,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22062,7 +22062,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22098,7 +22098,7 @@
 			(uuid "4dd1ae40-cda5-4d4a-b204-f4a13557dbde")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 180)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6d39f3a8-5449-440b-923c-f64e84b28992")
@@ -22110,21 +22110,21 @@
 			)
 		)
 		(pad "" np_thru_hole rect
-			(at -5.3 -1.1 180)
+			(at -5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "c22161a7-8381-4942-9e32-0e2124130719")
 		)
 		(pad "" np_thru_hole rect
-			(at 5.3 -1.1 180)
+			(at 5.3 -1.1 270)
 			(size 2.4 2.8)
 			(drill oval 1.8 2.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "01608d6a-5332-4d54-82dc-9f171e65a5f3")
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 2.2 180)
+			(at -2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -22135,7 +22135,7 @@
 			(uuid "afc45284-469c-4270-aa28-60fa186a7a64")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.2 180)
+			(at 0 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -22146,7 +22146,7 @@
 			(uuid "4defc09c-47ad-4b8e-9513-e1b51d6a20fa")
 		)
 		(pad "3" thru_hole circle
-			(at 2.5 2.2 180)
+			(at 2.5 2.2 270)
 			(size 1.5 1.5)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -24589,7 +24589,7 @@
 	(footprint "Header 691137710003:691137710003"
 		(layer "F.Cu")
 		(uuid "b0830a50-1d8e-42e9-a350-6eb9691b5166")
-		(at 54.5 107 -90)
+		(at 55.5 122.1 -90)
 		(property "Reference" "J3"
 			(at 0 -5.135 90)
 			(layer "F.SilkS")
@@ -33578,7 +33578,7 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "ea2004af-21d3-4d04-b677-970e09a1b9ba")
-		(at 69 141)
+		(at 80.9 139.2)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW3"
 			(at 2.5 2.499995 0)
@@ -37760,7 +37760,7 @@
 		(uuid "b5f7bd7c-ebf9-4622-ba24-43c079b9da04")
 	)
 	(gr_text "-Control Buttons Board Below-"
-		(at 50.7 96 0)
+		(at 51.9 104.4 0)
 		(layer "F.SilkS")
 		(uuid "2ac69623-7030-44c4-8f06-0328968deab1")
 		(effects
