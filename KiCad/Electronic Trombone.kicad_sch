@@ -2540,6 +2540,12 @@
 		(uuid "7049df6c-4dd7-49e7-8c80-c1929545832d")
 	)
 	(junction
+		(at 68.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7654472e-a1cc-4e65-84f9-28c3856f648c")
+	)
+	(junction
 		(at 226.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3449,6 +3455,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 88.9) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de90fb7f-226f-415c-89ba-6c2342d55680")
+	)
+	(wire
+		(pts
 			(xy 46.99 186.69) (xy 52.07 186.69)
 		)
 		(stroke
@@ -3516,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "ed36e881-6287-41cb-8467-447948147326")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edefbf75-d2e8-4d92-a705-46d9ff889be5")
 	)
 	(wire
 		(pts
@@ -4006,7 +4032,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 256.54 137.16 0)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4114,7 +4140,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -4493,7 +4519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20cacc8a-7bb2-4870-b3ba-2c2e2fc4c35d")
-		(property "Reference" "U2"
+		(property "Reference" "U11"
 			(at 39.37 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4591,7 +4617,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "U2")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -6446,6 +6472,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 76.2 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "851237a4-8138-48cd-bb1a-e1a6c599ad75")
+		(property "Reference" "#PWR0130"
+			(at 76.2 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 76.2 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 76.2 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15af6f09-a539-42b8-a4e5-177f6d9ff291")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 54.61 72.39 90)
 		(unit 1)
@@ -6520,6 +6624,86 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 72.39 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8915a295-1c69-4e9a-8739-0f8945df116c")
+		(property "Reference" "R76"
+			(at 72.39 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 72.39 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 72.644 98.044 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "317ceeb7-06c9-4cac-bacb-fc81d8cac034")
+		)
+		(pin "2"
+			(uuid "dc6ed48f-99ad-4e22-99d3-6bcd86434be6")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -7430,6 +7614,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 60.96 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdb5c704-5c6a-467f-8987-df33a565b942")
+		(property "Reference" "#PWR0129"
+			(at 60.96 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1747446b-9584-4d04-b7d5-5c0d7d17407b")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 217.17 45.72 0)
 		(unit 1)
@@ -7911,6 +8173,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 64.77 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3f811c3-d900-4521-a61c-87eb5111bc06")
+		(property "Reference" "R75"
+			(at 64.77 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 64.77 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 65.024 98.044 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 64.77 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "834a5657-6161-4ab7-9d91-ee03165b5380")
+		)
+		(pin "2"
+			(uuid "89cc8de3-5dac-4007-a65d-0bf2506d300b")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/931827f3-33b7-460f-8885-7db258da2648"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 138.43 0)
 		(unit 1)
@@ -8073,7 +8415,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 218.44 123.19 0)
-		(unit 3)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8181,7 +8523,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
