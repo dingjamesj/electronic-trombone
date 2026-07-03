@@ -922,7 +922,7 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/153d3a7b-deb0-4bfd-b7f2-bc1c25c603d2")
+		(path "/4c1482b8-f483-432e-95fc-97a7968400da")
 		(sheetname "//")
 		(sheetfile "Electronic Trombone.kicad_sch")
 		(units
@@ -1407,7 +1407,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "0e4101bb-1dcd-4d8e-bf18-3812bc338397")
-		(at 170.245 114.6 180)
+		(at 187.98 137.02 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R73"
@@ -1469,9 +1469,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e03aca1f-59da-4716-8483-8ff13e3d0dd2")
-		(sheetname "/Power/")
-		(sheetfile "Power.kicad_sch")
+		(path "/82d4ba93-d0e6-46dd-b7dc-0bd33888f9e5")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2934,7 +2934,7 @@
 	(footprint "Header 691137710002:691137710002"
 		(layer "F.Cu")
 		(uuid "1c0f4ed9-00fd-47a6-9013-499f94684105")
-		(at 69.4 119.2)
+		(at 68.2 117.3 180)
 		(property "Reference" "J4"
 			(at 0 -5.135 0)
 			(layer "F.SilkS")
@@ -2991,24 +2991,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5.1 -3.6)
-			(end 5.1 -3.6)
+			(start 5.1 4.1)
+			(end -5.1 4.1)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bfb29f66-722d-45bf-9a38-c8abbab7e053")
-		)
-		(fp_line
-			(start -5.1 4.1)
-			(end -5.1 -3.6)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4c7843b6-0f3b-49a4-8eef-c532cd5dfdd6")
+			(uuid "4c4afc0c-0a00-4ff6-b6cc-8cb7cddf083e")
 		)
 		(fp_line
 			(start 5.1 -3.6)
@@ -3021,14 +3011,24 @@
 			(uuid "70e24aca-2d98-4bff-9e6b-18189d62c1d6")
 		)
 		(fp_line
-			(start 5.1 4.1)
-			(end -5.1 4.1)
+			(start -5.1 4.1)
+			(end -5.1 -3.6)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4c4afc0c-0a00-4ff6-b6cc-8cb7cddf083e")
+			(uuid "4c7843b6-0f3b-49a4-8eef-c532cd5dfdd6")
+		)
+		(fp_line
+			(start -5.1 -3.6)
+			(end 5.1 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bfb29f66-722d-45bf-9a38-c8abbab7e053")
 		)
 		(fp_circle
 			(center -3.4 -1.4)
@@ -3054,24 +3054,14 @@
 			(uuid "c30c6b0d-df8c-4d0d-8259-0f1badce85fa")
 		)
 		(fp_line
-			(start -5 -3.5)
-			(end 5 -3.5)
+			(start 5 4)
+			(end -5 4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4a4fddfb-c6d6-4f69-aa52-00614ea6f794")
-		)
-		(fp_line
-			(start -5 4)
-			(end -5 -3.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3ed30f42-5f33-4a04-b98b-9c01d30f0908")
+			(uuid "e758ec7f-d379-43bd-ad26-f1ebcea4f0c9")
 		)
 		(fp_line
 			(start 5 -3.5)
@@ -3084,17 +3074,27 @@
 			(uuid "1b3a82e4-4da7-4309-bc48-c2d1dd1347a6")
 		)
 		(fp_line
-			(start 5 4)
-			(end -5 4)
+			(start -5 4)
+			(end -5 -3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e758ec7f-d379-43bd-ad26-f1ebcea4f0c9")
+			(uuid "3ed30f42-5f33-4a04-b98b-9c01d30f0908")
+		)
+		(fp_line
+			(start -5 -3.5)
+			(end 5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a4fddfb-c6d6-4f69-aa52-00614ea6f794")
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 0)
+			(at -2.5 0 180)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -3105,7 +3105,7 @@
 			(uuid "0bb7ef0f-63d6-4351-8cfa-b3b0625b3bb2")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -3116,6 +3116,355 @@
 			(uuid "9f4c1e48-a4c5-4ab2-99cb-a7e8c7bac15b")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+		(layer "F.Cu")
+		(uuid "1c8ed514-544f-46ff-8f98-998d2d135665")
+		(at 214.375 121.875)
+		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
+		(tags "Potentiometer Bourns TC33X Vertical")
+		(property "Reference" "RV14"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "5e1271c7-a975-4708-a474-c2bfa57d3f3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "20k"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "56fa9147-4f8c-42f5-bfcb-69564aebf018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19af9df-7efd-4d15-8a72-4bb341b3efd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52eea0ce-7c9a-448e-b6ce-7f798fc24a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "724df7d3-7a45-4c9c-a4eb-dfaf3e41f145")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62767a1b-ce09-4666-8326-9679e2d72ca7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b189343f-a180-4f6c-98d4-1844f0e99f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Potentiometer*")
+		(path "/ca0e2a84-4bdf-4de6-870c-a0700a0adb0b")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.6 -1.8)
+			(end -2.6 -1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a1c557c9-d2c4-4048-aa7b-889dd2be6d60")
+		)
+		(fp_line
+			(start -2.1 -0.2)
+			(end -2.1 0.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b873912-62d7-42c5-9a5e-090cfd4b30c5")
+		)
+		(fp_line
+			(start -1.9 -1.8)
+			(end -2.6 -1.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4ad0c50-1150-498d-b955-432ed32abd5f")
+		)
+		(fp_line
+			(start -1 -1.6)
+			(end 1.9 -1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d6342f45-872a-4bf8-be9b-2f48d88d25d2")
+		)
+		(fp_line
+			(start -1 1.6)
+			(end 1.9 1.6)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e65d70c-d500-402f-ade4-efe39484345f")
+		)
+		(fp_line
+			(start 1.9 -1.6)
+			(end 1.9 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6101b8aa-5100-47cc-b180-0dd749c7477f")
+		)
+		(fp_line
+			(start 1.9 1.6)
+			(end 1.9 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c93fefb4-6929-4372-83ca-d3d3608bbc2b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.8 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "6598c5ef-565b-46c9-a202-634f690e89b8")
+		)
+		(fp_line
+			(start -2.65 -1.85)
+			(end 2.45 -1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd99b367-5af5-47bb-9dce-e2e63c14afab")
+		)
+		(fp_line
+			(start -2.65 1.85)
+			(end -2.65 -1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "73c2b350-f79f-4823-95c0-f5a5687deb4d")
+		)
+		(fp_line
+			(start 2.45 -1.85)
+			(end 2.45 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f6c64e26-0093-49fb-b59a-6e774d4453ad")
+		)
+		(fp_line
+			(start 2.45 1.85)
+			(end -2.65 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "430e495b-3922-48a0-a7f7-73604f9f591d")
+		)
+		(fp_line
+			(start -2 -0.75)
+			(end -2 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d562fc6-6d9e-48eb-8a94-38b676b4d770")
+		)
+		(fp_line
+			(start -2 1.5)
+			(end 1.8 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b8eb9d61-2067-4ac4-8506-099f206cf6db")
+		)
+		(fp_line
+			(start -1.25 -1.5)
+			(end -2 -0.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7bff8745-d7bd-44a5-8cad-3830c3bafcb1")
+		)
+		(fp_line
+			(start 1.8 -1.5)
+			(end -1.25 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0d076b0-8c54-4b5b-b3e8-3a322993e416")
+		)
+		(fp_line
+			(start 1.8 1.5)
+			(end 1.8 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e8ff615-a05e-422a-bbed-03c614f453a9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "214f0e5f-fb98-45c6-866b-3e303a75da04")
+		)
+		(fp_text user "Wiper may be\nanywhere within\ncircle shown"
+			(at -0.15 -0.8 0)
+			(layer "Cmts.User")
+			(uuid "ace9c1d1-dbd6-43d4-a1e7-1abc657a1166")
+			(effects
+				(font
+					(size 0.15 0.15)
+					(thickness 0.02)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7e79d65e-253b-4eb1-bd4e-a4dab42f8992")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.105)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.8 -1)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "480c1977-df8f-446e-a767-375cdc9f020c")
+		)
+		(pad "2" smd rect
+			(at 1.45 0)
+			(size 1.5 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Custom Potentiometer Controls/Pot Voltage Difference")
+			(pinfunction "2_2")
+			(pintype "passive")
+			(uuid "c3256ac8-31e8-49ed-8f89-e9b831f42bd7")
+		)
+		(pad "3" smd rect
+			(at -1.8 1)
+			(size 1.2 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pinfunction "3_3")
+			(pintype "passive")
+			(uuid "57263366-73af-4c3b-9b1d-f0f82ec6a45b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_TC33X_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
@@ -3272,7 +3621,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "2340365f-cf73-4bc9-a55d-ec559e8760a5")
-		(at -122.255 54.825)
+		(at 160.6 135.35)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV6"
@@ -3363,9 +3712,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/aaad5dcf-2a52-49a8-8fdc-4d661d245b31")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/0b3a7db1-f409-475a-80f2-ab9e3d1abe5f")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3591,7 +3940,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 6th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 6th Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "18bc6a6c-419e-4074-9e98-b94d15cc797c")
@@ -3621,7 +3970,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "24eba94b-f225-435d-a7ab-a95b281bf396")
-		(at -122.255 59.575)
+		(at 160.6 140.1)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV7"
@@ -3712,9 +4061,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/bfdf63f8-05df-40e5-a8f7-2d8ae48addb0")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/3ddc3d8e-cf99-4eed-bcc4-6c3d97c671ac")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3940,7 +4289,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 7th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 7th Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "d5858459-63c2-482b-92e6-5524cf83af03")
@@ -4944,7 +5293,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//In")
+			(net "//Audio Control")
 			(pintype "passive")
 			(uuid "90758623-5b29-4aad-ac7b-a99d7d41d157")
 		)
@@ -6915,11 +7264,11 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "3bb1fb61-a1fe-48ad-95d4-9c94295dda39")
-		(at 158.5 124.86)
+		(at 178.48 132.5)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U11"
-			(at 3.81 -2.33 0)
+			(at 3.81 7.62 90)
 			(layer "F.SilkS")
 			(uuid "2e9d8eb4-2533-43ad-b344-ba125359c3b3")
 			(effects
@@ -6975,9 +7324,9 @@
 			)
 		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*")
-		(path "/20cacc8a-7bb2-4870-b3ba-2c2e2fc4c35d")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/4ff8bde8-2e72-44b4-bc31-295c9ff15de9")
+		(sheetname "/Power/")
+		(sheetfile "Power.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7136,7 +7485,7 @@
 			)
 		)
 		(point
-			(at 162.31 132.48)
+			(at 182.29 140.12)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "11bb2c5e-4066-4253-b7e3-2a2ad4c80b8e")
@@ -7191,7 +7540,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U11B-+)")
+			(net "/Custom Potentiometer Controls/Mux Out")
 			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "290b8169-6c58-48c3-943b-f80d6d965bee")
@@ -7202,7 +7551,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(U11B--)")
+			(net "/Custom Potentiometer Controls/+Pot")
 			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "9c5d36bf-a937-47f8-9647-f6b9c2016076")
@@ -7213,7 +7562,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//-Pot")
+			(net "/Custom Potentiometer Controls/+Pot")
 			(pintype "output")
 			(uuid "69a4ae3d-a469-423e-b3cb-19ca071c71f9")
 		)
@@ -7223,7 +7572,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Power/Thaw 11")
+			(net "/Custom Potentiometer Controls/-Pot")
 			(pintype "output")
 			(uuid "48bfe6b0-d6f2-45ba-b7c0-d9627c6e9bd1")
 		)
@@ -7233,7 +7582,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Power/Thaw 11")
+			(net "Net-(U11C--)")
 			(pinfunction "-_9")
 			(pintype "input")
 			(uuid "e8b86621-7fa1-4352-969d-e1f173c27fac")
@@ -7244,7 +7593,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
+			(net "Net-(U11C-+)")
 			(pinfunction "+_10")
 			(pintype "input")
 			(uuid "5d4409d7-b9d7-4eff-8dc0-406f1e26d843")
@@ -9123,7 +9472,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "46f84be3-caed-434c-98b9-c37c75c35de4")
-		(at 183.2 121.63)
+		(at 169.445 132.95)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -9183,9 +9532,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8848df0f-4282-47dd-bf64-825a99213d69")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/d9e7e889-7ee3-41cb-9cf8-6dcf4bd7250b")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9246,7 +9595,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11B-+)")
+			(net "/Custom Potentiometer Controls/Mux Out")
 			(pintype "passive")
 			(uuid "9d32ee9c-43c0-49f0-91ed-ed9733dba66e")
 		)
@@ -9255,7 +9604,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "//+Pot")
+			(net "Net-(U11C-+)")
 			(pintype "passive")
 			(uuid "91be7e57-7db3-448b-b4ca-97163641ece5")
 		)
@@ -9275,13 +9624,13 @@
 	(footprint "Mux CD74HC4051E:N16"
 		(layer "F.Cu")
 		(uuid "471ff4d3-948d-4591-b7c4-49f6a83773e5")
-		(at 185.51 148.69)
+		(at 186 127.38)
 		(tags "CD74HC4051E ")
 		(property "Reference" "U1"
 			(at -3.81 -8.89 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "fb5b8fdf-9530-4811-bc86-824224541462")
+			(uuid "7b22c553-e8ff-40d2-a4ee-895ddd193492")
 			(effects
 				(font
 					(size 1 1)
@@ -9293,7 +9642,7 @@
 			(at -3.81 -8.89 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6dbbf6ea-e2b3-41e5-b21e-7e842849177a")
+			(uuid "f0b4cd69-59eb-4fbb-b5a1-ccf49b0fcdb4")
 			(effects
 				(font
 					(size 1 1)
@@ -9305,7 +9654,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a772dcb6-436f-4d80-a0c8-9e5bd939d045")
+			(uuid "104ecc02-6c69-46cf-896f-f86efa56ec20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,7 +9665,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffb52a51-cc6b-4800-968e-1e9b30ef5f20")
+			(uuid "21414f8e-fe63-4530-ad6e-d3824cf89ab3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,9 +9673,9 @@
 			)
 		)
 		(property ki_fp_filters "N16")
-		(path "/eb935ec3-5c36-46fb-9fbd-5ae04baeafd7")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/fa31750a-7dc3-42df-9521-d3b668c1a1e3")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10303,7 +10652,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 4th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 4th Partial")
 			(pinfunction "A4_1")
 			(pintype "bidirectional")
 			(uuid "2a53de75-dd99-45b8-9c94-a5c444779fe4")
@@ -10314,7 +10663,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 6th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 6th Partial")
 			(pinfunction "A6_2")
 			(pintype "bidirectional")
 			(uuid "94a29ad7-7486-404c-b955-f05aefa2c8fa")
@@ -10325,7 +10674,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot")
+			(net "/Custom Potentiometer Controls/Mux Out")
 			(pinfunction "A_3")
 			(pintype "bidirectional")
 			(uuid "7f8dee11-77fc-45ec-b5dd-d2b5ed644283")
@@ -10336,7 +10685,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 7th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 7th Partial")
 			(pinfunction "A7_4")
 			(pintype "bidirectional")
 			(uuid "a97cc9cf-b234-43ce-af24-7e79fdd1037b")
@@ -10347,7 +10696,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 5th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 5th Partial")
 			(pinfunction "A5_5")
 			(pintype "bidirectional")
 			(uuid "0b184b9d-2081-4ffb-b92c-6a7c8e79f62f")
@@ -10391,7 +10740,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 3")
+			(net "/Custom Potentiometer Controls/Trigger 3")
 			(pinfunction "S2_9")
 			(pintype "bidirectional")
 			(uuid "8ba5c44d-ae7d-45be-a6df-1a5f44fd9d7e")
@@ -10402,7 +10751,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 2")
+			(net "/Custom Potentiometer Controls/Trigger 2")
 			(pinfunction "S1_10")
 			(pintype "bidirectional")
 			(uuid "1ce813c7-5692-459a-8f49-8f73123f1c02")
@@ -10413,7 +10762,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 1")
+			(net "/Custom Potentiometer Controls/Trigger 1")
 			(pinfunction "S0_11")
 			(pintype "bidirectional")
 			(uuid "7f2d9113-fd6a-43c3-9275-3a3f5cb3ebcd")
@@ -10424,7 +10773,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 3rd Partial")
+			(net "/Custom Potentiometer Controls/+Pot 3rd Partial")
 			(pinfunction "A3_12")
 			(pintype "bidirectional")
 			(uuid "e869fc25-18a0-4dff-874e-d7dc1f76192c")
@@ -10446,7 +10795,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 1st Partial")
+			(net "/Custom Potentiometer Controls/+Pot 1st Partial")
 			(pinfunction "A1_14")
 			(pintype "bidirectional")
 			(uuid "1dccfe4c-1aa7-4b83-b804-31bd8f6f0744")
@@ -10457,7 +10806,7 @@
 			(drill 0.7874)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//+Pot 2nd Partial")
+			(net "/Custom Potentiometer Controls/+Pot 2nd Partial")
 			(pinfunction "A2_15")
 			(pintype "bidirectional")
 			(uuid "ddaff549-64a0-495d-8310-80c64103e91f")
@@ -13140,6 +13489,194 @@
 			)
 		)
 	)
+	(footprint "Header 691137710002:691137710002"
+		(layer "F.Cu")
+		(uuid "59073546-fa74-45de-96f8-69a58654cfff")
+		(at 195.5 144.4 90)
+		(property "Reference" "J5"
+			(at 0 -5.135 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6139491b-bbbe-4595-ac40-30e477f0f85d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "691137710002"
+			(at 4.12 5.365 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "807adecb-f406-4bfe-8e36-44a185bcecc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5adf3bc1-ace4-45cc-8d98-95ed9d94af6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30321b40-ead1-45c7-8a48-7ab69a863895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/8167e15a-d0d3-4280-b14d-a42e46808f5b")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 5.1 -3.6)
+			(end 5.1 4.1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b2968661-5ecd-4564-8328-7fba7fc8f2e9")
+		)
+		(fp_line
+			(start -5.1 -3.6)
+			(end 5.1 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20fe0782-af61-4b20-86e7-047941073462")
+		)
+		(fp_line
+			(start 5.1 4.1)
+			(end -5.1 4.1)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12153c63-67b8-4c8e-903d-7920cf8b93d8")
+		)
+		(fp_line
+			(start -5.1 4.1)
+			(end -5.1 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b04c9af9-2ca9-4421-b760-eeecbba56914")
+		)
+		(fp_circle
+			(center -3.4 -1.4)
+			(end -3.3 -1.4)
+			(stroke
+				(width 0.4)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "96923935-cd7c-414f-82b0-3c944649295d")
+		)
+		(fp_poly
+			(pts
+				(xy -5.25 -3.75) (xy 5.25 -3.75) (xy 5.25 4.25) (xy -5.25 4.25)
+			)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.CrtYd")
+			(uuid "6d308f3a-d9ad-4734-bf91-c77254753ee1")
+		)
+		(fp_line
+			(start 5 -3.5)
+			(end 5 4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "686be35e-aea2-4a17-9022-d51b2658751c")
+		)
+		(fp_line
+			(start -5 -3.5)
+			(end 5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "84868705-383b-4547-9386-b044bb4f70a3")
+		)
+		(fp_line
+			(start 5 4)
+			(end -5 4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "903934df-0466-4baa-944c-6e726d27654d")
+		)
+		(fp_line
+			(start -5 4)
+			(end -5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0e83792-100b-45d2-8a93-ba8788d94997")
+		)
+		(pad "1" thru_hole circle
+			(at -2.5 0 90)
+			(size 1.95 1.95)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/Custom Potentiometer Controls/+Pot")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "a9bc6b8e-1c1e-49d9-8cfd-3fbcffc315ec")
+		)
+		(pad "2" thru_hole circle
+			(at 2.5 0 90)
+			(size 1.95 1.95)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/Custom Potentiometer Controls/-Pot")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b03e7055-814d-4cf8-bd6e-7e406861ea25")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "596e67b9-c775-4e22-b100-70cca72f7a12")
@@ -13475,7 +14012,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "5b5053bf-a86f-4d66-bb3a-66c8db446ce5")
-		(at -122.255 35.825)
+		(at 160.6 116.35)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV2"
@@ -13566,9 +14103,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/89d8ebd8-bd3a-4fb2-9b8c-3c75f92964bf")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/61048795-99e5-497c-a9ef-31f15d2fc572")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13794,7 +14331,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 4th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 2nd Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "ae34fb2f-924d-45e0-bf55-9407ac53d5cc")
@@ -14182,226 +14719,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-		(layer "F.Cu")
-		(uuid "64a3a717-021a-4c92-97c6-c85b9870948a")
-		(at 188.575 119.575)
-		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
-		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R76"
-			(at 3.81 -2.37 0)
-			(layer "F.SilkS")
-			(uuid "83c09aaf-1bb4-4a40-a6b0-c69ec4783bf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 3.81 2.37 0)
-			(layer "F.Fab")
-			(uuid "b0eae0e6-1340-44f3-9807-5b9ee1c9bbaa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d0e6999-6bc9-4cca-b4db-85ad376e6da5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5d88c48-dd09-4317-abc2-29615caf83b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "67449094-6787-4a37-97df-740c10dfb4c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/8915a295-1c69-4e9a-8739-0f8945df116c")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "95ec2195-5b84-4ea2-91f5-47f8be386514")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "83a5181a-e0f3-445d-a22e-dc1b6d1aa5aa")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eab87436-834f-4c81-913c-d3855e62b659")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "305a10e2-a4e8-427d-99b0-0da99fa2d7eb")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "de602081-7236-433f-a39d-970d66b4e300")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c35d2da9-42ff-4358-b43a-d655c029d4f0")
-		)
-		(fp_rect
-			(start -1.05 -1.5)
-			(end 8.67 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "806d9c35-97e1-4d91-90b6-d2118d14b41d")
-		)
-		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "00c29334-b463-4703-8220-efdc69135bce")
-		)
-		(fp_line
-			(start 7.62 0)
-			(end 6.96 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "82a42381-3ea4-4cdd-a518-16ef855008a7")
-		)
-		(fp_rect
-			(start 0.66 -1.25)
-			(end 6.96 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "611d5c4e-01e3-40d4-a2c5-6c574e1dd7df")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "d22d61b6-41b7-4eb1-8fb1-bb1b0837d010")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "//Pot Voltage Difference")
-			(pintype "passive")
-			(uuid "4a30ba8c-b305-4359-8123-7c1c7be5bab5")
-		)
-		(pad "2" thru_hole circle
-			(at 7.62 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "+5V")
-			(pintype "passive")
-			(uuid "2c80af6d-62ee-46f9-9be0-f95a4570fc4d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15361,7 +15678,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "6a742355-7bcb-4f85-b741-aaa0de7cf02e")
-		(at -122.255 50.075)
+		(at 160.6 130.6)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV5"
@@ -15452,9 +15769,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/96e0a3fa-7a91-4839-a466-017c3198734b")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/b201e30e-2360-4400-a465-95bf718b00ad")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15680,7 +15997,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 3rd Partial")
+			(net "/Custom Potentiometer Controls/+Pot 5th Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "87127bf0-a860-48e8-8b94-3c4026aee189")
@@ -16831,7 +17148,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "777e65af-295d-4b0c-8bb0-7032b00e9df6")
-		(at 183.2 119.88)
+		(at 169.445 131.2)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -16891,9 +17208,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/25965fdb-486c-4cea-bd31-4a1a58d0b273")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/77f240f3-cb9e-492a-8fed-393199b7d18f")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16954,7 +17271,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "//-Pot")
+			(net "/Custom Potentiometer Controls/Pot Voltage Difference")
 			(pintype "passive")
 			(uuid "8dda3379-32c2-4b37-813a-d0aa276998cb")
 		)
@@ -16963,7 +17280,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11B-+)")
+			(net "Net-(U11C--)")
 			(pintype "passive")
 			(uuid "f0534e2f-7b9d-4c3c-be1a-48d35b0bab9e")
 		)
@@ -18127,7 +18444,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Pot Out")
+			(net "//Audio Control")
 			(pinfunction "+_3")
 			(pintype "input")
 			(uuid "1c4d357e-6c6c-4299-94d3-55cbb1a709f9")
@@ -19334,7 +19651,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//In")
+			(net "//Audio Control")
 			(pinfunction "+_5")
 			(pintype "input")
 			(uuid "aeb69a19-43d5-4c19-b549-c5dcaeb35a7a")
@@ -19387,7 +19704,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//In")
+			(net "//Audio Control")
 			(pinfunction "+_10")
 			(pintype "input")
 			(uuid "795af14b-86a9-4e52-9b9b-dd2ec2145cb0")
@@ -19451,7 +19768,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "85eee81d-62ec-42d1-8c73-1528d4b8db0f")
-		(at -122.255 31.075)
+		(at 160.6 111.6)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV1"
@@ -19542,9 +19859,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/c8b6cd10-551e-456e-a935-e4f22f4e324e")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/74f453ff-06e6-4851-af9d-545b3c1e4a08")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19770,7 +20087,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 1st Partial")
+			(net "/Custom Potentiometer Controls/+Pot 1st Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "3d80395e-466a-4f3a-9cbb-12441864f577")
@@ -21165,7 +21482,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "92ad83a9-5b84-476e-8d08-ed88d1ab36e9")
-		(at 183.2 123.38)
+		(at 169.445 134.7)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -21225,9 +21542,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/bd8559a0-b139-45c6-95e8-736708db7510")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/6a9121f8-0e80-4851-9aa7-2ca7aff07e79")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21288,7 +21605,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(U11C--)")
 			(pintype "passive")
 			(uuid "aef4d400-96d0-4213-b3bd-14f8982499d8")
 		)
@@ -21297,7 +21614,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11B--)")
+			(net "/Custom Potentiometer Controls/-Pot")
 			(pintype "passive")
 			(uuid "d976c19f-1a0c-4cfa-897a-86a6f3d33e58")
 		)
@@ -22061,11 +22378,12 @@
 	(footprint "Header 691137710003:691137710003"
 		(layer "F.Cu")
 		(uuid "99c739f2-7bcd-482a-9032-c21944789753")
-		(at 196 142 -90)
+		(at 195.5 131.2 90)
 		(property "Reference" "J2"
 			(at 0 -5.135 90)
 			(layer "F.SilkS")
-			(uuid "479166ee-cca6-4b4c-a1fb-ab581cf69ac3")
+			(hide yes)
+			(uuid "776a9aa6-b9ab-4431-a451-fac4a42e6db6")
 			(effects
 				(font
 					(size 1 1)
@@ -22076,7 +22394,8 @@
 		(property "Value" "691137710003"
 			(at 4.12 5.365 90)
 			(layer "F.Fab")
-			(uuid "9b13adb9-21e0-4b82-9473-2d12519b2fdf")
+			(hide yes)
+			(uuid "20b38f45-10df-4508-9b11-bd615f093a4a")
 			(effects
 				(font
 					(size 1 1)
@@ -22088,7 +22407,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66b928bb-7f15-4fd0-a59f-c67a721060b2")
+			(uuid "4cf9b94f-2c71-407f-a684-78f95c83b881")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22099,16 +22418,16 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a1a8015-5967-4528-a76c-a0f41fd7fb91")
+			(uuid "34a0ac16-24c9-44a6-a837-ce63fed4b625")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/c593cb8e-967a-4050-94e5-6262341aba7e")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/5e41dc91-1365-4d52-9a63-b97e4b4c7d77")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22118,24 +22437,14 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -7.6 4.1)
-			(end -7.6 -3.6)
+			(start 7.6 -3.6)
+			(end 7.6 4.1)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cf2233e7-9ed4-4158-aea9-eed0e74d1a8c")
-		)
-		(fp_line
-			(start 7.6 4.1)
-			(end -7.6 4.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dbc401cb-d262-40aa-bd52-1d8b434816c8")
+			(uuid "6addc624-4813-43c6-adc9-92330478d290")
 		)
 		(fp_line
 			(start -7.6 -3.6)
@@ -22148,14 +22457,24 @@
 			(uuid "4b1a98fa-29c1-4809-b365-d5d421a5a46b")
 		)
 		(fp_line
-			(start 7.6 -3.6)
-			(end 7.6 4.1)
+			(start 7.6 4.1)
+			(end -7.6 4.1)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6addc624-4813-43c6-adc9-92330478d290")
+			(uuid "dbc401cb-d262-40aa-bd52-1d8b434816c8")
+		)
+		(fp_line
+			(start -7.6 4.1)
+			(end -7.6 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf2233e7-9ed4-4158-aea9-eed0e74d1a8c")
 		)
 		(fp_poly
 			(pts
@@ -22170,24 +22489,14 @@
 			(uuid "359aafb1-386b-4d0d-89f6-9479832a7712")
 		)
 		(fp_line
-			(start -7.5 4)
-			(end -7.5 -3.5)
+			(start 7.5 -3.5)
+			(end 7.5 4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ce15b5a8-dbe9-48a6-b102-bc7df3ea8ea7")
-		)
-		(fp_line
-			(start 7.5 4)
-			(end -7.5 4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74dfd77f-e953-4fef-bc31-0a38aa8c5801")
+			(uuid "8c3be14f-9c64-404e-9d5e-1dc40c1d736d")
 		)
 		(fp_line
 			(start -7.5 -3.5)
@@ -22200,14 +22509,24 @@
 			(uuid "d725aeb6-019c-41ba-8808-b4d83210e691")
 		)
 		(fp_line
-			(start 7.5 -3.5)
-			(end 7.5 4)
+			(start 7.5 4)
+			(end -7.5 4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c3be14f-9c64-404e-9d5e-1dc40c1d736d")
+			(uuid "74dfd77f-e953-4fef-bc31-0a38aa8c5801")
+		)
+		(fp_line
+			(start -7.5 4)
+			(end -7.5 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce15b5a8-dbe9-48a6-b102-bc7df3ea8ea7")
 		)
 		(fp_circle
 			(center -6.3 -1.9)
@@ -22221,34 +22540,34 @@
 			(uuid "37e4c7a6-9e8f-4475-b9bb-243c49fe8712")
 		)
 		(pad "1" thru_hole circle
-			(at -5 0 270)
+			(at -5 0 90)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 1")
+			(net "/Custom Potentiometer Controls/Trigger 1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "d619e75f-1339-49d0-b217-7cc94f250d50")
 		)
 		(pad "2" thru_hole circle
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 2")
+			(net "/Custom Potentiometer Controls/Trigger 2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "5c173e72-44cc-4a71-bfc3-cce5146cc3b5")
 		)
 		(pad "3" thru_hole circle
-			(at 5 0 270)
+			(at 5 0 90)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Trigger 3")
+			(net "/Custom Potentiometer Controls/Trigger 3")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "734df0ba-bb49-417f-9419-138f40746416")
@@ -24855,7 +25174,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "a86edc8f-506a-4db1-8614-47f24c4d41da")
-		(at -122.255 40.575)
+		(at 160.6 121.1)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV3"
@@ -24946,9 +25265,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/5b4e6734-bfc6-4cb4-9596-bd9768c1b52b")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/a07b6870-86dc-45c9-885f-6ff40ca11341")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -25174,7 +25493,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 2nd Partial")
+			(net "/Custom Potentiometer Controls/+Pot 3rd Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "9b78f52c-a286-4a34-9f4f-a588ccad0476")
@@ -25204,7 +25523,7 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "aa273fb3-93ee-4a79-b1eb-7bba054f8642")
-		(at 170.245 115.7)
+		(at 187.98 138.12)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R71"
@@ -25266,9 +25585,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8afdd716-e27a-4506-9d34-2212e76d8943")
-		(sheetname "/Power/")
-		(sheetfile "Power.kicad_sch")
+		(path "/14d7b710-3bab-4f7a-a52a-f017289b1b4d")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26469,14 +26788,14 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "b6d4bab1-5c74-47ff-a7c4-4db9ff35f9c5")
-		(at 172.755 114.5 180)
+		(at 176.56 137.02 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R72"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "810693ce-c87a-4ed1-9fb9-c5b9aa4737d5")
+			(uuid "0cb7e0e9-07f8-4662-b86a-03c7b90184ca")
 			(effects
 				(font
 					(size 1 1)
@@ -26488,7 +26807,7 @@
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ad1baae-fced-4bd5-8c05-fc0ae1f5918a")
+			(uuid "4df6abe2-7013-4a24-915f-790dc2bde74d")
 			(effects
 				(font
 					(size 1 1)
@@ -26500,7 +26819,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d5bac8a-e521-45d6-b92e-69ff75a0962c")
+			(uuid "71e43ef4-02fa-4431-9aac-d18a70a69dcb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26511,7 +26830,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf83628e-35a0-42c4-b1d0-acef3a91cb6e")
+			(uuid "04eacf2c-c773-4f59-89d9-4e5ddd3df41d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26531,9 +26850,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/f6eaa50c-2fc0-41c5-9afe-e4cedd60d62b")
-		(sheetname "/Power/")
-		(sheetfile "Power.kicad_sch")
+		(path "/ca4afdc3-2937-438d-b805-4bfa04ade7fa")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26620,12 +26939,12 @@
 			)
 		)
 	)
-	(footprint "Header 691137710004:691137710004"
+	(footprint "Header 691137710002:691137710002"
 		(layer "F.Cu")
 		(uuid "b6e4d1af-d00f-49e2-b117-1c6c84e7e768")
-		(at 195.75 72 -90)
+		(at 195.5 71.9 90)
 		(property "Reference" "J1"
-			(at 0 -4.935 90)
+			(at 0 -5.135 90)
 			(layer "F.SilkS")
 			(uuid "5b28fb78-4365-4f31-8b88-1ad5d6f3a79c")
 			(effects
@@ -26635,7 +26954,7 @@
 				)
 			)
 		)
-		(property "Value" "691137710004"
+		(property "Value" "691137710002"
 			(at 4.12 5.365 90)
 			(layer "F.Fab")
 			(uuid "ca65856e-411d-4f34-88f6-5fcd69b4e63f")
@@ -26668,40 +26987,30 @@
 				)
 			)
 		)
-		(path "/149b39fc-b5d6-4abc-807f-91dfffb3c784")
+		(path "/0ea8f1c1-76ef-4069-8d4b-7fb883850a68")
 		(sheetname "//")
 		(sheetfile "Electronic Trombone.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2" "3" "4")
+				(pins "1" "2")
 			)
 		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -10.1 4.1)
-			(end -10.1 -3.6)
+			(start 5.1 -3.6)
+			(end 5.1 4.1)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af1b8922-6e58-455c-b199-44f2e85e7e66")
+			(uuid "cdefb64a-a9d6-4eb8-8660-b20dca2fa3c0")
 		)
 		(fp_line
-			(start 10.1 4.1)
-			(end -10.1 4.1)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "79e0f39f-c574-40fe-a4ef-e0696553ee27")
-		)
-		(fp_line
-			(start -10.1 -3.6)
-			(end 10.1 -3.6)
+			(start -5.1 -3.6)
+			(end 5.1 -3.6)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -26710,18 +27019,28 @@
 			(uuid "a37b4289-2d61-43dc-9124-92cdfedf9304")
 		)
 		(fp_line
-			(start 10.1 -3.6)
-			(end 10.1 4.1)
+			(start 5.1 4.1)
+			(end -5.1 4.1)
 			(stroke
 				(width 0.2)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cdefb64a-a9d6-4eb8-8660-b20dca2fa3c0")
+			(uuid "79e0f39f-c574-40fe-a4ef-e0696553ee27")
+		)
+		(fp_line
+			(start -5.1 4.1)
+			(end -5.1 -3.6)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "af1b8922-6e58-455c-b199-44f2e85e7e66")
 		)
 		(fp_circle
-			(center -8.3 -1.7)
-			(end -8.2 -1.7)
+			(center -3.4 -1.4)
+			(end -3.3 -1.4)
 			(stroke
 				(width 0.4)
 				(type solid)
@@ -26732,10 +27051,10 @@
 		)
 		(fp_poly
 			(pts
-				(xy -10.25 -3.75) (xy 10.25 -3.75) (xy 10.25 4.25) (xy -10.25 4.25)
+				(xy -5.25 -3.75) (xy 5.25 -3.75) (xy 5.25 4.25) (xy -5.25 4.25)
 			)
 			(stroke
-				(width 0.1)
+				(width 0.127)
 				(type solid)
 			)
 			(fill yes)
@@ -26743,8 +27062,8 @@
 			(uuid "534f31e5-a031-4fb9-bda9-07e6b023670b")
 		)
 		(fp_line
-			(start -10 4)
-			(end -10 -3.5)
+			(start 5 -3.5)
+			(end 5 4)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -26753,18 +27072,8 @@
 			(uuid "9c3b9d20-6923-4dff-855b-3b450ee01fb3")
 		)
 		(fp_line
-			(start 10 4)
-			(end -10 4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "308cb25c-427e-4696-8da2-4cbe2b1cb26f")
-		)
-		(fp_line
-			(start -10 -3.5)
-			(end 10 -3.5)
+			(start -5 -3.5)
+			(end 5 -3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -26773,8 +27082,18 @@
 			(uuid "fc0537d4-d890-47aa-98a8-28a98a8c974b")
 		)
 		(fp_line
-			(start 10 -3.5)
-			(end 10 4)
+			(start 5 4)
+			(end -5 4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "308cb25c-427e-4696-8da2-4cbe2b1cb26f")
+		)
+		(fp_line
+			(start -5 4)
+			(end -5 -3.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -26783,7 +27102,7 @@
 			(uuid "442a2edd-569f-46df-875b-7a14019aa7b5")
 		)
 		(pad "1" thru_hole circle
-			(at -7.5 0 270)
+			(at -2.5 0 90)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -26794,37 +27113,15 @@
 			(uuid "76a2abd3-42a1-4f72-9949-bdc222539b47")
 		)
 		(pad "2" thru_hole circle
-			(at -2.5 0 270)
+			(at 2.5 0 90)
 			(size 1.95 1.95)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//Pot Out")
+			(net "//Audio Control")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "ff2f51fc-6430-479e-9b0e-e823d7e694e8")
-		)
-		(pad "3" thru_hole circle
-			(at 2.5 0 270)
-			(size 1.95 1.95)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "//+Pot")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "d6c71508-c29c-444f-a15b-876e7315c714")
-		)
-		(pad "4" thru_hole circle
-			(at 7.5 0 270)
-			(size 1.95 1.95)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "//-Pot")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "bf79b31a-d94f-489f-828c-78371d5d8f06")
 		)
 		(embedded_fonts no)
 	)
@@ -29056,7 +29353,7 @@
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
 		(layer "F.Cu")
 		(uuid "c53d3f81-fd4c-4a32-be1d-a828f917601b")
-		(at -122.255 45.325)
+		(at 160.6 125.85)
 		(descr "Potentiometer, Bourns, TC33X, Vertical, https://www.bourns.com/pdfs/TC33.pdf")
 		(tags "Potentiometer Bourns TC33X Vertical")
 		(property "Reference" "RV4"
@@ -29147,9 +29444,9 @@
 			)
 		)
 		(property ki_fp_filters "Potentiometer*")
-		(path "/44d2d4f3-8db6-437b-99fb-236b204854a5")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/d4d66a38-f316-4106-b515-e2ea9b3f123e")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29375,7 +29672,7 @@
 			(at 1.45 0)
 			(size 1.5 1.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "//+Pot 5th Partial")
+			(net "/Custom Potentiometer Controls/+Pot 4th Partial")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(uuid "be5c375f-c84c-4b39-95d0-256492cd2e13")
@@ -31445,7 +31742,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "//In")
+			(net "//Audio Control")
 			(pintype "passive")
 			(uuid "6b7be1d8-5ce6-4479-9531-70a7fb06943a")
 		)
@@ -32653,13 +32950,13 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "de944573-061e-418a-b4de-57b70f96aff4")
-		(at 183.2 125.13)
+		(at 169.445 136.45)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "80e16041-407c-4359-b298-2b7d0c2a9549")
+			(uuid "6a031fb2-fd8f-4d7b-bba0-cb8fc164134c")
 			(effects
 				(font
 					(size 1 1)
@@ -32670,7 +32967,7 @@
 		(property "Value" "10k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "88bccae9-304c-4842-995c-2efc38ac8645")
+			(uuid "c26e3f4b-cbbf-4d53-8fb8-f7cd719ff7a2")
 			(effects
 				(font
 					(size 1 1)
@@ -32682,7 +32979,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbbc53e7-6a4e-412f-aa6c-ce09df559604")
+			(uuid "36f4e289-f3a4-47b6-82ee-06b8466d2720")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32693,7 +32990,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64639239-7231-4143-b5e5-e91f7140923e")
+			(uuid "b909b205-d31b-4222-9556-4a6cbb92fe95")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32713,9 +33010,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/679b07e6-b3e6-430d-9b11-0a7823386d58")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
+		(path "/1d78e900-aefc-448c-9465-506849cdbb5d")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32776,7 +33073,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Net-(U11B--)")
+			(net "GND")
 			(pintype "passive")
 			(uuid "90f24c5d-7b3c-4003-90f9-f1fd5b070059")
 		)
@@ -32785,7 +33082,7 @@
 			(size 0.46 0.4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "//Pot Voltage Difference")
+			(net "Net-(U11C-+)")
 			(pintype "passive")
 			(uuid "eaf88a00-b853-4410-8bc5-dec8d62e3c63")
 		)
@@ -33745,14 +34042,14 @@
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e5f9bf25-e451-42d4-8448-cf86c8726462")
-		(at 172.755 115.6)
+		(at 176.56 138.12)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
 		(tags "resistor")
 		(property "Reference" "R74"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9e8de353-038b-4aff-8414-510aa5774c17")
+			(uuid "b84f2d66-85cd-443f-a118-622fcc3abbd6")
 			(effects
 				(font
 					(size 1 1)
@@ -33764,7 +34061,7 @@
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb01efed-7d17-4c09-8985-704e2d92befb")
+			(uuid "2372ee90-b34e-4b15-813e-1409c690819d")
 			(effects
 				(font
 					(size 1 1)
@@ -33776,7 +34073,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83e56446-2f09-4aad-98e2-0f89d647ef7b")
+			(uuid "64d92044-15df-48a4-86a9-cddae41139d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33787,7 +34084,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee064162-3f20-4fc5-87dd-5eae30cc47ac")
+			(uuid "b3315543-c6fa-4114-9148-a6c4dfb14718")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33807,9 +34104,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/21cb43b2-e081-4c5b-a36c-0e6771db5215")
-		(sheetname "/Power/")
-		(sheetfile "Power.kicad_sch")
+		(path "/9e385fe0-bf1b-48f3-bd26-832ff05e4765")
+		(sheetname "/Custom Potentiometer Controls/")
+		(sheetfile "Custom Potentiometer Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34500,226 +34797,6 @@
 			)
 		)
 	)
-	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-		(layer "F.Cu")
-		(uuid "e76f02e0-5024-4fba-8517-627cbe2b4e75")
-		(at 188.575 115.525)
-		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
-		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R75"
-			(at 3.81 -2.37 0)
-			(layer "F.SilkS")
-			(uuid "e366f083-fe65-4cad-a9d6-be2be2b2991c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_US"
-			(at 3.81 2.37 0)
-			(layer "F.Fab")
-			(uuid "d05d19ec-7add-445c-bde7-7decaee96454")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce015383-6dcc-4d68-a094-646757810949")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bcd3e8ea-6118-4c4a-a13d-3b0d3219e468")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "resistor/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b1fea19a-f041-44f0-98c5-703b6d339814")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/d3f811c3-d900-4521-a61c-87eb5111bc06")
-		(sheetname "//")
-		(sheetfile "Electronic Trombone.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e5127fd6-892f-481a-bb82-841704d69397")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "52efc509-02f1-4cda-80d5-1e24676f3315")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2d0dc500-1a22-4f1b-a817-bcd42d3e28fa")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "117f9cc7-4d25-4725-9ee3-ac1f493551bb")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0f5de6bc-9f04-4ad9-a5a5-f8c47b26e920")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "051641d4-711f-43b6-874f-129444d7c4c3")
-		)
-		(fp_rect
-			(start -1.05 -1.5)
-			(end 8.67 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "218d16a0-3f27-4796-bb6f-1904c652b71d")
-		)
-		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f952699a-43a9-4ada-b49b-ac5342f514e6")
-		)
-		(fp_line
-			(start 7.62 0)
-			(end 6.96 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "675d6232-0f26-4a36-83f8-3e6556ed48b8")
-		)
-		(fp_rect
-			(start 0.66 -1.25)
-			(end 6.96 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "8a24b731-0f34-4ac2-8f36-77154f62d5d9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
-			(layer "F.Fab")
-			(uuid "b2de90b6-6837-4f95-ab8a-3c1a94dd3947")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "GND")
-			(pintype "passive")
-			(uuid "32d40b59-eab4-434a-9477-55636e61fc5b")
-		)
-		(pad "2" thru_hole circle
-			(at 7.62 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "//Pot Voltage Difference")
-			(pintype "passive")
-			(uuid "3bdf52f6-d79a-4eaf-bbcd-6800596ea622")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "ea2004af-21d3-4d04-b677-970e09a1b9ba")
@@ -35261,7 +35338,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm"
 		(layer "F.Cu")
 		(uuid "ed5685ae-a761-4cac-bc67-f3cef0e5e1e7")
-		(at 83.64 81.6 -90)
+		(at 38.58 92.88 -90)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U5"
@@ -35482,7 +35559,7 @@
 			)
 		)
 		(point
-			(at 76.02 85.41)
+			(at 30.96 96.69)
 			(size 1.27)
 			(layer "F.Fab")
 			(uuid "b1b205b7-f2ce-4f63-ba58-caf555e8ad0a")
@@ -38930,8 +39007,47 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Mux"
+		(at 179.9 130.8 0)
+		(layer "F.SilkS")
+		(uuid "60f62cb9-b31b-4ad3-a092-547e8de57f82")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 189.2 142.9 0)
+		(layer "F.SilkS")
+		(uuid "cd36fd60-0e47-4bc5-9c45-c2d473c5d0fd")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 189.2 147.3 0)
+		(layer "F.SilkS")
+		(uuid "5719ed0c-cadf-484a-835b-935381688a6e")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "2"
-		(at 187.9 142.9 0)
+		(at 189.4 132 0)
 		(layer "F.SilkS")
 		(uuid "fd7de287-412c-4b0e-b65f-d5b4f2bee154")
 		(effects
@@ -38944,7 +39060,7 @@
 		)
 	)
 	(gr_text "3"
-		(at 187.9 147.9 0)
+		(at 189.4 137 0)
 		(layer "F.SilkS")
 		(uuid "1e077872-0e64-4b53-888f-9aa7f865687b")
 		(effects
@@ -38957,7 +39073,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 188 137.9 0)
+		(at 189.5 127 0)
 		(layer "F.SilkS")
 		(uuid "ec30f07b-c32b-47d5-a358-45a8c55a5ba1")
 		(effects
@@ -38968,6 +39084,102 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(segment
+		(start 187.1 137.58)
+		(end 187.64 138.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "56cd7a23-279a-4530-be58-19211d6e917f")
+	)
+	(segment
+		(start 186.1 137.58)
+		(end 186.1 137.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "8fcb8294-7d9f-4f56-841e-c09443715ce1")
+	)
+	(segment
+		(start 187.64 138.12)
+		(end 187.66 138.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "c90b6eae-1a98-4cc6-a41d-486b28bbe308")
+	)
+	(segment
+		(start 186.1 137.58)
+		(end 187.1 137.58)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "cb4e45d0-674f-478e-af3e-42aac00e91af")
+	)
+	(segment
+		(start 187.1 137.58)
+		(end 187.66 137.02)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "dcb21df0-affc-4b7a-b1c9-1f8eeea73227")
+	)
+	(segment
+		(start 186.1 137.3)
+		(end 186.28 137.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11D-+)")
+		(uuid "f9db56c0-53f9-4ee6-961c-83668ebd1649")
+	)
+	(segment
+		(start 178.48 132.5)
+		(end 178.48 135.04)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "dbc9dde5-ec91-43ad-bfbe-b2be647d37a7")
+	)
+	(segment
+		(start 177.44 137.58)
+		(end 176.88 137.02)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11A-+)")
+		(uuid "0e3ad209-b931-4834-aa93-c1c39c49edce")
+	)
+	(segment
+		(start 178.48 137.58)
+		(end 177.44 137.58)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11A-+)")
+		(uuid "2c8ab231-bf29-4890-a544-4320bbd19cbc")
+	)
+	(segment
+		(start 177.44 137.58)
+		(end 176.9 138.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11A-+)")
+		(uuid "6b82317a-7515-4063-b64e-c421adb978f3")
+	)
+	(segment
+		(start 176.9 138.12)
+		(end 176.88 138.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U11A-+)")
+		(uuid "c50473df-5959-4382-bf6d-1de76ee922f9")
+	)
+	(segment
+		(start 186.1 132.5)
+		(end 186.1 135.04)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "-5V")
+		(uuid "d3ce4885-40cf-4421-81f4-3d3c3be42f82")
 	)
 	(embedded_fonts no)
 )
