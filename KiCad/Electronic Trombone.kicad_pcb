@@ -2940,7 +2940,7 @@
 		(property "Reference" "J4"
 			(at 0 -5.135 0)
 			(layer "F.SilkS")
-			(uuid "1080eb46-a4b8-4976-8daa-355b2772c3ce")
+			(uuid "5f3041ac-e56a-43d9-94d6-147c07eaaffc")
 			(effects
 				(font
 					(size 1 1)
@@ -2951,7 +2951,7 @@
 		(property "Value" "691137710002"
 			(at 4.12 5.365 0)
 			(layer "F.Fab")
-			(uuid "4bac2af4-c58d-4a65-883c-8aa6c7de155b")
+			(uuid "7ff8165c-426c-496b-9942-036f1a77b6e5")
 			(effects
 				(font
 					(size 1 1)
@@ -2963,7 +2963,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "706357a3-c51e-46ff-b279-1258ffc950b5")
+			(uuid "2e9f9873-2eb5-4983-91fd-58db0c5f2e20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,14 +2974,14 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3360926-5f7b-4a6a-b46c-da413649807b")
+			(uuid "ff6d6856-41e8-41a7-b9bf-65c12deae5bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/006bf0a8-abe0-401d-bb82-b8e97da05a54")
+		(path "/10cb9f11-1660-4f8b-b1c0-26754912775e")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
@@ -6291,13 +6291,13 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "2fcf10c7-a301-4e43-8c4e-7969bf737c05")
-		(at 67.2 139.2)
+		(at 68 140.3)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW2"
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9e3bfadb-e2d5-4eee-bc92-2bd6d0ffa2d5")
+			(uuid "e5420187-09b3-4e19-a435-a59b91beefac")
 			(effects
 				(font
 					(size 1 1)
@@ -6305,11 +6305,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_Dual"
+		(property "Value" "D6R90F2LFS"
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6766ab54-3d8b-4ec7-a35f-9f45df56b99b")
+			(uuid "abbe3213-e480-4239-8305-e79c0e10a8d3")
 			(effects
 				(font
 					(size 1 1)
@@ -6317,35 +6317,36 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "D6R90F2LFS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ee26e59-f848-4ec1-b4b3-098cbf0aca69")
+			(uuid "e7ec0e05-17b5-46ae-ae7b-d5935fa13863")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3e7913d-db72-4b23-a22e-40258a60d411")
+			(uuid "cfa75787-b3ff-4dae-b1fd-b55acce4a014")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/e191082e-2ca9-42db-b258-b7c7fba5df21")
+		(property ki_fp_filters "D6R90_CNK")
+		(path "/532f1de5-20df-4a5e-919a-aca00a2bdd3a")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "3" "2" "4")
+				(pins "1" "2" "4" "3")
 			)
 		)
 		(attr through_hole)
@@ -6523,7 +6524,7 @@
 			(remove_unused_layers no)
 			(net "+5V")
 			(pinfunction "1_1")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "111c1ad2-3152-4200-baf6-260ae588dfbe")
 		)
 		(pad "2" thru_hole circle
@@ -6534,7 +6535,7 @@
 			(remove_unused_layers no)
 			(net "Net-(J3-Pad2)")
 			(pinfunction "2_2")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "d7c38855-0090-491d-98a7-8c4329751775")
 		)
 		(pad "3" thru_hole circle
@@ -6543,9 +6544,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+5V")
+			(net "Net-(J3-Pad2)")
 			(pinfunction "3_3")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "878a16a0-ca66-400b-8624-cc3bba0a2af7")
 		)
 		(pad "4" thru_hole circle
@@ -6554,9 +6555,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-Pad2)")
+			(net "+5V")
 			(pinfunction "4_4")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "a9f33585-13b3-417b-be8f-dcfda45a8927")
 		)
 		(embedded_fonts no)
@@ -22967,7 +22968,7 @@
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "4308ae04-6881-4308-900d-d6a2c39ef1f9")
+			(uuid "b8469a10-fafc-40b2-acdb-82aec21095a2")
 			(effects
 				(font
 					(size 1 1)
@@ -22975,11 +22976,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_Dual"
+		(property "Value" "D6R90F2LFS"
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "8b41b590-7a9a-4094-a566-ff9d73f6c913")
+			(uuid "523008ad-6ea5-405a-b988-3d31b91b6728")
 			(effects
 				(font
 					(size 1 1)
@@ -22987,35 +22988,36 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "D6R90F2LFS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38b43e43-d268-47c9-b199-d52825c24096")
+			(uuid "2ac8aa21-b0b4-4c03-b4b6-47b05a6e4944")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4be79cfd-b8e5-4837-b91b-05a12f24e4a5")
+			(uuid "00eb1fc8-51e5-4339-a3a3-61faf3092e3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/ee02a8fa-f43f-4eac-b92e-ca506a784e0d")
+		(property ki_fp_filters "D6R90_CNK")
+		(path "/9692602c-ece6-4ebe-85af-2b104ad18c7c")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "3" "2" "4")
+				(pins "1" "2" "4" "3")
 			)
 		)
 		(attr through_hole)
@@ -23193,7 +23195,7 @@
 			(remove_unused_layers no)
 			(net "+5V")
 			(pinfunction "1_1")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "1dd1f4ef-1ae7-40bb-bd9f-0afce4f1cd10")
 		)
 		(pad "2" thru_hole circle
@@ -23204,7 +23206,7 @@
 			(remove_unused_layers no)
 			(net "Net-(J3-Pad1)")
 			(pinfunction "2_2")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "2d2a869c-92f2-4770-baa4-9c9235138d81")
 		)
 		(pad "3" thru_hole circle
@@ -23213,9 +23215,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+5V")
+			(net "Net-(J3-Pad1)")
 			(pinfunction "3_3")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "9d67bbb1-4f6c-4952-9afb-90f41430b908")
 		)
 		(pad "4" thru_hole circle
@@ -23224,9 +23226,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-Pad1)")
+			(net "+5V")
 			(pinfunction "4_4")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "2eab24fc-bf91-4931-a774-068a82ba8cd4")
 		)
 		(embedded_fonts no)
@@ -25845,7 +25847,7 @@
 		(property "Reference" "J3"
 			(at 0 -5.135 90)
 			(layer "F.SilkS")
-			(uuid "d7f2e783-2bae-452d-a443-f1d4a0544f3f")
+			(uuid "4f1d2223-3475-4f4a-a38f-011927b656af")
 			(effects
 				(font
 					(size 1 1)
@@ -25856,7 +25858,7 @@
 		(property "Value" "691137710003"
 			(at 4.12 5.365 90)
 			(layer "F.Fab")
-			(uuid "109051d6-14db-427d-b6e1-5a0c26bd221a")
+			(uuid "3b2c5f4d-3051-427e-98ef-48e10838f121")
 			(effects
 				(font
 					(size 1 1)
@@ -25868,7 +25870,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93683779-547a-4b4c-b622-0f4ca42c27c5")
+			(uuid "a9392adb-9bca-431a-acaf-6a9e86d26753")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25879,14 +25881,14 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6dfd889-a54e-4dad-9772-e413f861477f")
+			(uuid "a13d601b-abde-49af-b33a-57739e8acf80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/d4f6d041-1f74-49f3-8ab7-b209e971ec1b")
+		(path "/f88145ba-3761-4773-9188-2984cec3a478")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
@@ -28850,7 +28852,7 @@
 		(property "Reference" "R70"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "6caa3562-c67d-413f-ac8d-963365d5d9e1")
+			(uuid "2fa699b9-28af-496b-80ee-33107d0feb46")
 			(effects
 				(font
 					(size 1 1)
@@ -28861,7 +28863,7 @@
 		(property "Value" "30k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "678359af-c356-4c13-b542-10e535397ca4")
+			(uuid "96eeea4a-0b0c-4ff1-a440-7ebce2cc7e33")
 			(effects
 				(font
 					(size 1 1)
@@ -28873,7 +28875,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33784402-829a-491b-ac82-8a4923ff3141")
+			(uuid "bb34e126-d98e-4e33-9032-13643a12c265")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28884,7 +28886,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86a6722b-ea74-48e6-8864-1eedee19f086")
+			(uuid "097237fd-0091-4554-a2c8-e0cb9960bdae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28904,7 +28906,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/7145dd0b-abb2-4a69-9b73-a1eddb56f29c")
+		(path "/4ce8ef99-eea8-4e27-a8c0-ee57df46940f")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
@@ -32399,7 +32401,7 @@
 		(property "Reference" "R69"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "b7d16755-a872-4e05-a3fd-a62092896b8a")
+			(uuid "aaf9dfe0-c759-45de-adca-d4989d5d3bbb")
 			(effects
 				(font
 					(size 1 1)
@@ -32410,7 +32412,7 @@
 		(property "Value" "30k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "4f11d143-6389-4cd0-b0f9-7da2d4cd2a3b")
+			(uuid "e30782e4-0919-465d-8842-aa2c9b58b113")
 			(effects
 				(font
 					(size 1 1)
@@ -32422,7 +32424,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb13f0eb-d79d-484d-a5ae-7fcddcc79e31")
+			(uuid "881647d3-2b70-4aff-a661-3e07c8ccfc83")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32433,7 +32435,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4580be2-3d8c-4876-b69b-3f583b4cb116")
+			(uuid "f96cf62a-6d17-4d46-bd20-3a3a7c240f8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32453,7 +32455,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/1a23c0bc-3989-4796-9b3d-8f775e6c52ff")
+		(path "/4df27dfc-9028-463d-acfa-d612293de287")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
@@ -32551,7 +32553,7 @@
 		(property "Reference" "R68"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "e531139a-7c40-4251-8ccb-94fb9eafc08c")
+			(uuid "9c80bce5-9580-44a2-8693-c767b742b2b4")
 			(effects
 				(font
 					(size 1 1)
@@ -32562,7 +32564,7 @@
 		(property "Value" "30k"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "78035f4f-fbb4-4414-89e3-30261092af67")
+			(uuid "d87ae130-adbf-4bb3-af2e-16946586f440")
 			(effects
 				(font
 					(size 1 1)
@@ -32574,7 +32576,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "733f5bfa-6847-4857-8fcd-fd9eeaaf9307")
+			(uuid "7f78fee9-bb5c-4111-a460-eb3c7da8dfcc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32585,7 +32587,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ed58ea2-b148-4e21-a0dc-42fa020dd998")
+			(uuid "bcff9b9d-95a9-45d9-91fd-638f9afcc8be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32605,7 +32607,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/30746f66-31b7-4617-940b-a9359da98990")
+		(path "/963c3690-b104-446b-bbcd-642cbc5cabdb")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
@@ -34969,13 +34971,13 @@
 	(footprint "Switch Push Button D6R90F2LFS:D6R90_CNK"
 		(layer "F.Cu")
 		(uuid "ea2004af-21d3-4d04-b677-970e09a1b9ba")
-		(at 80.9 139.2)
+		(at 82.4 139)
 		(tags "D6R90F2LFS ")
 		(property "Reference" "SW3"
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "50d070f0-30ec-4458-9b56-f7583b83e71c")
+			(uuid "d12e486b-915a-47c2-9434-0ac521136557")
 			(effects
 				(font
 					(size 1 1)
@@ -34983,11 +34985,11 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push_Dual"
+		(property "Value" "D6R90F2LFS"
 			(at 2.5 2.499995 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4c34776c-fa57-43c6-8e8c-05935757dfe5")
+			(uuid "4d21a96e-0e57-4941-8a69-e0fe26536107")
 			(effects
 				(font
 					(size 1 1)
@@ -34995,35 +34997,36 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "D6R90F2LFS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfdae1b6-4f7f-4f84-bc03-e8721a31f002")
+			(uuid "69e67ef7-368e-4b8f-803b-8f4165baa361")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ce75a266-e2da-4b82-a752-c617214f477b")
+			(uuid "e1fd8dcc-8a21-4282-a101-207526a819af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(path "/d8990015-5217-436d-93a1-4c84472d88f4")
+		(property ki_fp_filters "D6R90_CNK")
+		(path "/ef7f927f-4e1c-4109-9e08-38d5f3cde672")
 		(sheetname "/Button Controls/")
 		(sheetfile "Button Controls.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "3" "2" "4")
+				(pins "1" "2" "4" "3")
 			)
 		)
 		(attr through_hole)
@@ -35201,7 +35204,7 @@
 			(remove_unused_layers no)
 			(net "+5V")
 			(pinfunction "1_1")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "cb92395a-7fc9-41de-898d-dfdb463a786e")
 		)
 		(pad "2" thru_hole circle
@@ -35212,7 +35215,7 @@
 			(remove_unused_layers no)
 			(net "Net-(J3-Pad3)")
 			(pinfunction "2_2")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "0e48bcdc-c7fe-4e31-9697-5eef897c5d93")
 		)
 		(pad "3" thru_hole circle
@@ -35221,9 +35224,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+5V")
+			(net "Net-(J3-Pad3)")
 			(pinfunction "3_3")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "887a7b83-addc-4af1-ab7a-482a4518272f")
 		)
 		(pad "4" thru_hole circle
@@ -35232,9 +35235,9 @@
 			(drill 1.0668)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-Pad3)")
+			(net "+5V")
 			(pinfunction "4_4")
-			(pintype "passive")
+			(pintype "unspecified")
 			(uuid "439dec8f-23a2-46b1-bcab-01632e95f176")
 		)
 		(embedded_fonts no)
