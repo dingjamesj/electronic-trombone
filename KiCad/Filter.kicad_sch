@@ -1080,16 +1080,6 @@
 		)
 		(uuid "3cc8a1a7-c52e-4adb-9b1c-7658d31a42e3")
 	)
-	(text "Signal In with neg. offset"
-		(exclude_from_sim no)
-		(at 235.458 102.616 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51ce69c4-b342-485a-af98-f19d3e509408")
-	)
 	(text "100mV pp., centered at 0V"
 		(exclude_from_sim no)
 		(at 158.496 54.356 0)
@@ -1119,16 +1109,6 @@
 			)
 		)
 		(uuid "9f893263-6a59-470a-9a68-4797127836ac")
-	)
-	(text "Signal In with pos. offset"
-		(exclude_from_sim no)
-		(at 235.458 51.816 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d12b6f0f-c5cb-49fc-a82c-60331d364448")
 	)
 	(junction
 		(at 68.58 74.93)
@@ -1916,6 +1896,26 @@
 		)
 		(uuid "bfa7fa29-d70d-4493-b3b5-cf0a5a3a4f82")
 	)
+	(label "Signal In w. -Offset"
+		(at 247.65 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9fdbdcd-fd91-438b-8351-85a1200e13d6")
+	)
+	(label "Signal In w. +Offset"
+		(at 247.65 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "febd537e-eddf-41af-9864-0aa89991c5c4")
+	)
 	(hierarchical_label "Signal In"
 		(shape input)
 		(at 160.02 92.71 180)
@@ -1972,7 +1972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ac61a6-fa2b-4747-ad45-00ef39d54909")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 71.12 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2145,7 +2145,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 92.71 77.47 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2252,7 +2252,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
 					(reference "U7")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33619d9f-073b-4992-9ff1-2537945040cf")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 71.12 77.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2539,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2979,7 +2979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e1c36ca-704d-44ef-80ef-ca2a60c58eda")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 250.19 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3065,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a8a81cc-9c1a-4af1-8724-f842b55fd14e")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 71.12 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3605,7 +3605,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4517,7 +4517,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 189.23 53.34 0)
 		(mirror x)
-		(unit 2)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4624,7 +4624,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
 					(reference "U7")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -5201,7 +5201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f621c4cf-c177-4e02-aecd-1267cdbfacde")
-		(property "Reference" "D9"
+		(property "Reference" "D6"
 			(at 250.19 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,7 +5287,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
-					(reference "D9")
+					(reference "D6")
 					(unit 1)
 				)
 			)

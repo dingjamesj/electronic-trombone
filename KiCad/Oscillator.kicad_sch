@@ -7265,7 +7265,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 234.95 110.49 0)
-		(unit 4)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7378,7 +7378,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
 					(reference "U7")
-					(unit 4)
+					(unit 1)
 				)
 			)
 			(project "Main"
