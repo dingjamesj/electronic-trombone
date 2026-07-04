@@ -2701,7 +2701,7 @@
 		)
 		(uuid "1efa73b0-8902-4f4d-be5b-7ce36d467caf")
 	)
-	(label "Thaw 5"
+	(label "Thaw 5C"
 		(at 130.81 113.03 0)
 		(effects
 			(font
@@ -2731,7 +2731,7 @@
 		)
 		(uuid "72af081b-84a3-4607-a1a1-4d45d4269fc5")
 	)
-	(label "Thaw 7"
+	(label "Thaw 5D"
 		(at 158.75 113.03 0)
 		(effects
 			(font
@@ -4409,7 +4409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bb06659-0ec8-48e1-a72e-7a688c3a3288")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 161.29 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4507,7 @@
 		(instances
 			(project "Electronic Trombone"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "U7")
+					(reference "U5")
 					(unit 4)
 				)
 			)

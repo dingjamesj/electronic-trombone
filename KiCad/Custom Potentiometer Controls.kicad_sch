@@ -2517,6 +2517,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To allow the button controls PCB\nto get the +5V source"
+		(exclude_from_sim no)
+		(at 123.19 24.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "284c1a8b-752b-4437-9e1e-576a00c7d1b0")
+	)
 	(junction
 		(at 127 170.18)
 		(diameter 0)
@@ -2756,6 +2766,16 @@
 			(type default)
 		)
 		(uuid "4170b441-cd3f-4f29-be4f-1fe0474e124a")
+	)
+	(wire
+		(pts
+			(xy 118.11 38.1) (xy 121.92 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4418528f-474c-47fc-9f42-87f5130829f0")
 	)
 	(wire
 		(pts
@@ -3036,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "e0af18ac-0579-46b4-8e11-c6e761dd0697")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 121.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60d2365-0501-4132-b218-4b6947c5e20b")
 	)
 	(wire
 		(pts
@@ -3578,6 +3608,84 @@
 			(project "Electronic Trombone"
 				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
 					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14063f4d-fa56-42b5-a6c1-905986d5f1fb")
+		(property "Reference" "#PWR0138"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 118.11 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "953f6681-c77b-4c8f-916f-02218952f737")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -4406,6 +4514,84 @@
 			(project "Electronic Trombone"
 				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446a3895-8a41-4a18-9585-779fcc447c4d")
+		(property "Reference" "#PWR0139"
+			(at 118.11 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff646080-7c9c-4a1c-b870-f4b1aaa6b4a6")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -7285,6 +7471,90 @@
 			(project "Electronic Trombone"
 				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Header 691137710002:691137710002")
+		(at 127 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cebae520-5023-4b6a-ac82-3e956aa2b7f7")
+		(property "Reference" "J6"
+			(at 128.27 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "691137710002"
+			(at 128.27 38.0999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Header 691137710002:691137710002"
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "297a649f-07bb-491b-9cb0-ef3df713fa87")
+		)
+		(pin "2"
+			(uuid "21d829c2-65a6-42e7-ac2c-0c87fb6e25c3")
+		)
+		(instances
+			(project "Electronic Trombone"
+				(path "/c6583947-775f-4973-9f5e-7501cd9e9aae"
+					(reference "J6")
 					(unit 1)
 				)
 			)

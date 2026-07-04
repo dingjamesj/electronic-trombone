@@ -7273,7 +7273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aac4a182-4ab9-4b63-89ad-c964f7397585")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 234.95 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7377,7 +7377,7 @@
 			)
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
-					(reference "U5")
+					(reference "U7")
 					(unit 4)
 				)
 			)
@@ -8798,6 +8798,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 195.58 107.95 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8805,10 +8806,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dba52d12-8199-4ee9-9a9e-4b4dab343af1")
 		(property "Reference" "RV10"
-			(at 193.04 106.6799 0)
+			(at 193.04 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8819,7 +8819,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 193.04 109.2199 0)
+			(at 193.04 106.6801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
