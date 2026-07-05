@@ -1308,16 +1308,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 106.68 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbca8c3-1147-4e45-9d79-03236eead080")
-	)
-	(wire
-		(pts
 			(xy 251.46 101.6) (xy 251.46 106.68)
 		)
 		(stroke
@@ -1498,16 +1488,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 106.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0412c0-04c6-4a3a-b676-b4d5d4f2e04a")
-	)
-	(wire
-		(pts
 			(xy 217.17 97.79) (xy 213.36 97.79)
 		)
 		(stroke
@@ -1568,16 +1548,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 106.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cff64c2-ea23-49b3-aa95-885ef0a5a1e9")
-	)
-	(wire
-		(pts
 			(xy 46.99 88.9) (xy 46.99 82.55)
 		)
 		(stroke
@@ -1585,16 +1555,6 @@
 			(type default)
 		)
 		(uuid "a0122f83-b298-49e3-a9c4-ca71180e7cfe")
-	)
-	(wire
-		(pts
-			(xy 106.68 38.1) (xy 107.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ae7ce7-5ca4-4714-bd9b-4f22e76e63ff")
 	)
 	(wire
 		(pts
@@ -1768,16 +1728,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 34.29) (xy 106.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c80eb1-b80e-4881-b9ba-04add53b48a1")
-	)
-	(wire
-		(pts
 			(xy 107.95 151.13) (xy 104.14 151.13)
 		)
 		(stroke
@@ -1785,26 +1735,6 @@
 			(type default)
 		)
 		(uuid "f8347f98-489f-4ad8-abe4-e41a3ca32983")
-	)
-	(wire
-		(pts
-			(xy 106.68 35.56) (xy 107.95 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe71f5d5-5df7-4bd4-94ba-52bf05682d84")
-	)
-	(label "Audio Control"
-		(at 92.71 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a813b98-2f47-4a28-b4eb-8589c3e16873")
 	)
 	(label "Audio Control"
 		(at 15.24 80.01 0)
@@ -1867,14 +1797,14 @@
 		(uuid "8fd4e46d-3b18-4b3b-b0d6-72c6927a30e6")
 	)
 	(label "Audio Out"
-		(at 92.71 34.29 0)
+		(at 107.95 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "a7b7c2a3-56e9-43f1-8f40-3dce769210c1")
+		(uuid "c4d4dc74-c24c-463d-b724-c7c826b1d73f")
 	)
 	(label "Filter Control"
 		(at 124.46 71.12 0)
@@ -1885,6 +1815,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5be8a74-494e-422f-b9b7-4d8611c15dea")
+	)
+	(label "Audio Control"
+		(at 107.95 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eff2a2c6-7cba-4962-a9d6-0fb95fb6f492")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
@@ -2005,7 +1945,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 259.08 99.06 0)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2113,7 +2053,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -2481,6 +2421,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 241.3 96.52 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2488,10 +2429,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3439b4e6-0cf6-4fca-babe-4c4a8765ee10")
 		(property "Reference" "RV8"
-			(at 238.76 95.2499 0)
+			(at 238.76 97.7901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2502,7 +2442,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 238.76 97.7899 0)
+			(at 238.76 95.2501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2599,7 +2539,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 39.37 82.55 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2707,7 +2647,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
