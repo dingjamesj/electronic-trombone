@@ -2735,7 +2735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.484 42.164 90)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3263,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.434 64.516 90)
 			(hide yes)
 			(show_name no)
@@ -3725,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.354 91.694 90)
 			(hide yes)
 			(show_name no)
@@ -3934,7 +3934,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 45.72 152.4 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4041,7 +4041,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/6d65ef8f-8235-46d4-95e7-69caf9b93e91"
 					(reference "U8")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -4465,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 189.484 87.884 90)
 			(hide yes)
 			(show_name no)
@@ -4899,7 +4899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 165.354 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -4981,7 +4981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.434 74.676 90)
 			(hide yes)
 			(show_name no)
@@ -5061,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.784 49.784 90)
 			(hide yes)
 			(show_name no)
