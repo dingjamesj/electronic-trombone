@@ -1318,16 +1318,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 80.01) (xy 31.75 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12654e57-7414-4be7-8540-fe2b3d78d725")
-	)
-	(wire
-		(pts
 			(xy 213.36 101.6) (xy 213.36 97.79)
 		)
 		(stroke
@@ -1388,16 +1378,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 148.59) (xy 58.42 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b391e8-5837-4604-8982-7bb2dba236ac")
-	)
-	(wire
-		(pts
 			(xy 213.36 82.55) (xy 204.47 82.55)
 		)
 		(stroke
@@ -1418,6 +1398,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 148.59) (xy 58.42 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d80dfb-bc9d-4afa-9f3c-5b34d1aa5aaf")
+	)
+	(wire
+		(pts
 			(xy 46.99 82.55) (xy 57.15 82.55)
 		)
 		(stroke
@@ -1425,6 +1415,16 @@
 			(type default)
 		)
 		(uuid "3bd459c3-327a-4942-9a1f-9aa1379614ef")
+	)
+	(wire
+		(pts
+			(xy 26.67 80.01) (xy 31.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4824a05e-9880-499e-9b4f-b4a6c408f5ec")
 	)
 	(wire
 		(pts
@@ -1736,13 +1736,23 @@
 		)
 		(uuid "f8347f98-489f-4ad8-abe4-e41a3ca32983")
 	)
-	(label "Audio Control"
-		(at 15.24 80.01 0)
+	(label "Buffered Audio Control"
+		(at 46.99 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "37479e58-9837-4dbf-b941-666af021af53")
+	)
+	(label "Audio Control"
+		(at 26.67 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "3de4b697-258f-4d2a-b67a-4114cf221ea2")
 	)
@@ -1766,16 +1776,6 @@
 		)
 		(uuid "560394b9-e562-4982-b1c7-cd10ccd534da")
 	)
-	(label "Audio Control"
-		(at 39.37 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6127d482-a0ae-4d38-ab7e-4af72712c0c0")
-	)
 	(label "Amp Control"
 		(at 127 165.1 0)
 		(effects
@@ -1785,6 +1785,16 @@
 			(justify left bottom)
 		)
 		(uuid "6226d652-611c-45e2-af66-55c2ac8704da")
+	)
+	(label "Buffered Audio Control"
+		(at 39.37 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "624d9668-cb45-4a22-9876-d541a4b1c33b")
 	)
 	(label "Audio Out"
 		(at 274.32 99.06 0)
@@ -1829,7 +1839,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 144.78 139.7 0)
-		(unit 3)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1937,7 +1947,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -2145,7 +2155,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 111.76 137.16 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2253,7 +2263,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -2735,7 +2745,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 111.76 165.1 0)
-		(unit 2)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2843,7 +2853,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U3")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)

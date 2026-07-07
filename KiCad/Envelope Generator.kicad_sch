@@ -1549,12 +1549,6 @@
 		(uuid "0dc5e322-0b82-4535-a249-c61cba93b26e")
 	)
 	(junction
-		(at 34.29 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18c4070c-95d7-4ad2-bb74-5bf7404ae8d1")
-	)
-	(junction
 		(at 149.86 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1571,6 +1565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31fec8bb-cba2-4de5-a086-a016bd6b66c1")
+	)
+	(junction
+		(at 34.29 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a0a8e2-e95c-4015-a993-1c375ae6d3db")
 	)
 	(junction
 		(at 124.46 151.13)
@@ -1705,16 +1705,6 @@
 			(type default)
 		)
 		(uuid "0d7b75e3-c295-44ef-9ed0-54923021d63e")
-	)
-	(wire
-		(pts
-			(xy 34.29 148.59) (xy 34.29 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fedf9c2-c965-49fa-bbb8-0f34fa21f83f")
 	)
 	(wire
 		(pts
@@ -1988,7 +1978,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 92.71) (xy 34.29 90.17)
+			(xy 34.29 146.05) (xy 34.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ece660-d3ad-4925-b302-28753abe75dc")
+	)
+	(wire
+		(pts
+			(xy 34.29 90.17) (xy 34.29 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2338,16 +2338,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 100.33) (xy 34.29 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bd3c19-67b1-428a-89e7-11b0a92dbde2")
-	)
-	(wire
-		(pts
 			(xy 34.29 160.02) (xy 34.29 161.29)
 		)
 		(stroke
@@ -2375,16 +2365,6 @@
 			(type default)
 		)
 		(uuid "f9a73355-2658-485e-be8f-884300e27ffe")
-	)
-	(wire
-		(pts
-			(xy 34.29 156.21) (xy 34.29 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc980e85-63aa-4c2e-9a0d-153d042e0cfc")
 	)
 	(wire
 		(pts
@@ -2426,16 +2406,6 @@
 		)
 		(uuid "1ead3517-ce9f-4174-b9a8-d58bd670830c")
 	)
-	(label "Sustain Voltage Amp"
-		(at 88.9 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f90bc82-e440-465f-a020-0960eeb2ceb3")
-	)
 	(label "Trigger Ref"
 		(at 142.24 53.34 0)
 		(effects
@@ -2445,16 +2415,6 @@
 			(justify left bottom)
 		)
 		(uuid "2453c154-4dcb-4a64-b5c9-4dfaa0969006")
-	)
-	(label "Sustain Voltage Amp"
-		(at 110.49 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54220233-95db-4708-ae44-f813bcdf4094")
 	)
 	(label "Trigger Ref"
 		(at 80.01 53.34 0)
@@ -2466,7 +2426,7 @@
 		)
 		(uuid "6150b41d-9a57-43a8-a358-40b6ed229724")
 	)
-	(label "Sustain Voltage Filter"
+	(label "Amp Sustain Voltage"
 		(at 88.9 105.41 0)
 		(effects
 			(font
@@ -2474,9 +2434,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8b9a22ce-c2cb-4886-92e9-6061a5542d04")
+		(uuid "8d2a0165-b078-43c5-abfd-9d82ce5037b2")
 	)
-	(label "Sustain Voltage Filter"
+	(label "Filter Sustain Voltage"
+		(at 88.9 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fe14d9a-968d-4bc2-91cc-718c707085ab")
+	)
+	(label "Amp Sustain Voltage"
+		(at 110.49 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a50df4cc-846f-4b1d-9181-d80cda660bf1")
+	)
+	(label "Filter Sustain Voltage"
 		(at 172.72 30.48 0)
 		(effects
 			(font
@@ -2484,7 +2464,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9a5d1184-4a02-4273-bd3e-1953774bdd3c")
+		(uuid "d66c6612-9fb8-4d1f-832d-0371deef5775")
 	)
 	(hierarchical_label "In"
 		(shape input)
@@ -3060,7 +3040,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 87.63 40.64 0)
-		(unit 3)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3168,7 +3148,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U9")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
@@ -3496,7 +3476,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 172.72 153.67 0)
-		(unit 4)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3604,7 +3584,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U10")
-					(unit 4)
+					(unit 2)
 				)
 			)
 		)
@@ -4428,88 +4408,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 34.29 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56f75ff0-6361-4e95-b358-236f535a5781")
-		(property "Reference" "R57"
-			(at 36.83 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "510"
-			(at 36.83 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 96.774 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0d2937f2-b185-41b6-84ac-38dff22f69f3")
-		)
-		(pin "1"
-			(uuid "47a18a32-835c-47a5-94a1-f2dd3f0462c3")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 49.53 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -4673,7 +4571,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 172.72 97.79 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4781,7 +4679,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U10")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -6090,7 +5988,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 149.86 40.64 0)
-		(unit 2)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6198,7 +6096,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U9")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -6404,7 +6302,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 66.04 148.59 0)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6512,7 +6410,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U9")
-					(unit 4)
+					(unit 3)
 				)
 			)
 		)
@@ -6882,91 +6780,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 34.29 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadb7567-d647-45cb-8e3d-22d6b77ca020")
-		(property "Reference" "R63"
-			(at 36.83 151.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "510"
-			(at 36.83 153.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 35.306 152.654 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 34.29 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8799d0c-d9df-4532-ace6-3bd0a263b881")
-		)
-		(pin "1"
-			(uuid "f5d03fe0-948c-405b-b125-a28831aabdc5")
-		)
-		(instances
-			(project "Electronic Trombone"
-				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 116.84 95.25 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7074,7 +6890,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U10")
-					(unit 1)
+					(unit 4)
 				)
 			)
 		)
@@ -7185,7 +7001,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 66.04 92.71 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7293,7 +7109,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/77fe3443-32fb-46cd-8502-6f8d1ae6ff63"
 					(reference "U9")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
