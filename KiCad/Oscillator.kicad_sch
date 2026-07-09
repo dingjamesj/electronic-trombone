@@ -4028,7 +4028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.426 51.054 90)
 			(hide yes)
 			(show_name no)
@@ -4051,6 +4051,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 105.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 105.41 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4278,6 +4289,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 102.87 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "30252964-be8f-4f38-a8bb-d014f879424d")
 		)
@@ -4389,7 +4411,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 149.86 72.39 0)
-		(unit 2)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4451,6 +4473,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 149.86 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b5b4565a-5412-4b18-9a23-d5c06035cb6e")
 		)
@@ -4497,7 +4530,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
 					(reference "U5")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -4505,7 +4538,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 149.86 149.86 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4567,6 +4600,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 149.86 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b5b4565a-5412-4b18-9a23-d5c06035cb70")
 		)
@@ -4613,7 +4657,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
 					(reference "U5")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -4673,6 +4717,17 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 148.59 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +4833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 70.104 90)
 			(hide yes)
 			(show_name no)
@@ -4802,6 +4857,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 92.964 90)
 			(hide yes)
 			(show_name no)
@@ -4894,6 +4960,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5107,6 +5184,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 148.59 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c37d0925-06df-4720-90cc-30aedc3f9b76")
 		)
@@ -5246,7 +5334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.464 35.306 90)
 			(hide yes)
 			(show_name no)
@@ -5269,6 +5357,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 30.48 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5351,6 +5450,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5510,6 +5620,17 @@
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
 			(at 55.88 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5767,6 +5888,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 55.88 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e94cdfb-8be3-479f-8cd9-9952ff8144d4")
 		)
@@ -5916,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.614 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -5940,6 +6072,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 213.36 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 213.36 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6178,7 +6321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.464 120.396 90)
 			(hide yes)
 			(show_name no)
@@ -6201,6 +6344,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 30.48 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6428,7 +6582,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.464 42.926 90)
 			(hide yes)
 			(show_name no)
@@ -6451,6 +6605,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 30.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6541,6 +6706,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 55.88 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "533d2b4f-2326-4701-9c5b-1d5a12422e42")
 		)
@@ -6602,7 +6778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 106.426 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -6625,6 +6801,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 105.41 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 105.41 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6739,6 +6926,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6876,6 +7074,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9daa0529-48c6-4aa4-8e3f-8fd4ae604935")
 		)
@@ -6962,6 +7171,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 205.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 205.74 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,6 +7363,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 129.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a3d0974-f7af-42a0-adf1-5eb23b98822f")
 		)
@@ -7202,7 +7433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -7226,6 +7457,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,7 +7507,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 234.95 110.49 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7316,6 +7558,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 234.95 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 234.95 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7378,7 +7631,7 @@
 			(project "Electronic Trombone"
 				(path "/931827f3-33b7-460f-8885-7db258da2648/c601a773-7a8a-4dbf-b4ab-ef5ea2e44138"
 					(reference "U7")
-					(unit 1)
+					(unit 2)
 				)
 			)
 			(project "Main"
@@ -7445,6 +7698,17 @@
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
 			(at 55.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,6 +7801,17 @@
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
 			(at 55.88 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,6 +7948,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 25.4 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "556b2379-e6f3-4332-a82d-2376e3b6b856")
 		)
@@ -7737,7 +8023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.516 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -7760,6 +8046,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 63.5 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 63.5 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7819,7 +8116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.516 185.674 90)
 			(hide yes)
 			(show_name no)
@@ -7842,6 +8139,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 63.5 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7924,6 +8232,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8061,6 +8380,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 115.57 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9e055821-9b09-41cf-beea-f008a7de2293")
 		)
@@ -8123,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 153.924 90)
 			(hide yes)
 			(show_name no)
@@ -8147,6 +8477,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 123.444 90)
 			(hide yes)
 			(show_name no)
@@ -8329,6 +8670,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,6 +8772,17 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
+			(at 148.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8683,6 +9046,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 25.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c83c66f7-c6c5-4eab-a875-aac0f1483f9f")
 		)
@@ -8747,7 +9121,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.464 128.016 90)
 			(hide yes)
 			(show_name no)
@@ -8770,6 +9144,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 30.48 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8885,6 +9270,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 195.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 195.58 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9205,6 +9601,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 102.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07c4c43e-5d77-4ce6-8667-c3273431bc53")
 		)
@@ -9435,7 +9842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.704 176.784 90)
 			(hide yes)
 			(show_name no)
@@ -9459,6 +9866,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 44.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 44.45 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,6 +9969,17 @@
 		)
 		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
 			(at 55.88 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1824,6 +1824,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "45748351-d1ea-4b4b-9e58-1092781972b8")
 		)
@@ -1932,6 +1943,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 133.35 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2147,7 +2169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.766 72.644 90)
 			(hide yes)
 			(show_name no)
@@ -2170,6 +2192,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 158.75 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 158.75 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2307,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.946 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -2330,6 +2363,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 74.93 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 74.93 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2410,6 +2454,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 105.41 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 105.41 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2536,6 +2591,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 140.97 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "eef6cdbe-eb89-4ded-b8e9-75dff3328dff")
 		)
@@ -2652,6 +2718,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 154.94 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f758c3e9-ecf1-4b4f-934d-5273972f781e")
 		)
@@ -2701,7 +2778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 87.376 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -2724,6 +2801,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 86.36 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 86.36 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2970,6 +3058,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 139.7 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "744f73c1-ea5e-497b-92a2-f038ead9447a")
 		)
@@ -3041,6 +3140,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 121.92 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,6 +3275,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 83.82 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d97a6a97-b373-4593-96c4-c5f924295728")
 		)
@@ -3248,6 +3369,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 121.92 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8ee55868-f18d-41bc-a40d-4108a701366c")
 		)
@@ -3318,6 +3450,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 105.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 105.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.516 49.784 90)
 			(hide yes)
 			(show_name no)
@@ -3436,6 +3579,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 63.5 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 63.5 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3551,6 +3705,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 60.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 60.96 83.82 0)
 			(hide yes)
 			(show_name no)

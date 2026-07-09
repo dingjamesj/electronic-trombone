@@ -1901,6 +1901,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba49facd-c42b-4aca-954d-2d30112b8968")
 		)
@@ -2007,6 +2018,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 259.08 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 259.08 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2137,6 +2159,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 113.03 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02209a40-9db0-4454-aaed-b01227497d8e")
 		)
@@ -2207,6 +2240,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 111.76 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -2333,6 +2377,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 111.76 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc8c6442-cc30-4b75-994e-62967d277f14")
 		)
@@ -2404,6 +2459,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 97.79 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,6 +2594,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 241.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23ab45b6-4a65-4470-b4b0-cb7f341d9ab8")
 		)
@@ -2601,6 +2678,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 39.37 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 39.37 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2694,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 131.064 136.144 90)
 			(hide yes)
 			(show_name no)
@@ -2718,6 +2806,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 130.81 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 130.81 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2797,6 +2896,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 111.76 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 111.76 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -2914,6 +3024,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 97.79 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,6 +3280,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 220.98 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0366686-ad40-4ea9-85e0-a81f99ee93ec")
 		)
@@ -3206,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 145.034 123.444 90)
 			(hide yes)
 			(show_name no)
@@ -3230,6 +3362,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 144.78 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 144.78 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3310,6 +3453,17 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 111.76 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 111.76 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,6 +3633,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0fa7aaa3-77c7-46ab-8837-15058f28cb22")
 		)
@@ -3549,6 +3714,17 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 220.98 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
