@@ -2860,7 +2860,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca3")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U5")
 					(unit 1)
@@ -2938,7 +2938,7 @@
 			(uuid "36f1a2b4-5f22-4cc2-93b9-906d7700a78f")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0104")
 					(unit 1)
@@ -3065,7 +3065,7 @@
 			(uuid "42b7c3fa-4770-49b2-b95a-c3deb12cc032")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U4")
 					(unit 7)
@@ -3143,7 +3143,7 @@
 			(uuid "44c664ab-0756-43dc-8a50-50b1a16a5908")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0102")
 					(unit 1)
@@ -3234,7 +3234,7 @@
 			(uuid "a596149d-4cef-4f5d-bb4c-962639c329dd")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C21")
 					(unit 1)
@@ -3325,7 +3325,7 @@
 			(uuid "8c11de55-9cb9-4cef-9907-7bf03109daed")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C14")
 					(unit 1)
@@ -3451,7 +3451,7 @@
 			(uuid "b02832c3-7770-4aa0-87dd-9c2fc9b1dc23")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U8")
 					(unit 5)
@@ -3529,7 +3529,7 @@
 			(uuid "4e2e5d84-0cb9-4b4a-8ffc-223d74431924")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0131")
 					(unit 1)
@@ -3620,7 +3620,7 @@
 			(uuid "f140d17f-6464-45d0-b17d-cb0bb70d6055")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C17")
 					(unit 1)
@@ -3711,7 +3711,7 @@
 			(uuid "a61efec2-0834-4164-8ff2-25bd5ae25412")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C29")
 					(unit 1)
@@ -3802,7 +3802,7 @@
 			(uuid "2622557e-6059-4cb1-b37d-f2a3838835bc")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C23")
 					(unit 1)
@@ -3929,7 +3929,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca4")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U8")
 					(unit 1)
@@ -4007,7 +4007,7 @@
 			(uuid "fc578f34-82bc-403a-97a3-7d08b56530f9")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR077")
 					(unit 1)
@@ -4085,7 +4085,7 @@
 			(uuid "3805f339-fd4c-47e1-bf47-6209ea12893a")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0120")
 					(unit 1)
@@ -4183,7 +4183,7 @@
 			(uuid "d810bdda-9c25-43ee-8d85-5114d1943816")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "SW4")
 					(unit 1)
@@ -4261,7 +4261,7 @@
 			(uuid "3b3e869d-9d6b-463b-a380-29d6e5d7bcc2")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR098")
 					(unit 1)
@@ -4352,7 +4352,7 @@
 			(uuid "719871ea-4029-471f-a09e-02ab4f624083")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C31")
 					(unit 1)
@@ -4443,7 +4443,7 @@
 			(uuid "dc85b5bf-5681-4392-ad31-30cccbb5d036")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C20")
 					(unit 1)
@@ -4521,7 +4521,7 @@
 			(uuid "4fd47604-9dfc-4742-82cf-3c936907d8a2")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0113")
 					(unit 1)
@@ -4648,7 +4648,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca6")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U5")
 					(unit 2)
@@ -4726,7 +4726,7 @@
 			(uuid "8f7eb336-3c6e-478b-8d32-3176b69d9ec1")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0111")
 					(unit 1)
@@ -4853,7 +4853,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca7")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U2")
 					(unit 2)
@@ -4931,7 +4931,7 @@
 			(uuid "4c94e6ad-8ee9-4cd6-8dee-3f54cb864359")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR095")
 					(unit 1)
@@ -5009,7 +5009,7 @@
 			(uuid "43af1a46-7578-4116-aa7a-b2efb9e7dd7d")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0121")
 					(unit 1)
@@ -5087,7 +5087,7 @@
 			(uuid "44e0dfbb-fb82-4449-8d1c-12e26b38d537")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR096")
 					(unit 1)
@@ -5214,7 +5214,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca8")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U2")
 					(unit 5)
@@ -5292,7 +5292,7 @@
 			(uuid "5c431296-c7b2-497b-8c21-e0cd2e066151")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0109")
 					(unit 1)
@@ -5383,7 +5383,7 @@
 			(uuid "fd33762b-12a5-43a5-b9bc-006d51a25718")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C25")
 					(unit 1)
@@ -5510,7 +5510,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca9")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U3")
 					(unit 3)
@@ -5601,7 +5601,7 @@
 			(uuid "55ad6e63-a038-4d83-8168-4ce7e5150037")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C16")
 					(unit 1)
@@ -5680,7 +5680,7 @@
 			(uuid "1307ca16-9ac0-433c-91f0-b48b2cf9ea9a")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR085")
 					(unit 1)
@@ -5807,7 +5807,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8caa")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U11")
 					(unit 5)
@@ -5934,7 +5934,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8cab")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U10")
 					(unit 5)
@@ -6025,7 +6025,7 @@
 			(uuid "7ab7d0fd-f718-43f0-9805-549b3d3d3d83")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C22")
 					(unit 1)
@@ -6103,7 +6103,7 @@
 			(uuid "98d300b0-6ab5-47de-b431-4a881f40d5b8")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0132")
 					(unit 1)
@@ -6194,7 +6194,7 @@
 			(uuid "58d2d8f8-e01e-49c9-a282-eb1b058da27f")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C27")
 					(unit 1)
@@ -6272,7 +6272,7 @@
 			(uuid "8528a74b-b769-458f-a385-c0f8b564bf95")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR082")
 					(unit 1)
@@ -6363,7 +6363,7 @@
 			(uuid "3e40891f-9633-4bdf-ad0c-605ab01f4406")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C28")
 					(unit 1)
@@ -6489,7 +6489,7 @@
 			(uuid "6c3a6427-501b-49e8-a0be-7fb0c14c7d73")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U5")
 					(unit 5)
@@ -6567,7 +6567,7 @@
 			(uuid "f1eaed16-df3e-4735-b65d-ca6b09d46835")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0136")
 					(unit 1)
@@ -6645,7 +6645,7 @@
 			(uuid "0fff73ad-7634-4295-bd94-19bed75bc229")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR086")
 					(unit 1)
@@ -6723,7 +6723,7 @@
 			(uuid "c01a1427-6c9e-4e14-87a1-daead35147df")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR090")
 					(unit 1)
@@ -6801,7 +6801,7 @@
 			(uuid "513ecada-f8d3-42e9-b889-118becb664f7")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0106")
 					(unit 1)
@@ -6879,7 +6879,7 @@
 			(uuid "2117aa02-6b01-4c8c-a584-3403359eaa22")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0115")
 					(unit 1)
@@ -6957,7 +6957,7 @@
 			(uuid "e8dcdce4-f870-46c2-9fa5-dd814595b180")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR097")
 					(unit 1)
@@ -7084,7 +7084,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802cfe")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U4")
 					(unit 5)
@@ -7211,7 +7211,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8cac")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U6")
 					(unit 5)
@@ -7289,7 +7289,7 @@
 			(uuid "aa5d60ad-96c5-4e5a-8b8a-9fdb1d5208d4")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0112")
 					(unit 1)
@@ -7367,7 +7367,7 @@
 			(uuid "b3c93dff-d276-4b88-ac69-5dffc0e1c94d")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0119")
 					(unit 1)
@@ -7445,7 +7445,7 @@
 			(uuid "bf155783-60c0-4a3d-88f0-9deb878300d6")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0128")
 					(unit 1)
@@ -7536,7 +7536,7 @@
 			(uuid "61592ed2-fc30-4a3a-a76b-c6dd3276e7ac")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C12")
 					(unit 1)
@@ -7614,7 +7614,7 @@
 			(uuid "eddd8445-ad2a-4d27-af07-9635023cc2e6")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0134")
 					(unit 1)
@@ -7692,7 +7692,7 @@
 			(uuid "8560ae32-eb03-4dad-a3b1-a8bd81296ec8")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0124")
 					(unit 1)
@@ -7770,7 +7770,7 @@
 			(uuid "4dab436f-e456-41f7-9eda-e405341fc7d5")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0101")
 					(unit 1)
@@ -7861,7 +7861,7 @@
 			(uuid "511f9404-cdb6-4651-88e6-b07e545ffb32")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C24")
 					(unit 1)
@@ -7939,7 +7939,7 @@
 			(uuid "9893b532-38e5-4640-9ec9-5e2eb2a0fc14")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0126")
 					(unit 1)
@@ -8017,7 +8017,7 @@
 			(uuid "39eebda6-0d3c-4353-9e98-1f1760f31d4d")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR099")
 					(unit 1)
@@ -8144,7 +8144,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802cff")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U4")
 					(unit 6)
@@ -8235,7 +8235,7 @@
 			(uuid "c4ed412e-6d26-4650-ac70-5daa1067455a")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C30")
 					(unit 1)
@@ -8313,7 +8313,7 @@
 			(uuid "05fa6f26-9930-4f02-a1ae-02a02fe71bf3")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0125")
 					(unit 1)
@@ -8391,7 +8391,7 @@
 			(uuid "6327c295-7330-4358-b43f-ed79ff210073")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR094")
 					(unit 1)
@@ -8469,7 +8469,7 @@
 			(uuid "e41fc2f0-caf0-4172-bf96-1f853ccc7490")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR089")
 					(unit 1)
@@ -8560,7 +8560,7 @@
 			(uuid "9f84672c-6e3d-4e8b-96fc-00f9c287ed2e")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C19")
 					(unit 1)
@@ -8651,7 +8651,7 @@
 			(uuid "07d56640-bad1-458d-8721-84dce561284f")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C26")
 					(unit 1)
@@ -8742,7 +8742,7 @@
 			(uuid "5357f95f-45d3-442a-950c-4df91929e703")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C15")
 					(unit 1)
@@ -8820,7 +8820,7 @@
 			(uuid "1d854401-fdd8-44d5-9f30-eeafec6afd28")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0114")
 					(unit 1)
@@ -8947,7 +8947,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802d00")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U4")
 					(unit 3)
@@ -9025,7 +9025,7 @@
 			(uuid "fa5c3f69-109a-4db2-a005-d98bdf6ed771")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0100")
 					(unit 1)
@@ -9103,7 +9103,7 @@
 			(uuid "100334ca-2173-4a03-9d92-43bdbd5ac144")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0122")
 					(unit 1)
@@ -9181,7 +9181,7 @@
 			(uuid "c00d18d5-3b29-444b-b9ab-e1c7383e4579")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0127")
 					(unit 1)
@@ -9259,7 +9259,7 @@
 			(uuid "3a8e8895-af84-486d-bd2d-7b6bd720e879")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0117")
 					(unit 1)
@@ -9386,7 +9386,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8cad")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U3")
 					(unit 5)
@@ -9477,7 +9477,7 @@
 			(uuid "3148a89c-7ef3-45c1-b9b1-f33f6dde6282")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C13")
 					(unit 1)
@@ -9555,7 +9555,7 @@
 			(uuid "77916cd1-560b-4da2-9914-83ba2b021c42")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0105")
 					(unit 1)
@@ -9633,7 +9633,7 @@
 			(uuid "3cba76cd-b091-4961-bf8c-ecfd83874cfc")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0118")
 					(unit 1)
@@ -9760,7 +9760,7 @@
 			(uuid "77c4f114-43d6-420a-85fa-56912ccf8cae")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U9")
 					(unit 5)
@@ -9838,7 +9838,7 @@
 			(uuid "80c235eb-dd0b-497e-95e5-221397f09715")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0123")
 					(unit 1)
@@ -9931,7 +9931,7 @@
 			(uuid "c8eede19-f83e-4b0b-9c03-b887003de686")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "B2")
 					(unit 1)
@@ -10009,7 +10009,7 @@
 			(uuid "41164f6b-be64-48aa-9264-83c5704425c9")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0110")
 					(unit 1)
@@ -10087,7 +10087,7 @@
 			(uuid "3c0fe11b-0ccc-4cd8-9e57-158b0d7d77ac")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR091")
 					(unit 1)
@@ -10178,7 +10178,7 @@
 			(uuid "5d0e01dc-78a8-4d3e-88d8-43604d8c577c")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C18")
 					(unit 1)
@@ -10256,7 +10256,7 @@
 			(uuid "65c92849-b729-4201-b678-dfc8e8045a45")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR088")
 					(unit 1)
@@ -10334,7 +10334,7 @@
 			(uuid "5a7a5d0d-8f9b-4cea-9718-eab048784e90")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0108")
 					(unit 1)
@@ -10412,7 +10412,7 @@
 			(uuid "7c416351-b522-4c9c-af58-71b4a20be164")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0103")
 					(unit 1)
@@ -10505,7 +10505,7 @@
 			(uuid "79bd1868-1d21-46e9-abc6-8ea1ab07c529")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "B1")
 					(unit 1)
@@ -10583,7 +10583,7 @@
 			(uuid "ac345e43-c77c-429f-9b88-fa7efe247773")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0107")
 					(unit 1)
@@ -10661,7 +10661,7 @@
 			(uuid "54ba8e38-db8e-4acd-8e69-ecfe35fb77ae")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0133")
 					(unit 1)
@@ -10739,7 +10739,7 @@
 			(uuid "92a1fd83-3ea2-4c8e-a53e-9709de03face")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR079")
 					(unit 1)
@@ -10865,7 +10865,7 @@
 			(uuid "b02832c3-7770-4aa0-87dd-9c2fc9b1dc25")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U7")
 					(unit 5)
@@ -10943,7 +10943,7 @@
 			(uuid "9b5c04bd-af39-44a2-bd2d-795379a5c4fe")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR076")
 					(unit 1)
@@ -11070,7 +11070,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802d01")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U4")
 					(unit 2)
@@ -11148,7 +11148,7 @@
 			(uuid "ea639fd8-5376-448a-9494-11f7ea78b6d5")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR078")
 					(unit 1)
@@ -11226,7 +11226,7 @@
 			(uuid "1bf7b99f-83b2-4743-abe6-3079a1fcd192")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR0116")
 					(unit 1)
@@ -11304,7 +11304,7 @@
 			(uuid "7405f072-6102-4086-9548-803f612996f3")
 		)
 		(instances
-			(project "Electronic Trombone"
+			(project "Electronic Trombone Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR093")
 					(unit 1)

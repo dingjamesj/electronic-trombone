@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Electronic Trombone.kicad_pro",
+    "filename": "Electronic Trombone Oscillator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -550,6 +550,7 @@
       "netlist": "",
       "plot": "../Production/Jul 8 2026/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -703,8 +704,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Electronic Trombone.kicad_sch",
-        "name": "",
+        "filename": "Electronic Trombone Oscillator.kicad_sch",
+        "name": "Electronic Trombone Oscillator",
         "uuid": "931827f3-33b7-460f-8885-7db258da2648"
       },
       {
@@ -723,25 +724,17 @@
         "uuid": "c6583947-775f-4973-9f5e-7501cd9e9aae"
       }
     ],
-    "used_designators": "TH1-6,SW1-7,R1-76,J1-6,D1-19,C1-33,B1-2,#PWR1-139,RV1-14,Q1-6,U1-13",
+    "used_designators": "U1-13,Q1-6,RV1-14,#PWR1-139,B1-2,C1-33,D1-19,J1-6,R1-76,SW1-7,TH1-6",
     "variants": []
   },
   "sheets": [
     [
       "931827f3-33b7-460f-8885-7db258da2648",
-      ""
+      "Electronic Trombone Oscillator"
     ],
     [
       "c601a773-7a8a-4dbf-b4ab-ef5ea2e44138",
       "Oscillator"
-    ],
-    [
-      "816bb702-3331-437a-9032-479a8bfb0343",
-      "Amplifier"
-    ],
-    [
-      "6d65ef8f-8235-46d4-95e7-69caf9b93e91",
-      "Filter"
     ],
     [
       "77fe3443-32fb-46cd-8502-6f8d1ae6ff63",
