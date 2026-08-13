@@ -1543,16 +1543,16 @@
 		)
 	)
 	(junction
-		(at 38.1 67.31)
+		(at 35.56 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2156aaba-a83d-4fa6-b2a9-0fb586714d1d")
+		(uuid "52205638-46b8-4bfb-bf2f-9a62519f83f3")
 	)
 	(junction
-		(at 53.34 67.31)
+		(at 55.88 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34c3a1b0-3fc8-40b2-add0-c2e6898afb14")
+		(uuid "7b0b741a-1ea3-4983-b825-712e4f4f33fb")
 	)
 	(junction
 		(at 33.02 44.45)
@@ -1560,35 +1560,9 @@
 		(color 0 0 0 0)
 		(uuid "7de0af85-c0e2-42bf-8084-1819158ef3fa")
 	)
-	(junction
-		(at 58.42 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b13ede58-a1d9-476c-a474-bb0fca66b14c")
-	)
 	(wire
 		(pts
-			(xy 134.62 90.17) (xy 149.86 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ca1df7-0aa5-41dc-9f9f-4f20e4912a35")
-	)
-	(wire
-		(pts
-			(xy 58.42 44.45) (xy 62.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a4f3ba-1093-488e-86a6-1d74c83f52ca")
-	)
-	(wire
-		(pts
-			(xy 53.34 67.31) (xy 57.15 67.31)
+			(xy 53.34 67.31) (xy 55.88 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1598,17 +1572,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 90.17)
+			(xy 35.56 67.31) (xy 38.1 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9865db98-d981-4e97-ac38-b565bedaa8e4")
+		(uuid "afde1448-3613-4fd1-b897-07be47659096")
 	)
 	(wire
 		(pts
-			(xy 34.29 67.31) (xy 38.1 67.31)
+			(xy 33.02 67.31) (xy 35.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1618,13 +1592,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 80.01) (xy 134.62 80.01)
+			(xy 55.88 67.31) (xy 58.42 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b39b41bd-d7f6-43ae-a5ba-ea390299d267")
+		(uuid "c87e58c9-d57d-4a9d-af8c-e8f6b002e91f")
 	)
 	(wire
 		(pts
@@ -1636,156 +1610,9 @@
 		)
 		(uuid "d5303046-8041-4edf-9365-d486d5fe98cd")
 	)
-	(wire
-		(pts
-			(xy 149.86 90.17) (xy 149.86 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ca9ac7-e232-426a-8f82-f2aaec957025")
-	)
-	(label "Thaw 2"
-		(at 139.7 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cb76ee3-02ec-455a-8aa3-48e13ec88812")
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TL074")
-		(at 142.24 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02cb8939-acb7-4300-94c3-e5bb5e26a4df")
-		(property "Reference" "U2"
-			(at 142.24 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL074"
-			(at 142.24 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 140.97 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 143.51 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 142.24 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 142.24 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "45748351-d1ea-4b4b-9e58-1092781972b9")
-		)
-		(pin "11"
-			(uuid "9b55c60d-d49b-4b24-937d-1da3bbdb2ba3")
-		)
-		(pin "2"
-			(uuid "8e55f386-556d-475c-9fd4-b4881aee602c")
-		)
-		(pin "5"
-			(uuid "a769f00c-8f05-435d-ae76-ddd476333b62")
-		)
-		(pin "6"
-			(uuid "a7e0f7c1-b1a8-47a2-aa54-97a9a578268b")
-		)
-		(pin "7"
-			(uuid "5cb4b2f5-5295-4f19-a0a3-15e3ef6a646b")
-		)
-		(pin "8"
-			(uuid "b3e20b27-e898-4f76-b7f8-5bc850d20719")
-		)
-		(pin "9"
-			(uuid "a7acb2c4-b670-4aa1-8cdb-3b5ff95eb24d")
-		)
-		(pin "12"
-			(uuid "ee17ce2d-752e-4623-93da-ffd10798dacd")
-		)
-		(pin "4"
-			(uuid "97dbd7f7-a5c3-440f-8b01-3f1326fdcfc3")
-		)
-		(pin "13"
-			(uuid "b9d5065f-debf-4231-b80d-5e2967e706ed")
-		)
-		(pin "14"
-			(uuid "038d91f0-d360-4132-8f8b-87f53daeea32")
-		)
-		(pin "1"
-			(uuid "e976bdce-8e8f-4661-914b-52aa3b216474")
-		)
-		(pin "3"
-			(uuid "77c4f114-43d6-420a-85fa-56912ccf8ca3")
-		)
-		(instances
-			(project "Electronic Trombone Oscillator"
-				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 67.31 0)
+		(at 63.5 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1796,7 +1623,7 @@
 		(fields_autoplaced yes)
 		(uuid "03afa6e9-f426-43c2-9d84-9b2c3498fbbe")
 		(property "Reference" "#PWR031"
-			(at 62.23 73.66 0)
+			(at 63.5 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1634,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 72.39 0)
+			(at 63.5 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1817,7 +1644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 67.31 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1828,7 +1655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 67.31 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1839,7 +1666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 67.31 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,7 +1680,7 @@
 			(uuid "36f1a2b4-5f22-4cc2-93b9-906d7700a78f")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR031")
 					(unit 1)
@@ -1980,7 +1807,7 @@
 			(uuid "42b7c3fa-4770-49b2-b95a-c3deb12cc032")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U1")
 					(unit 7)
@@ -1990,7 +1817,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 38.1 67.31 0)
+		(at 35.56 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2001,7 +1828,7 @@
 		(fields_autoplaced yes)
 		(uuid "07cb7bea-2a4b-42d7-8572-fe03a5cb1a61")
 		(property "Reference" "#PWR029"
-			(at 38.1 71.12 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,7 +1839,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 38.1 62.23 0)
+			(at 35.56 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2022,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 67.31 0)
+			(at 35.56 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,7 +1860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 67.31 0)
+			(at 35.56 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +1871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 38.1 67.31 0)
+			(at 35.56 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +1885,7 @@
 			(uuid "44c664ab-0756-43dc-8a50-50b1a16a5908")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR029")
 					(unit 1)
@@ -2068,7 +1895,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 64.77 44.45 270)
+		(at 60.96 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2079,7 +1906,7 @@
 		(fields_autoplaced yes)
 		(uuid "158916d1-4f1a-4505-85d0-0064db0138b1")
 		(property "Reference" "C5"
-			(at 64.7636 38.1 90)
+			(at 60.9536 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2089,7 +1916,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 64.7636 40.64 90)
+			(at 60.9536 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2099,7 +1926,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.77 44.45 0)
+			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +1937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 44.45 0)
+			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,7 +1948,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 44.45 0)
+			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +1959,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 64.77 44.45 90)
+			(at 60.96 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2149,7 +1976,7 @@
 			(uuid "f140d17f-6464-45d0-b17d-cb0bb70d6055")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C5")
 					(unit 1)
@@ -2227,7 +2054,7 @@
 			(uuid "3b3e869d-9d6b-463b-a380-29d6e5d7bcc2")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR025")
 					(unit 1)
@@ -2236,86 +2063,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-9V")
-		(at 58.42 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4582d3f4-62a8-4699-b6ef-3a7e4a071565")
-		(property "Reference" "#PWR022"
-			(at 58.42 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-9V"
-			(at 58.42 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 58.42 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c94e6ad-8ee9-4cd6-8dee-3f54cb864359")
-		)
-		(instances
-			(project "Electronic Trombone Oscillator"
-				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 67.31 44.45 0)
+		(at 63.5 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2326,7 +2075,7 @@
 		(fields_autoplaced yes)
 		(uuid "48c63963-791b-4dea-8974-3fe2bbfbe14a")
 		(property "Reference" "#PWR023"
-			(at 67.31 50.8 0)
+			(at 63.5 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2337,7 +2086,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 49.53 0)
+			(at 63.5 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2347,7 +2096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 44.45 0)
+			(at 63.5 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2358,7 +2107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 44.45 0)
+			(at 63.5 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 44.45 0)
+			(at 63.5 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,7 +2132,7 @@
 			(uuid "44e0dfbb-fb82-4449-8d1c-12e26b38d537")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR023")
 					(unit 1)
@@ -2474,7 +2223,7 @@
 			(uuid "55ad6e63-a038-4d83-8168-4ce7e5150037")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C4")
 					(unit 1)
@@ -2600,88 +2349,10 @@
 			(uuid "6c3a6427-501b-49e8-a0be-7fb0c14c7d73")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U2")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a6e7430-9fe0-4e29-a390-1ce94833634f")
-		(property "Reference" "#PWR032"
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "513ecada-f8d3-42e9-b889-118becb664f7")
-		)
-		(instances
-			(project "Electronic Trombone Oscillator"
-				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR032")
-					(unit 1)
 				)
 			)
 		)
@@ -2756,7 +2427,7 @@
 			(uuid "e8dcdce4-f870-46c2-9fa5-dd814595b180")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR024")
 					(unit 1)
@@ -2883,7 +2554,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802cfe")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U1")
 					(unit 5)
@@ -2893,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 67.31 0)
+		(at 27.94 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2904,7 +2575,7 @@
 		(fields_autoplaced yes)
 		(uuid "89272cdd-238d-4415-85d8-32c54d7f0942")
 		(property "Reference" "#PWR028"
-			(at 29.21 73.66 0)
+			(at 27.94 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2915,7 +2586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 72.39 0)
+			(at 27.94 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2925,7 +2596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 67.31 0)
+			(at 27.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 67.31 0)
+			(at 27.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +2618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 67.31 0)
+			(at 27.94 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2632,7 @@
 			(uuid "4dab436f-e456-41f7-9eda-e405341fc7d5")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR028")
 					(unit 1)
@@ -3039,7 +2710,7 @@
 			(uuid "39eebda6-0d3c-4353-9e98-1f1760f31d4d")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR026")
 					(unit 1)
@@ -3166,7 +2837,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802cff")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U1")
 					(unit 6)
@@ -3244,7 +2915,7 @@
 			(uuid "6327c295-7330-4358-b43f-ed79ff210073")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR021")
 					(unit 1)
@@ -3254,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 59.69 67.31 270)
+		(at 60.96 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3265,7 +2936,7 @@
 		(fields_autoplaced yes)
 		(uuid "a45175d3-51ea-4cdd-a75f-5f6bbf1fab57")
 		(property "Reference" "C7"
-			(at 59.6836 60.96 90)
+			(at 60.9536 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3275,7 +2946,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 59.6836 63.5 90)
+			(at 60.9536 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3285,7 +2956,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 59.69 67.31 0)
+			(at 60.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3296,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 67.31 0)
+			(at 60.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +2978,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 67.31 0)
+			(at 60.96 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +2989,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 59.69 67.31 90)
+			(at 60.96 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3335,7 +3006,7 @@
 			(uuid "9f84672c-6e3d-4e8b-96fc-00f9c287ed2e")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C7")
 					(unit 1)
@@ -3462,7 +3133,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802d00")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U1")
 					(unit 3)
@@ -3540,7 +3211,7 @@
 			(uuid "fa5c3f69-109a-4db2-a005-d98bdf6ed771")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR027")
 					(unit 1)
@@ -3550,7 +3221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 31.75 67.31 270)
+		(at 30.48 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3561,7 +3232,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c6b6ed-98f0-45e3-adf0-69cb622f1cd8")
 		(property "Reference" "C6"
-			(at 31.7436 60.96 90)
+			(at 30.4736 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3571,7 +3242,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 31.7436 63.5 90)
+			(at 30.4736 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3581,7 +3252,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.75 67.31 0)
+			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +3263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 67.31 0)
+			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3603,7 +3274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 31.75 67.31 0)
+			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3285,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 31.75 67.31 90)
+			(at 30.48 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3631,7 +3302,7 @@
 			(uuid "5d0e01dc-78a8-4d3e-88d8-43604d8c577c")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "C6")
 					(unit 1)
@@ -3641,7 +3312,7 @@
 	)
 	(symbol
 		(lib_id "power:-9V")
-		(at 53.34 67.31 180)
+		(at 55.88 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3652,7 +3323,7 @@
 		(fields_autoplaced yes)
 		(uuid "e00be804-525e-4c5f-b4bf-f88ca7931731")
 		(property "Reference" "#PWR030"
-			(at 53.34 63.5 0)
+			(at 55.88 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3663,7 +3334,7 @@
 			)
 		)
 		(property "Value" "-9V"
-			(at 53.34 72.39 0)
+			(at 55.88 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3673,7 +3344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 67.31 0)
+			(at 55.88 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 67.31 0)
+			(at 55.88 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,7 +3366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 53.34 67.31 0)
+			(at 55.88 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3380,7 @@
 			(uuid "7c416351-b522-4c9c-af58-71b4a20be164")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR030")
 					(unit 1)
@@ -3836,7 +3507,7 @@
 			(uuid "d11dece1-746b-4c06-8ba4-641a1a802d01")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "U1")
 					(unit 2)
@@ -3914,7 +3585,7 @@
 			(uuid "7405f072-6102-4086-9548-803f612996f3")
 		)
 		(instances
-			(project "Electronic Trombone Oscillator"
+			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
 					(reference "#PWR020")
 					(unit 1)

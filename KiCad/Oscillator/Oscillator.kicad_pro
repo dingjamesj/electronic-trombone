@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Electronic Trombone Oscillator.kicad_pro",
+    "filename": "Oscillator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -704,8 +704,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Electronic Trombone Oscillator.kicad_sch",
-        "name": "Electronic Trombone Oscillator",
+        "filename": "Oscillator.kicad_sch",
+        "name": "Oscillator",
         "uuid": "931827f3-33b7-460f-8885-7db258da2648"
       },
       {
@@ -720,7 +720,7 @@
   "sheets": [
     [
       "931827f3-33b7-460f-8885-7db258da2648",
-      "Electronic Trombone Oscillator"
+      "Oscillator"
     ],
     [
       "3ca3a63e-46c1-4b14-be30-fce478aad491",
