@@ -2052,16 +2052,6 @@
 		)
 		(uuid "0797ea0b-8731-473e-8218-d7e1553c7363")
 	)
-	(text "Trigger above -4.5V"
-		(exclude_from_sim no)
-		(at 55.88 174.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07f9e616-584c-4a0e-98ca-1a9b7d3e1110")
-	)
 	(text "Simulated resistance = 100k"
 		(exclude_from_sim no)
 		(at 180.086 78.232 0)
@@ -2132,6 +2122,17 @@
 		)
 		(uuid "6a9a717b-be4f-4fbc-bd52-c58d4cee3b00")
 	)
+	(text "Ref. voltage should be between -5V and -0.5V,\nhowever in case that's wrong, it's adjustable."
+		(exclude_from_sim no)
+		(at 40.894 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8711f551-e7bf-4bcc-90bf-4bad39d2bc1f")
+	)
 	(text "The amp requires an inverted signal from 0V to -2V."
 		(exclude_from_sim no)
 		(at 256.286 45.974 0)
@@ -2162,9 +2163,9 @@
 		)
 		(uuid "9b890312-c41f-48f8-9a27-db5e0257c1ce")
 	)
-	(text "Turns the input into a binary signal, low is 0V and high is 9V.\n\nThis is because the input is not a binary signal, instead it is \neither -9V or a range between ~0V to ~2.5V since the input\nalso serves as the oscillator's control voltage."
+	(text "Turns the input into a binary signal, low is 0V and high is 9V.\n\nThis is needed because the input is not a binary signal, instead it is \neither -5V or a range between ~0V to ~2.5V since the input\nalso serves as the oscillator's control voltage."
 		(exclude_from_sim no)
-		(at 60.452 187.706 0)
+		(at 62.23 189.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2375,12 +2376,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b34c5bd7-2c02-4d20-b2db-9b987139e706")
-	)
-	(junction
-		(at 31.75 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c265376b-0776-4e19-88d2-1cad7ebfd3b9")
 	)
 	(junction
 		(at 48.26 111.76)
@@ -2624,16 +2619,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 161.29) (xy 31.75 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3281dd61-309d-45c0-9766-2317a91f521c")
-	)
-	(wire
-		(pts
 			(xy 165.1 124.46) (xy 166.37 124.46)
 		)
 		(stroke
@@ -2721,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "4478ac45-a1ac-49f3-92c2-9fbf1a75cc95")
+	)
+	(wire
+		(pts
+			(xy 35.56 171.45) (xy 38.1 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c036372-2163-4c4f-b8e1-195d47a87abb")
 	)
 	(wire
 		(pts
@@ -3194,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 173.99) (xy 22.86 173.99)
+			(xy 25.4 171.45) (xy 27.94 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3324,6 +3319,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 161.29) (xy 31.75 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0ef254-5411-48e7-9a02-455e88ce5844")
+	)
+	(wire
+		(pts
 			(xy 67.31 119.38) (xy 67.31 114.3)
 		)
 		(stroke
@@ -3361,16 +3366,6 @@
 			(type default)
 		)
 		(uuid "b2f1e655-9519-4bae-9589-015d1e3e77c3")
-	)
-	(wire
-		(pts
-			(xy 30.48 173.99) (xy 31.75 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ae3cd3-85de-476a-9932-39509f25dd35")
 	)
 	(wire
 		(pts
@@ -3654,16 +3649,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 173.99) (xy 31.75 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f1a177-c651-4243-b65c-2168e4d8c3d7")
-	)
-	(wire
-		(pts
 			(xy 165.1 60.96) (xy 165.1 68.58)
 		)
 		(stroke
@@ -3731,16 +3716,6 @@
 			(type default)
 		)
 		(uuid "f4b7b6be-b681-4077-9e87-048517bc7639")
-	)
-	(wire
-		(pts
-			(xy 43.18 173.99) (xy 40.64 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7192f07-c7b8-40e4-9c6f-8fe98e9fcab4")
 	)
 	(wire
 		(pts
@@ -4175,7 +4150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b3a7db1-f409-475a-80f2-ab9e3d1abe5f")
-		(property "Reference" "RV7"
+		(property "Reference" "RV8"
 			(at 137.16 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4259,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV7")
+					(reference "RV8")
 					(unit 1)
 				)
 			)
@@ -4381,7 +4356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f5677dc-3567-4aa4-9a35-82ab3ea41f7e")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 189.23 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,7 +4418,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4461,7 +4436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1091628b-5163-44aa-8681-59b7b303b376")
-		(property "Reference" "RV13"
+		(property "Reference" "RV14"
 			(at 234.95 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4534,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV13")
+					(reference "RV14")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13234f72-b006-4ca9-8210-34d376b0bef3")
-		(property "Reference" "RV6"
+		(property "Reference" "RV7"
 			(at 78.74 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4661,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV6")
+					(reference "RV7")
 					(unit 1)
 				)
 			)
@@ -4991,7 +4966,7 @@
 	)
 	(symbol
 		(lib_id "power:-9V")
-		(at 20.32 173.99 180)
+		(at 25.4 171.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5002,7 +4977,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f56bbe9-432a-4042-b054-c8e213d141a7")
 		(property "Reference" "#PWR01"
-			(at 20.32 170.18 0)
+			(at 25.4 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +4988,7 @@
 			)
 		)
 		(property "Value" "-9V"
-			(at 20.32 179.07 0)
+			(at 25.4 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5023,7 +4998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 173.99 0)
+			(at 25.4 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5034,7 +5009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 173.99 0)
+			(at 25.4 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5045,7 +5020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 20.32 173.99 0)
+			(at 25.4 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,88 +5170,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 26.67 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ec12b16-860c-4b80-9970-a3e245f40447")
-		(property "Reference" "R1"
-			(at 26.67 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 26.67 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.924 172.974 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 26.67 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ff8da191-cb53-4dc0-993c-0cb82a1eba62")
-		)
-		(pin "1"
-			(uuid "25ea3b7b-501b-4934-9f86-05c61b16d5cc")
-		)
-		(instances
-			(project "Envelope Generator"
-				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 43.18 173.99 0)
+		(at 38.1 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5287,7 +5182,7 @@
 		(fields_autoplaced yes)
 		(uuid "311c01af-a98b-438c-8253-b717b1da0469")
 		(property "Reference" "#PWR02"
-			(at 43.18 180.34 0)
+			(at 38.1 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5298,7 +5193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 179.07 0)
+			(at 38.1 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 173.99 0)
+			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5320,7 +5215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 173.99 0)
+			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5226,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 173.99 0)
+			(at 38.1 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e866bb9-9881-466e-94c1-b15faeac6a06")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 114.3 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5646,7 +5541,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5664,7 +5559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4080c434-a275-4cab-b960-0dde99408c25")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 189.23 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,7 +5621,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5744,7 +5639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411f17ea-5e90-42e3-874e-03d364ade7f9")
-		(property "Reference" "RV3"
+		(property "Reference" "RV4"
 			(at 60.96 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5844,7 +5739,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV3")
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -5989,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c2dc52-d25f-4866-b7e5-791ad10b040c")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 59.69 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6053,7 +5948,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6325,86 +6220,6 @@
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 36.83 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4af2da96-793b-435b-a498-f36ab1d4518c")
-		(property "Reference" "R2"
-			(at 36.83 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 36.83 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 37.084 172.974 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 36.83 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b345dc96-70b5-4d84-b5c4-933e0efa370d")
-		)
-		(pin "1"
-			(uuid "3e4030ca-e260-4d53-a872-fb6174c31825")
-		)
-		(instances
-			(project "Envelope Generator"
-				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6858,6 +6673,133 @@
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 31.75 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "689be84d-fbf7-47de-a69a-30dbcb47ff34")
+		(property "Reference" "RV1"
+			(at 31.75 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 31.75 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 31.75 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4e7df3c4-18fb-4366-9dfa-edff2ade6927")
+		)
+		(pin "2"
+			(uuid "45029f12-e01d-4f32-87ba-a3ac814b11cb")
+		)
+		(pin "1"
+			(uuid "069f94ca-1c50-442b-bc68-91669e0f0e49")
+		)
+		(instances
+			(project "Envelope Generator"
+				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -7357,7 +7299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "859f9450-7fe5-4d77-b476-77919b36c782")
-		(property "Reference" "RV2"
+		(property "Reference" "RV3"
 			(at 45.72 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7457,7 +7399,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV2")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -7475,7 +7417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86c69d67-2669-4397-b256-62bbe18dba22")
-		(property "Reference" "RV9"
+		(property "Reference" "RV10"
 			(at 179.07 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7573,7 +7515,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV9")
+					(reference "RV10")
 					(unit 1)
 				)
 			)
@@ -7703,7 +7645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a29b233-5ab0-4821-a86a-a978aec9edf8")
-		(property "Reference" "RV10"
+		(property "Reference" "RV11"
 			(at 179.07 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +7743,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV10")
+					(reference "RV11")
 					(unit 1)
 				)
 			)
@@ -7819,7 +7761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd3ea3f-6286-400a-b5c8-8cf5e2466f71")
-		(property "Reference" "RV11"
+		(property "Reference" "RV12"
 			(at 179.07 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7917,7 +7859,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV11")
+					(reference "RV12")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f7b34ab-0e09-4f9a-886c-67cd401890bb")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 232.41 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8490,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8645,7 +8587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab50d025-27ee-46d0-8d6d-5e4b4a21efdb")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 189.23 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8707,7 +8649,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8725,7 +8667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae439841-bd4a-448c-9bda-09b49de8b18a")
-		(property "Reference" "RV5"
+		(property "Reference" "RV6"
 			(at 78.74 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8776,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV5")
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -9045,7 +8987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b505d5b3-10b1-46fe-92ee-cc0ba98df5dd")
-		(property "Reference" "RV12"
+		(property "Reference" "RV13"
 			(at 179.07 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9085,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV12")
+					(reference "RV13")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c39cb37b-9eba-4074-9324-175b56732c00")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 114.3 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,7 +9257,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9824,7 +9766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3257a16-4509-4768-9081-b50b01017e2c")
-		(property "Reference" "RV4"
+		(property "Reference" "RV5"
 			(at 60.96 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +9866,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV4")
+					(reference "RV5")
 					(unit 1)
 				)
 			)
@@ -10387,7 +10329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3afc038-b897-4707-a130-76c941238d7f")
-		(property "Reference" "RV14"
+		(property "Reference" "RV15"
 			(at 238.76 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10427,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV14")
+					(reference "RV15")
 					(unit 1)
 				)
 			)
@@ -10503,7 +10445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6bdfa34-c305-44b3-95cc-6ce6365bd0d4")
-		(property "Reference" "RV8"
+		(property "Reference" "RV9"
 			(at 137.16 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10612,7 +10554,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV8")
+					(reference "RV9")
 					(unit 1)
 				)
 			)
@@ -10630,7 +10572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f90d1753-3ab3-46bb-b6dd-934ecacd4908")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 189.23 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +10634,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10837,7 +10779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcd1e31f-932d-4255-95ce-68678dba3162")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 45.72 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10937,7 +10879,7 @@
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
