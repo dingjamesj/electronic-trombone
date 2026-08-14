@@ -1303,6 +1303,12 @@
 			(uuid "d0ac3c5f-ec9a-4878-963e-fd2fa42012a2")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR08")
@@ -1419,6 +1425,12 @@
 			(uuid "d4cb0f03-c1a3-44e7-95ea-bf42cbf7d31b")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "U3")
+					(unit 5)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "U3")
@@ -1497,6 +1509,12 @@
 			(uuid "fed9a888-d664-4449-816c-dfc9bb877de6")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR06")
@@ -1576,6 +1594,12 @@
 			(uuid "8e05e8e4-b082-4a09-915c-8865168884b1")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR010")
@@ -1650,10 +1674,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0de3d2d-1715-4104-b850-01f50748962a")
+			(uuid "e0de3d2d-1715-4104-b850-01f50748962b")
 		)
 		(pin "2"
-			(uuid "95e8d7f5-3226-45d4-9d79-584e4f1ae719")
+			(uuid "95e8d7f5-3226-45d4-9d79-584e4f1ae71a")
 		)
 		(pin "11"
 			(uuid "41d8c8ea-b388-4d73-80d3-4685b97449df")
@@ -1662,36 +1686,42 @@
 			(uuid "d6dd2997-106e-4a77-b789-a0097ac07d6a")
 		)
 		(pin "14"
-			(uuid "14437bd3-f095-4ad0-93ca-fe74af5e3d73")
+			(uuid "14437bd3-f095-4ad0-93ca-fe74af5e3d74")
 		)
 		(pin "13"
-			(uuid "be48edda-186d-471f-a701-399fc41e7ec5")
+			(uuid "be48edda-186d-471f-a701-399fc41e7ec6")
 		)
 		(pin "12"
-			(uuid "8da8663e-07b4-4f97-b1eb-3bd7b641bf21")
+			(uuid "8da8663e-07b4-4f97-b1eb-3bd7b641bf22")
 		)
 		(pin "10"
-			(uuid "53291b5c-5f3e-47cf-825b-c2cde4da8cfc")
+			(uuid "53291b5c-5f3e-47cf-825b-c2cde4da8cfd")
 		)
 		(pin "9"
-			(uuid "4f9357af-0e2a-43e9-91bf-d99e803f28b7")
+			(uuid "4f9357af-0e2a-43e9-91bf-d99e803f28b8")
 		)
 		(pin "8"
-			(uuid "35ea097b-8cc4-4a7a-8bcb-73f282abbc26")
+			(uuid "35ea097b-8cc4-4a7a-8bcb-73f282abbc27")
 		)
 		(pin "7"
-			(uuid "f82abb09-640a-40d9-b6a1-3acf8aefb09d")
+			(uuid "f82abb09-640a-40d9-b6a1-3acf8aefb09e")
 		)
 		(pin "6"
-			(uuid "d8e6c409-d625-43ec-9810-b22a05f794fb")
+			(uuid "d8e6c409-d625-43ec-9810-b22a05f794fc")
 		)
 		(pin "5"
-			(uuid "f49b3d2b-fc78-42ec-9f3f-8105880f0ead")
+			(uuid "f49b3d2b-fc78-42ec-9f3f-8105880f0eae")
 		)
 		(pin "3"
-			(uuid "d4cb0f03-c1a3-44e7-95ea-bf42cbf7d31b")
+			(uuid "d4cb0f03-c1a3-44e7-95ea-bf42cbf7d31c")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "U2")
+					(unit 5)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "U2")
@@ -1766,10 +1796,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0de3d2d-1715-4104-b850-01f50748962a")
+			(uuid "e0de3d2d-1715-4104-b850-01f50748962c")
 		)
 		(pin "2"
-			(uuid "95e8d7f5-3226-45d4-9d79-584e4f1ae719")
+			(uuid "95e8d7f5-3226-45d4-9d79-584e4f1ae71b")
 		)
 		(pin "11"
 			(uuid "1de95572-5068-4844-a09e-e50ea555d21a")
@@ -1778,36 +1808,42 @@
 			(uuid "05a04e62-3008-486d-9a29-84e60ea77208")
 		)
 		(pin "14"
-			(uuid "14437bd3-f095-4ad0-93ca-fe74af5e3d73")
+			(uuid "14437bd3-f095-4ad0-93ca-fe74af5e3d75")
 		)
 		(pin "13"
-			(uuid "be48edda-186d-471f-a701-399fc41e7ec5")
+			(uuid "be48edda-186d-471f-a701-399fc41e7ec7")
 		)
 		(pin "12"
-			(uuid "8da8663e-07b4-4f97-b1eb-3bd7b641bf21")
+			(uuid "8da8663e-07b4-4f97-b1eb-3bd7b641bf23")
 		)
 		(pin "10"
-			(uuid "53291b5c-5f3e-47cf-825b-c2cde4da8cfc")
+			(uuid "53291b5c-5f3e-47cf-825b-c2cde4da8cfe")
 		)
 		(pin "9"
-			(uuid "4f9357af-0e2a-43e9-91bf-d99e803f28b7")
+			(uuid "4f9357af-0e2a-43e9-91bf-d99e803f28b9")
 		)
 		(pin "8"
-			(uuid "35ea097b-8cc4-4a7a-8bcb-73f282abbc26")
+			(uuid "35ea097b-8cc4-4a7a-8bcb-73f282abbc28")
 		)
 		(pin "7"
-			(uuid "f82abb09-640a-40d9-b6a1-3acf8aefb09d")
+			(uuid "f82abb09-640a-40d9-b6a1-3acf8aefb09f")
 		)
 		(pin "6"
-			(uuid "d8e6c409-d625-43ec-9810-b22a05f794fb")
+			(uuid "d8e6c409-d625-43ec-9810-b22a05f794fd")
 		)
 		(pin "5"
-			(uuid "f49b3d2b-fc78-42ec-9f3f-8105880f0ead")
+			(uuid "f49b3d2b-fc78-42ec-9f3f-8105880f0eaf")
 		)
 		(pin "3"
-			(uuid "d4cb0f03-c1a3-44e7-95ea-bf42cbf7d31b")
+			(uuid "d4cb0f03-c1a3-44e7-95ea-bf42cbf7d31d")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "U1")
+					(unit 5)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "U1")
@@ -1887,6 +1923,12 @@
 			(uuid "9c3ee225-1396-46c1-9b83-3b90d50758d6")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR02")
@@ -1907,7 +1949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4857ad43-dbd1-4e1f-bf46-8ba5df761cc3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR028"
 			(at 81.28 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -2183,6 +2225,12 @@
 			(uuid "81b7b810-2d4d-4c1d-afee-145e70b68fa3")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR04")
@@ -2262,6 +2310,12 @@
 			(uuid "358dfd6b-a0f2-4992-811c-8382a86dcf1f")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR03")
@@ -2342,6 +2396,12 @@
 			(uuid "3c665469-4965-4c6e-b5b3-0796a669b70f")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C3")
@@ -2422,6 +2482,12 @@
 			(uuid "59f7ae50-4b57-4877-870f-665072d62c4c")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C6")
@@ -2502,6 +2568,12 @@
 			(uuid "df913243-dafc-4ca1-9fd8-0b67192a89ca")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C5")
@@ -2581,6 +2653,12 @@
 			(uuid "145be650-6c90-49bb-a208-0c11f70f19fe")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR01")
@@ -2659,6 +2737,12 @@
 			(uuid "a30630b2-3adb-4c73-ae01-ea9be2891688")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR07")
@@ -2739,6 +2823,12 @@
 			(uuid "11fbe48a-ef93-435b-a66a-6006e3da5863")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C4")
@@ -2818,6 +2908,12 @@
 			(uuid "ddc38c4c-58ce-4f03-975b-41eec51509c1")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR011")
@@ -2898,6 +2994,12 @@
 			(uuid "e85418e1-37c9-4409-ba4d-0a934749da72")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C1")
@@ -2977,6 +3079,12 @@
 			(uuid "0a3fbb7f-7694-4fc4-ad30-7431c68f4aff")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR012")
@@ -3055,6 +3163,12 @@
 			(uuid "4e0786b8-0516-4b58-a6bf-0a6e653f8854")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR05")
@@ -3135,6 +3249,12 @@
 			(uuid "282dccb6-7dad-4713-8072-65f919788a48")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "C2")
@@ -3213,6 +3333,12 @@
 			(uuid "8a4e220e-8e5f-4b63-a381-97ed9f372512")
 		)
 		(instances
+			(project "Envelope Generator"
+				(path "/3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "power"
 				(path "/f03ccc58-ba92-4073-8077-f76fd904182a"
 					(reference "#PWR09")
@@ -3226,5 +3352,4 @@
 			(page "2")
 		)
 	)
-	(embedded_fonts no)
 )
