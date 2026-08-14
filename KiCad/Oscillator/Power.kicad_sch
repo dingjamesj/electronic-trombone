@@ -1622,7 +1622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03afa6e9-f426-43c2-9d84-9b2c3498fbbe")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 63.5 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1682,7 +1682,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07cb7bea-2a4b-42d7-8572-fe03a5cb1a61")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1887,7 +1887,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1996,7 +1996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f5739c4-470d-412b-aa79-e3eba4f1e06c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2056,7 +2056,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2074,7 +2074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48c63963-791b-4dea-8974-3fe2bbfbe14a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 63.5 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2134,7 +2134,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2369,7 +2369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829f3aa3-5c40-42eb-a8b1-3ae107aa42ac")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 95.25 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2429,7 +2429,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89272cdd-238d-4415-85d8-32c54d7f0942")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 27.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2634,7 +2634,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2652,7 +2652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b099ed-c6b8-4e6e-b8f4-1008386fa5e2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 133.35 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2712,7 +2712,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d5d68b-c9ee-4ab7-9545-c4b1d1c7f6ff")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2917,7 +2917,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad7e59b2-5632-4bf8-9339-d2db2e4b950c")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3213,7 +3213,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3322,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00be804-525e-4c5f-b4bf-f88ca7931731")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 55.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3382,7 +3382,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfe8a98-b6d9-4ff0-a1f7-ca697ff79d1a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 24.13 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3587,7 +3587,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
