@@ -1106,6 +1106,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
@@ -2424,6 +2625,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 170.18) (xy 110.49 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239d9183-04d2-44f2-a7af-2e371dae94f7")
+	)
+	(wire
+		(pts
 			(xy 34.29 140.97) (xy 35.56 140.97)
 		)
 		(stroke
@@ -2431,6 +2642,16 @@
 			(type default)
 		)
 		(uuid "26ead92b-d66e-4bc5-b46d-ccdd8026a077")
+	)
+	(wire
+		(pts
+			(xy 88.9 170.18) (xy 90.17 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28884e46-80d5-429b-a2b6-2213ae01d207")
 	)
 	(wire
 		(pts
@@ -2574,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 153.67) (xy 110.49 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ceeaf7-6616-46ea-8a43-191b64e02c9c")
+	)
+	(wire
+		(pts
 			(xy 129.54 133.35) (xy 127 133.35)
 		)
 		(stroke
@@ -2611,6 +2842,16 @@
 			(type default)
 		)
 		(uuid "8a62566b-cd6a-417a-96a9-dc928c92e0e4")
+	)
+	(wire
+		(pts
+			(xy 97.79 153.67) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9419872a-94bd-404c-8dfb-b110a391cd58")
 	)
 	(wire
 		(pts
@@ -2724,6 +2965,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 170.18) (xy 101.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a333c8-f979-4bab-9ce8-9d4894a8769f")
+	)
+	(wire
+		(pts
 			(xy 64.77 67.31) (xy 80.01 67.31)
 		)
 		(stroke
@@ -2761,6 +3012,16 @@
 			(type default)
 		)
 		(uuid "c2b71d5b-4159-4f47-ad4d-ad90482f44d3")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fa8423-5ba8-4f7c-a2ed-e7820e9cfc87")
 	)
 	(wire
 		(pts
@@ -3473,7 +3734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d0b6c52-3d5a-4b67-aeee-cc18e0ea8004")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 99.06 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3533,7 +3794,87 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR08")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13bc4c12-cdc7-4747-b02e-93f6ca7170f7")
+		(property "Reference" "R7"
+			(at 105.41 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 105.41 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.664 152.654 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0bdcdf6-12e9-4354-b82a-e6996df82b7a")
+		)
+		(pin "2"
+			(uuid "5ca5390d-4bab-464a-8679-5156211cf892")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3636,7 +3977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe1a82d-12ae-4493-9c99-8b6e2d2cffb8")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 35.56 120.6499 0)
 			(hide yes)
 			(show_name no)
@@ -3699,7 +4040,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3795,7 +4136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c773e38-3c14-4a94-997a-c77d6af34452")
-		(property "Reference" "TP?"
+		(property "Reference" "TP3"
 			(at 35.56 125.7299 0)
 			(hide yes)
 			(show_name no)
@@ -3858,7 +4199,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP?")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3876,7 +4217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "313903c7-cafb-469b-93b3-43c7fafdcdb1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR014"
 			(at 119.38 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +4277,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR010")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4033,7 +4374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d78be8-4d97-440f-8288-72b407bfa48c")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 130.81 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4108,7 +4449,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4126,7 +4467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38dddea6-8d4f-4061-b606-2540b8ccd2d1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 166.37 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4187,7 +4528,165 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR013")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c95ed6b-e6f6-48b1-9bb1-25e68e47bca9")
+		(property "Reference" "#PWR012"
+			(at 110.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3615d13-6b42-4ee1-adbb-be08cdceffb9")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ccedae1-edef-4008-bb9f-506f0e440416")
+		(property "Reference" "#PWR09"
+			(at 88.9 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5e9c0cb-b575-4a46-ab0a-a9d20e97fee1")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4205,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c278f9-24e3-48a8-9a5b-15e957da37e5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 128.27 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4266,7 +4765,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4360,6 +4859,97 @@
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619abb68-8785-4581-afcc-246a6c4ab9c4")
+		(property "Reference" "D1"
+			(at 95.5675 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 95.5675 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3c6a921-ad34-493d-a0ec-a3a88de75906")
+		)
+		(pin "1"
+			(uuid "9bb25905-82a2-474f-99ec-202f69cc57df")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4631,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7285832c-114d-4a2e-860c-9a73063dac20")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 35.56 123.1899 0)
 			(hide yes)
 			(show_name no)
@@ -4694,7 +5284,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4885,6 +5475,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 88.9 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "825b3cd5-5f95-4864-927e-39ba7653ae40")
+		(property "Reference" "#PWR08"
+			(at 88.9 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 88.9 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 88.9 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "440a35b5-f7f2-4a5b-8290-9faa8887e844")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 34.29 140.97 0)
 		(unit 1)
@@ -4896,7 +5564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd81572-4528-4830-ac08-1767b9e7403b")
-		(property "Reference" "TP?"
+		(property "Reference" "TP4"
 			(at 35.56 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -4959,7 +5627,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP?")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4977,7 +5645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9004bcb3-795d-4abc-accc-62f8c502b4ba")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 129.54 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5038,7 +5706,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "961c7040-3379-49e6-9cdd-f31d2affe679")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5195,7 +5863,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aff37fb-8d8a-4c55-9576-fb719ef264a5")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 106.68 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +6032,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5621,6 +6289,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 105.41 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2323ec-962a-4ad6-80f9-f6cf22ef9209")
+		(property "Reference" "R8"
+			(at 105.41 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 105.41 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.664 169.164 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 105.41 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "987a8f91-c1d5-45d4-a9fd-bd4e462ff1aa")
+		)
+		(pin "2"
+			(uuid "a4939bb1-58a4-47fa-9de3-7b66339edda9")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 50.8 67.31 0)
 		(unit 1)
@@ -5744,6 +6492,97 @@
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 93.98 170.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7772512-3a02-4ec3-82ef-8b4dd32e2b19")
+		(property "Reference" "D2"
+			(at 95.5675 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 95.5675 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6043ff6-0c06-4719-b087-a5d818bcb4e4")
+		)
+		(pin "1"
+			(uuid "e59a76ca-dec2-42bf-b45f-4e54a9bea445")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6458,6 +7297,84 @@
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-9V")
+		(at 110.49 170.18 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a83813-508b-49d8-ad5d-9d1e6f3f92f2")
+		(property "Reference" "#PWR013"
+			(at 110.49 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-9V"
+			(at 110.49 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9V\""
+			(at 110.49 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b759fe4-7277-4250-9a56-75a7c2561631")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
