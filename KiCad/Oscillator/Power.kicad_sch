@@ -2072,7 +2072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03afa6e9-f426-43c2-9d84-9b2c3498fbbe")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR033"
 			(at 63.5 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2176,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 45.72 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2289,7 +2289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07cb7bea-2a4b-42d7-8572-fe03a5cb1a61")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR031"
 			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2373,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bc4c12-cdc7-4747-b02e-93f6ca7170f7")
-		(property "Reference" "R1"
+		(property "Reference" "R9"
 			(at 36.83 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2383,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 36.83 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.084 87.884 90)
 			(hide yes)
 			(show_name no)
@@ -2439,6 +2439,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2453,7 +2459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "158916d1-4f1a-4505-85d0-0064db0138b1")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 60.9536 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +2479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 60.96 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2550,7 +2556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f5739c4-470d-412b-aa79-e3eba4f1e06c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR027"
 			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2634,7 +2640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c95ed6b-e6f6-48b1-9bb1-25e68e47bca9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR035"
 			(at 41.91 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2699,11 +2705,17 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 105.41 0)
+		(at 41.91 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2713,8 +2725,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ccedae1-edef-4008-bb9f-506f0e440416")
-		(property "Reference" "#PWR02"
-			(at 20.32 111.76 0)
+		(property "Reference" "#PWR037"
+			(at 41.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2725,7 +2737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 110.49 0)
+			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 105.41 0)
+			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 105.41 0)
+			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2758,7 +2770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 105.41 0)
+			(at 41.91 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2778,6 +2790,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2792,7 +2810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48c63963-791b-4dea-8974-3fe2bbfbe14a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR025"
 			(at 63.5 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2876,7 +2894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e097ddb-1b0f-4c16-9123-192465a93ca5")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 26.6636 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2896,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.67 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2973,7 +2991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619abb68-8785-4581-afcc-246a6c4ab9c4")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 26.9875 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 25.4 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3047,6 +3065,12 @@
 			(project "Power"
 				(path "/30119ed2-ce55-41fd-b608-3963355ff01b"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3196,7 +3220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825b3cd5-5f95-4864-927e-39ba7653ae40")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR034"
 			(at 20.32 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3260,6 +3284,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3274,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829f3aa3-5c40-42eb-a8b1-3ae107aa42ac")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR026"
 			(at 95.25 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3378,7 +3408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 140.97 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3491,7 +3521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89272cdd-238d-4415-85d8-32c54d7f0942")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR030"
 			(at 27.94 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3575,7 +3605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b099ed-c6b8-4e6e-b8f4-1008386fa5e2")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 133.35 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3679,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 160.02 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3792,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d5d68b-c9ee-4ab7-9545-c4b1d1c7f6ff")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR024"
 			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3876,7 +3906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45175d3-51ea-4cdd-a75f-5f6bbf1fab57")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 60.9536 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 60.96 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +4023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4106,7 +4136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2323ec-962a-4ad6-80f9-f6cf22ef9209")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 36.83 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4116,7 +4146,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 36.83 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.084 104.394 90)
 			(hide yes)
 			(show_name no)
@@ -4172,6 +4202,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4186,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad7e59b2-5632-4bf8-9339-d2db2e4b950c")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR029"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4270,7 +4306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7772512-3a02-4ec3-82ef-8b4dd32e2b19")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 26.9875 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 25.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4347,6 +4383,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4361,7 +4403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c6b6ed-98f0-45e3-adf0-69cb622f1cd8")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 30.4736 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4458,7 +4500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e00be804-525e-4c5f-b4bf-f88ca7931731")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR032"
 			(at 55.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4562,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +4707,7 @@
 	)
 	(symbol
 		(lib_id "power:-9V")
-		(at 41.91 105.41 180)
+		(at 20.32 105.41 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4675,8 +4717,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4a83813-508b-49d8-ad5d-9d1e6f3f92f2")
-		(property "Reference" "#PWR08"
-			(at 41.91 101.6 0)
+		(property "Reference" "#PWR036"
+			(at 20.32 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4729,7 @@
 			)
 		)
 		(property "Value" "-9V"
-			(at 41.91 110.49 0)
+			(at 20.32 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4697,7 +4739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 105.41 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,7 +4750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 105.41 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4719,7 +4761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-9V\""
-			(at 41.91 105.41 0)
+			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,6 +4781,12 @@
 					(unit 1)
 				)
 			)
+			(project "Oscillator"
+				(path "/3ca3a63e-46c1-4b14-be30-fce478aad491"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4753,7 +4801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdfe8a98-b6d9-4ff0-a1f7-ca697ff79d1a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR023"
 			(at 24.13 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4830,5 +4878,4 @@
 			(page "7")
 		)
 	)
-	(embedded_fonts no)
 )

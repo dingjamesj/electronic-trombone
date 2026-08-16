@@ -5399,7 +5399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.236 42.164 90)
 			(hide yes)
 			(show_name no)
@@ -5621,7 +5621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
 			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5826,7 +5826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 152.4 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5955,7 +5955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Header 691137710002:691137710002"
 			(at 238.76 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6038,7 +6038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6118,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 237.49 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +6354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 57.404 90)
 			(hide yes)
 			(show_name no)
@@ -6445,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -6539,7 +6539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6618,7 +6618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Header 691137710003:691137710003"
 			(at 238.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6896,7 +6896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 71.0916 0)
 			(hide yes)
 			(show_name no)
@@ -7054,7 +7054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7134,7 +7134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7213,7 +7213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 74.93 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +7707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7956,7 +7956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 237.49 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8241,7 +8241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 182.88 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -8321,7 +8321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schmitt Inv. CD40106BE:N14"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 152.4 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 41.91 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8608,7 +8608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +8688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 80.01 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8858,7 +8858,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 30.48 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9055,7 +9055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 110.236 119.634 90)
 			(hide yes)
 			(show_name no)
@@ -9482,7 +9482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9887,7 +9887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 32.004 90)
 			(hide yes)
 			(show_name no)
@@ -10241,7 +10241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
 			(at 30.48 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10450,7 +10450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 41.91 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11065,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 134.874 90)
 			(hide yes)
 			(show_name no)
@@ -11156,7 +11156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 213.36 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11272,7 +11272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11524,7 +11524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer 100k PTV09A-2020F-B104:Potentiometer 100k PTV09A-2020F-B104"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV09A-2_Single_Horizontal"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11654,7 +11654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11734,7 +11734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11942,7 +11942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 74.93 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12391,7 +12391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3339P_Vertical_HandSoldering"
 			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12510,7 +12510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 35.56 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12590,7 +12590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 			(at 182.88 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -12745,7 +12745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.434 157.734 90)
 			(hide yes)
 			(show_name no)
