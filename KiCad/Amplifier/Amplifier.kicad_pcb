@@ -5837,42 +5837,6 @@
 		(layer "Edge.Cuts")
 		(uuid "31c71f14-7580-4836-a82f-d4070a52f09f")
 	)
-	(gr_text "In"
-		(at 53.5 74.5 0)
-		(layer "F.SilkS")
-		(uuid "936ec864-b78d-42a6-a645-31bce7d9fec6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Control"
-		(at 57.5 74.5 0)
-		(layer "F.SilkS")
-		(uuid "49dfebb9-bc1c-4223-8b28-c4d5b76b78ad")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Out"
-		(at 64.9 74.5 0)
-		(layer "F.SilkS")
-		(uuid "ca4bf81c-b0db-4e31-ae2d-2b6950389589")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "-9V"
 		(at 75.5 57 0)
 		(layer "F.SilkS")
@@ -5909,14 +5873,54 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "In"
+		(at 51.25 77.25 0)
+		(layer "F.SilkS")
+		(uuid "936ec864-b78d-42a6-a645-31bce7d9fec6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Control"
+		(at 60.3 74.6 0)
+		(layer "F.SilkS")
+		(uuid "49dfebb9-bc1c-4223-8b28-c4d5b76b78ad")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Out"
+		(at 70.25 77.25 0)
+		(layer "F.SilkS")
+		(uuid "ca4bf81c-b0db-4e31-ae2d-2b6950389589")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "Amplifier"
-		(at 48.5 73 90)
+		(at 49 74 90)
 		(layer "F.SilkS")
 		(uuid "cd51d22c-5a5a-413d-938d-de8e9a6e67ab")
 		(effects
 			(font
-				(size 3 3)
-				(thickness 0.45)
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
 			)
 			(justify left bottom)
 		)

@@ -1132,7 +1132,7 @@
 		(property "Reference" "R2"
 			(at -3.0875 0.05 0)
 			(layer "F.SilkS")
-			(uuid "02cf2c4d-ed13-47c3-80b8-dd62f3b21419")
+			(uuid "2c361f22-8d91-4ddb-ab9d-6b70d2474da9")
 			(effects
 				(font
 					(size 1 1)
@@ -1143,7 +1143,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 0)
 			(layer "F.Fab")
-			(uuid "d53f1081-9625-4318-96f0-f92143638eb1")
+			(uuid "88f34a1f-a604-46c8-b03d-59af48fb74da")
 			(effects
 				(font
 					(size 1 1)
@@ -1155,7 +1155,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbbaf261-e1e3-41ac-afce-ac5aa95df9af")
+			(uuid "8d25b299-cc9a-4182-bf75-20cc9ae8f9d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1166,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30ae24c6-b61b-4f23-b2a9-48dbfd6b19d9")
+			(uuid "81bb4c62-3bae-4391-9113-3267e2cf00cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,86 +7021,132 @@
 		(layer "Edge.Cuts")
 		(uuid "a1000292-fae3-4a09-b44b-790694ac4ac8")
 	)
+	(gr_text "Neg\nOffset In"
+		(at 69 75.25 0)
+		(layer "F.SilkS")
+		(uuid "6cc766f9-ab5c-463b-b148-25b9fbd07936")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "-9V"
-		(at 110.5 78 0)
+		(at 111.5 78.75 0)
 		(layer "F.SilkS")
 		(uuid "b00671e8-43a1-4e79-b7c1-f63558069efb")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "+9V"
-		(at 110.5 85.5 0)
+		(at 111.5 86.25 0)
 		(layer "F.SilkS")
 		(uuid "437bd90f-0407-4fc8-bbd0-3a56e8a99ae1")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "In"
-		(at 80 86.75 0)
+		(at 77 90 0)
 		(layer "F.SilkS")
 		(uuid "c9bc125d-69f4-49a2-b21c-662fbc57cd3e")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "Control"
-		(at 85 86.75 0)
+		(at 85 87.25 0)
 		(layer "F.SilkS")
 		(uuid "859269c9-848b-4237-948a-f03aaae6cec3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Inverted,    Raw Out"
+		(at 92.5 48.5 0)
+		(layer "F.SilkS")
+		(uuid "fef1db6f-eef9-434e-a7d8-76c20c71dab0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "Out"
-		(at 90 86.75 0)
+		(at 94 90 0)
 		(layer "F.SilkS")
 		(uuid "763d0b79-c19b-42ce-b567-55329c5b8972")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
 	(gr_text "GND"
-		(at 102 86.75 0)
+		(at 102 87.25 0)
 		(layer "F.SilkS")
 		(uuid "63db7b3f-244e-4527-8585-4b4c09b4df91")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify bottom)
 		)
 	)
+	(gr_text "Pos\nOffset\nIn"
+		(at 117 67 0)
+		(layer "F.SilkS")
+		(uuid "0a3c7dca-8ba0-4c2a-b52c-08939500afae")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "Filter"
-		(at 74 90.5 90)
+		(at 73.75 94 90)
 		(layer "F.SilkS")
 		(uuid "e946f14c-2c6d-4925-a4d8-0149528da616")
 		(effects
 			(font
-				(size 3 3)
-				(thickness 0.45)
+				(size 3.5 3.5)
+				(thickness 0.7)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
