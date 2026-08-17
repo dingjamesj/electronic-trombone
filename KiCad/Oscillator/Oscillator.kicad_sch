@@ -3798,52 +3798,16 @@
 		(uuid "032c026a-8617-4440-b772-5fa962c22277")
 	)
 	(junction
-		(at 30.48 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12aef6df-aad4-4dab-a6bf-68fe8ac3b825")
-	)
-	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "134deb97-7145-443c-a477-4dcfe7cf4c8f")
-	)
-	(junction
-		(at 36.83 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f2e3391-571e-4f66-b2ce-abf93ffbd41a")
-	)
-	(junction
 		(at 109.22 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2472398f-4248-44da-b036-c89ee29b404a")
 	)
 	(junction
-		(at 30.48 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d275e5-4d0e-4cea-b1c0-556516f83a9f")
-	)
-	(junction
 		(at 109.22 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "406c53f4-ba55-482d-8547-b95f06096b96")
-	)
-	(junction
-		(at 74.93 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43457434-556f-4f69-b5b3-7dbc190e81f5")
-	)
-	(junction
-		(at 36.83 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "446932cd-b974-4509-b8ce-544c8ae6b844")
 	)
 	(junction
 		(at 161.29 140.97)
@@ -3864,10 +3828,10 @@
 		(uuid "4f4e98e2-1603-4392-a3cb-502597ae289a")
 	)
 	(junction
-		(at 30.48 25.4)
+		(at 74.93 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ac67dcd-51ee-483e-8bf1-4e3461f90460")
+		(uuid "506a4267-3f0a-4ca9-ae81-49459a1dbe9e")
 	)
 	(junction
 		(at 62.23 135.89)
@@ -3876,40 +3840,10 @@
 		(uuid "5e1a8c79-e125-48e0-8907-eccd7b72d884")
 	)
 	(junction
-		(at 36.83 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6006e46b-ff89-48ab-bdb6-ae7c8bfe8e4b")
-	)
-	(junction
-		(at 30.48 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63376c1e-cdec-4a9d-8536-3d994b7b7c7f")
-	)
-	(junction
-		(at 30.48 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e35ad7f-3224-4200-949f-5fcda34575ef")
-	)
-	(junction
 		(at 74.93 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76be85d8-6355-4b40-82b2-d50b6b298d64")
-	)
-	(junction
-		(at 30.48 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82d36825-ec87-4c78-9b93-140a2056496e")
-	)
-	(junction
-		(at 74.93 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89585d12-adff-49e2-9897-354f665cc35b")
 	)
 	(junction
 		(at 177.8 140.97)
@@ -3930,10 +3864,16 @@
 		(uuid "9d865b50-7657-471f-b113-2d4c057da47c")
 	)
 	(junction
+		(at 74.93 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c5642f-06af-4ffd-878a-6343a59f8711")
+	)
+	(junction
 		(at 74.93 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa67d8d2-43a3-4f4b-8897-70b6b1739235")
+		(uuid "aa76d85e-12e4-4003-b7ba-47e4c7c1a9b5")
 	)
 	(junction
 		(at 232.41 52.07)
@@ -3946,18 +3886,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af22526d-c5fd-4e34-81fa-c097b43be82b")
-	)
-	(junction
-		(at 30.48 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc4e9d09-cb0f-4187-a9a0-b2c54cce2232")
-	)
-	(junction
-		(at 36.83 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3c8a96f-b98f-48a2-a337-2876e0b82ecb")
 	)
 	(junction
 		(at 143.51 44.45)
@@ -3984,16 +3912,16 @@
 		(uuid "dd62c342-da25-46b5-bf61-c2f595922a99")
 	)
 	(junction
+		(at 74.93 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e292326a-921c-40f1-9505-3bb501ee425e")
+	)
+	(junction
 		(at 74.93 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eedac7d8-fa46-41db-90ec-2415f10bbebd")
-	)
-	(junction
-		(at 74.93 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdc78512-19be-4dd6-9801-28d054b12f80")
+		(uuid "feed6805-4127-4180-9aa6-61e09e689fba")
 	)
 	(wire
 		(pts
@@ -4027,7 +3955,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 36.83 33.02)
+			(xy 34.29 33.02) (xy 39.37 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +3965,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 30.48 62.23)
+			(xy 30.48 62.23) (xy 30.48 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4015,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 39.37) (xy 30.48 38.1)
+			(xy 30.48 36.83) (xy 30.48 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4247,16 +4175,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 135.89) (xy 101.6 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb157f0-5e5b-4389-b756-aa9939652e40")
-	)
-	(wire
-		(pts
 			(xy 62.23 135.89) (xy 62.23 158.75)
 		)
 		(stroke
@@ -4297,6 +4215,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 71.12) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54bcd09b-21da-4fb0-8fc2-a67dc9598014")
+	)
+	(wire
+		(pts
 			(xy 109.22 127) (xy 109.22 130.81)
 		)
 		(stroke
@@ -4307,7 +4235,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 72.39) (xy 74.93 71.12)
+			(xy 74.93 69.85) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4317,7 +4245,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 58.42) (xy 39.37 58.42)
+			(xy 34.29 58.42) (xy 39.37 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4387,23 +4315,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 135.89) (xy 39.37 135.89)
+			(xy 34.29 135.89) (xy 39.37 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f5fcca8-eb52-461a-a0d9-5b8760415cf1")
-	)
-	(wire
-		(pts
-			(xy 30.48 64.77) (xy 30.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6a10a1-9869-4c1a-8c44-baaf348159ce")
 	)
 	(wire
 		(pts
@@ -4487,16 +4405,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 36.83 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89622380-028e-4fa7-a19b-808894a689a7")
-	)
-	(wire
-		(pts
 			(xy 74.93 149.86) (xy 74.93 148.59)
 		)
 		(stroke
@@ -4524,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "8d735d2a-d1a0-4934-808c-cdf90c26de49")
+	)
+	(wire
+		(pts
+			(xy 74.93 58.42) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec1468b-8b64-452a-8fc3-c39561b4cf39")
 	)
 	(wire
 		(pts
@@ -4577,23 +4495,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 140.97) (xy 30.48 139.7)
+			(xy 30.48 139.7) (xy 30.48 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97d2011b-0e5d-4cec-901b-c9959fba326a")
-	)
-	(wire
-		(pts
-			(xy 36.83 33.02) (xy 39.37 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f9cc4a-649a-459d-875a-324e7f2524e1")
 	)
 	(wire
 		(pts
@@ -4614,16 +4522,6 @@
 			(type default)
 		)
 		(uuid "9a06de40-84f1-47e7-9407-869b69de1045")
-	)
-	(wire
-		(pts
-			(xy 74.93 69.85) (xy 74.93 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9afe2d98-355a-4f1b-9d3f-8694742fb983")
 	)
 	(wire
 		(pts
@@ -4687,23 +4585,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 138.43) (xy 74.93 135.89)
+			(xy 74.93 135.89) (xy 74.93 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a50924f9-2918-45b7-a0e9-fe859aa1478c")
-	)
-	(wire
-		(pts
-			(xy 34.29 135.89) (xy 36.83 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b84710-e275-40f1-8010-7fa90fb51eac")
+		(uuid "a9a89384-6fc5-46de-ae38-726f78f86ea7")
 	)
 	(wire
 		(pts
@@ -4777,16 +4665,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 58.42) (xy 101.6 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be4be4ba-ece0-4d5b-9eb2-02f316647957")
-	)
-	(wire
-		(pts
 			(xy 62.23 110.49) (xy 58.42 110.49)
 		)
 		(stroke
@@ -4807,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 110.49) (xy 39.37 110.49)
+			(xy 34.29 110.49) (xy 39.37 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4837,6 +4715,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 135.89) (xy 101.6 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd998ff6-1828-4198-be1c-77dfa24e92e8")
+	)
+	(wire
+		(pts
 			(xy 156.21 30.48) (xy 160.02 30.48)
 		)
 		(stroke
@@ -4844,16 +4732,6 @@
 			(type default)
 		)
 		(uuid "d5c58e0f-96fe-42a1-87ce-527546b3fdb7")
-	)
-	(wire
-		(pts
-			(xy 30.48 38.1) (xy 30.48 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6afea3a-1167-4887-b755-0901e91a6aa0")
 	)
 	(wire
 		(pts
@@ -4977,16 +4855,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 110.49) (xy 36.83 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee9949a1-32a3-469d-b9fc-81af3f8ad17b")
-	)
-	(wire
-		(pts
 			(xy 62.23 58.42) (xy 62.23 81.28)
 		)
 		(stroke
@@ -5004,16 +4872,6 @@
 			(type default)
 		)
 		(uuid "f015ad3b-af8e-4997-9ffc-672e2cf6adc0")
-	)
-	(wire
-		(pts
-			(xy 30.48 142.24) (xy 30.48 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0ef0049-6e5e-4b65-9031-c2c21ad3af59")
 	)
 	(wire
 		(pts
@@ -5047,7 +4905,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 115.57) (xy 30.48 114.3)
+			(xy 30.48 114.3) (xy 30.48 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5074,16 +4932,6 @@
 			(type default)
 		)
 		(uuid "f8938f4f-2a8e-4f40-95a5-5b9f6c144df4")
-	)
-	(wire
-		(pts
-			(xy 30.48 116.84) (xy 30.48 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f943f0ba-616c-47d3-b10c-e25107617a3d")
 	)
 	(wire
 		(pts
@@ -5590,6 +5438,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 30.48 58.42 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5597,10 +5446,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c38f743-e9b7-4f85-8f93-f6f0b6ab024e")
 		(property "Reference" "RV2"
-			(at 27.94 57.1499 0)
+			(at 27.94 59.6901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5611,7 +5459,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.94 59.6899 0)
+			(at 27.94 57.1501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,7 +5645,7 @@
 	(symbol
 		(lib_id "4xxx:40106")
 		(at 152.4 44.45 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5916,7 +5764,7 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U1")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -5998,86 +5846,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d2429a8-fc2e-4c33-b6d7-89211f2a29cc")
-		(property "Reference" "TP5"
-			(at 31.75 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 52.0699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27e9090d-a6ff-4280-b898-43177356c53f")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6237,86 +6005,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 74.93 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "251e0b9c-f0a6-4184-a817-e818a76a8f64")
-		(property "Reference" "TP21"
-			(at 76.2 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 76.2 149.8599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 80.01 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "421b7ce4-659d-4429-9459-d860129783cb")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -6499,86 +6187,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "320cd969-6f1d-44fb-9101-6e1c2a862133")
-		(property "Reference" "TP19"
-			(at 31.75 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 142.2399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80f72c0d-016d-4506-a5b9-d43f261a6b29")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -6862,86 +6470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 74.93 71.0916 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37abb64d-38b3-44e2-93b5-03b3bb3d275b")
-		(property "Reference" "TP12"
-			(at 76.2 69.8216 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 76.2 72.3615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 80.01 71.0916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 71.0916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 71.0916 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e65939a-0518-4695-90a7-6827dcae1c2d")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+9V")
 		(at 109.22 38.1 0)
 		(unit 1)
@@ -7020,168 +6548,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b3dabbb-fbd0-48d3-9fc2-c5a923157b9b")
-		(property "Reference" "TP9"
-			(at 31.75 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 64.7699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fd4cf52-85ed-4795-81ed-948748049cb3")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4319de40-fc47-448f-99b5-19e7ad5d806b")
-		(property "Reference" "TP3"
-			(at 31.75 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 39.3699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89c6b2d3-b112-41e1-aa58-d3ebb0669aef")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 74.93 143.51 180)
+		(at 74.93 143.51 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7189,10 +6558,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "441c4b6d-b000-41da-93a0-810213fc242e")
 		(property "Reference" "RV8"
-			(at 77.47 142.2399 0)
+			(at 77.47 144.7801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7203,7 +6571,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 77.47 144.7799 0)
+			(at 77.47 142.2401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7300,7 +6668,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 153.67 140.97 0)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7419,7 +6787,7 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -7667,86 +7035,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 74.93 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56161ef4-fb80-489d-b79d-fc40cf178cd3")
-		(property "Reference" "TP8"
-			(at 76.2 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 76.2 59.6899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 80.01 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "403945ae-43c6-4ebd-90f2-6ca8a0422c00")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -8287,86 +7575,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77f23020-bd2d-4ef5-9cd4-d17cff6b62c4")
-		(property "Reference" "TP7"
-			(at 38.1 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 59.6899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 41.91 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc8f4a40-e166-4c68-9062-d596122e6b46")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:40106")
 		(at 152.4 121.92 0)
 		(unit 4)
@@ -8494,246 +7702,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e221980-865d-4a61-8482-d2de56db01bd")
-		(property "Reference" "TP17"
-			(at 38.1 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 137.1599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 41.91 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f0e1570-cc7e-413d-8969-1a2ef8c9c4e9")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7f46720a-d619-4d85-a9f2-a3bdb2a563fb")
-		(property "Reference" "TP13"
-			(at 31.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 104.1399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "247dd218-b898-4011-8eb2-46d8e0e49e8d")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 74.93 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81f05f7e-4657-46ff-bef9-e32d7026392c")
-		(property "Reference" "TP18"
-			(at 76.2 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 76.2 137.1599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 74.93 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "409e62ba-bf4a-4b08-bf96-86de86a9d88a")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_US")
 		(at 54.61 58.42 90)
 		(unit 1)
@@ -8827,6 +7795,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 30.48 33.02 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8834,10 +7803,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87426001-9a66-4914-b6f3-1480cfc75cf7")
 		(property "Reference" "RV1"
-			(at 27.94 31.7499 0)
+			(at 27.94 34.2901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8848,7 +7816,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 27.94 34.2899 0)
+			(at 27.94 31.7501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10416,86 +9384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1d1f635-d6d2-4838-8935-11fcdb92b215")
-		(property "Reference" "TP2"
-			(at 38.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 34.2899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 41.91 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aadbea59-38af-42cd-bcfd-1ba69a156fcc")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 133.35 49.53 0)
 		(unit 1)
@@ -11411,86 +10299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9810a41-53dc-46bf-8263-43bb8c05454d")
-		(property "Reference" "TP15"
-			(at 31.75 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 116.8399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "61c5a265-003c-4680-90ab-1c1937386dfc")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 177.8 99.06 0)
 		(mirror x)
@@ -11614,166 +10422,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc6a1b78-1fa7-4507-9284-da5afe6a1512")
-		(property "Reference" "TP16"
-			(at 31.75 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 129.5399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4fb30a7c-057e-497f-a7cd-fd4e4baaf8e1")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 36.83 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dcbb67f0-0d61-4dcd-a259-42753390157e")
-		(property "Reference" "TP14"
-			(at 38.1 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 38.1 111.7599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 41.91 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 36.83 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "308e712b-2dbf-4bbc-86e2-b3c3e2ca6ee8")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -12029,7 +10677,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 191.77 101.6 0)
-		(unit 2)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12037,7 +10685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec1c9be4-a85e-4f42-a6d6-152e24986eea")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 191.77 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12146,8 +10794,8 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "U3")
-					(unit 2)
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -12233,7 +10881,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 153.67 63.5 0)
-		(unit 4)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12352,7 +11000,7 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "U2")
-					(unit 4)
+					(unit 1)
 				)
 			)
 		)
@@ -12470,86 +11118,6 @@
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
 					(reference "RV6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 30.48 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f768ef4b-7357-4ff0-9940-bce0b400ea40")
-		(property "Reference" "TP1"
-			(at 31.75 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Small"
-			(at 31.75 26.6699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 35.56 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 30.48 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcec5bb1-4afd-437d-95cb-50154cd928aa")
-		)
-		(instances
-			(project "Oscillator"
-				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

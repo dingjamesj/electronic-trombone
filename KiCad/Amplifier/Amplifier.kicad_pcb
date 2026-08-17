@@ -6058,6 +6058,22 @@
 		(uuid "a4079797-d63a-4741-be6e-061accfdc537")
 	)
 	(segment
+		(start 73 69)
+		(end 74.5 67.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+9V")
+		(uuid "baae92e2-7900-4863-b459-f5f923e4d9ce")
+	)
+	(segment
+		(start 74.5 67.5)
+		(end 77.46 67.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+9V")
+		(uuid "cf65f040-e5af-4346-9a40-e13f44d935e7")
+	)
+	(segment
 		(start 60 60.75)
 		(end 60 64.1)
 		(width 0.5)
