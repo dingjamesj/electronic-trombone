@@ -133,7 +133,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 9.75 -0.88 90)
+			(at 3.75 -2.88 180)
 			(layer "F.SilkS")
 			(uuid "84b3c4b0-4be2-4888-bdc6-870d63a74e69")
 			(effects
@@ -144,8 +144,8 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 3.81 17.57 90)
-			(layer "F.Fab")
+			(at 3.75 7.87 180)
+			(layer "F.SilkS")
 			(uuid "6c38c08b-1e03-4ea6-b5a4-344a90fb20a4")
 			(effects
 				(font
@@ -1004,7 +1004,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R5"
-			(at 3.81 -2.37 90)
+			(at 5.81 2.5 180)
 			(layer "F.SilkS")
 			(uuid "30e8133c-6385-4071-a492-a97d7fd37272")
 			(effects
@@ -2434,9 +2434,9 @@
 		(descr "Potentiometer, horizontal, Bourns PTV09A-2 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer horizontal Bourns PTV09A-2 Single")
 		(property "Reference" "RV1"
-			(at -7 -8.25 180)
+			(at -5.25 -11.5 180)
 			(layer "F.SilkS")
-			(uuid "2ca707be-d354-40e0-92c1-a094d7be9ae7")
+			(uuid "c6f1a9da-26b2-4868-8350-dd537642bc7d")
 			(effects
 				(font
 					(size 1 1)
@@ -2447,7 +2447,7 @@
 		(property "Value" "100k"
 			(at -8.75 -8.25 180)
 			(layer "F.Fab")
-			(uuid "fb96536b-7aff-4b66-a3c1-402431cc0820")
+			(uuid "44c4f501-7464-48f0-89fa-cbd39483b0ff")
 			(effects
 				(font
 					(size 1 1)
@@ -2459,7 +2459,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f992f05-ec42-45af-985c-56e3a048827a")
+			(uuid "d3e0ace7-a725-4650-95ca-f1017429da41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,7 +2470,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "98a2bf78-0176-499a-95b8-93fc20ca1e6f")
+			(uuid "78216f54-f083-4d5f-8dbb-9a1154620eea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, length*width=7.2*4.5mm^2, Capacitor, R82, https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm length 7.2mm width 4.5mm Capacitor R82")
 		(property "Reference" "C1"
-			(at 7.5 -2 0)
+			(at -2.5 1.75 0)
 			(layer "F.SilkS")
 			(uuid "5fe66bca-d959-40f5-8e4d-d7c71500042b")
 			(effects
@@ -2795,8 +2795,8 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 3.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "69d26530-aae0-4472-aeae-7456f9ae5858")
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 0 3 90)
+			(at 3.5 2.5 180)
 			(layer "F.SilkS")
 			(uuid "66f09732-f962-4dea-a11b-7455a356140c")
 			(effects
@@ -5364,7 +5364,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at -3 0 0)
+			(at 2.75 0 0)
 			(layer "F.SilkS")
 			(uuid "27a43e61-4d50-47d8-8bbc-d848c1e6eb8b")
 			(effects
@@ -5837,30 +5837,6 @@
 		(layer "Edge.Cuts")
 		(uuid "a193252a-4a44-4506-9aea-753b934a7f6c")
 	)
-	(gr_text "-9V"
-		(at 75.5 57 0)
-		(layer "F.SilkS")
-		(uuid "fa9d81fc-9178-40fb-9486-57b0abec77c7")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "+9V"
-		(at 75.5 72 0)
-		(layer "F.SilkS")
-		(uuid "f45a26c9-319f-469a-982a-5b71d45f0299")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "GND"
 		(at 76.4 74.5 0)
 		(layer "F.SilkS")
@@ -5869,6 +5845,45 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Volume\nAdjustment"
+		(at 64.25 39 0)
+		(layer "F.SilkS")
+		(uuid "3f7593c8-b0fd-493c-a84f-40a59ccd1d7f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+9V"
+		(at 77.25 72.75 0)
+		(layer "F.SilkS")
+		(uuid "f45a26c9-319f-469a-982a-5b71d45f0299")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-9V"
+		(at 77.5 57 0)
+		(layer "F.SilkS")
+		(uuid "fa9d81fc-9178-40fb-9486-57b0abec77c7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -5913,7 +5928,7 @@
 		)
 	)
 	(gr_text "Amplifier"
-		(at 49 74 90)
+		(at 47.5 74 90)
 		(layer "F.SilkS")
 		(uuid "cd51d22c-5a5a-413d-938d-de8e9a6e67ab")
 		(effects

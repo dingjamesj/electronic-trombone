@@ -144,8 +144,8 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 3.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "fc10e2bd-680d-411a-9714-f44523e9b61a")
 			(effects
 				(font
@@ -2705,8 +2705,8 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 3.5 90)
-			(layer "F.Fab")
+			(at 2.5 0 180)
+			(layer "F.SilkS")
 			(uuid "55078dbb-5086-4178-b977-015f9aee7952")
 			(effects
 				(font
@@ -6600,8 +6600,8 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 3.81 17.57 0)
-			(layer "F.Fab")
+			(at 3.81 7.62 0)
+			(layer "F.SilkS")
 			(uuid "a34fb7c8-e7f9-48f0-b6e6-f81d66db97de")
 			(effects
 				(font
@@ -7322,8 +7322,8 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 3.81 17.57 0)
-			(layer "F.Fab")
+			(at 3.81 7.62 0)
+			(layer "F.SilkS")
 			(uuid "c8b01d2a-2a1c-47ff-8b5a-3201e84a62c2")
 			(effects
 				(font
@@ -8529,8 +8529,8 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 3.81 17.57 90)
-			(layer "F.Fab")
+			(at 3.81 7.7 180)
+			(layer "F.SilkS")
 			(uuid "f55a860e-620d-441e-b505-08d7c1714f2b")
 			(effects
 				(font
@@ -10376,8 +10376,8 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 3.5 90)
-			(layer "F.Fab")
+			(at 2.5 0 180)
+			(layer "F.SilkS")
 			(uuid "ed0feaca-4800-45c5-b757-f5c78945f58c")
 			(effects
 				(font
@@ -10569,8 +10569,8 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 2.5 3.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "fcf187f0-2f83-4805-ac5c-dbadd5a5ec7b")
 			(effects
 				(font
@@ -13921,6 +13921,171 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "7e230b42-49a3-4d14-9144-3d398ed6e3ac")
+	)
+	(gr_text "100k"
+		(at 20 92.5 0)
+		(layer "F.SilkS")
+		(uuid "472c528e-a004-4015-baa0-a4f6aa779887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 21 72 0)
+		(layer "F.SilkS")
+		(uuid "a35101f7-ad83-46ba-8a33-5e5c611fcfb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "10k"
+		(at 30 72 0)
+		(layer "F.SilkS")
+		(uuid "6d95f63a-b94c-4024-a3ed-c98ee65de62f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 39 72 0)
+		(layer "F.SilkS")
+		(uuid "e86fc382-4665-4b26-aab7-42808fb300ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 39 80.5 0)
+		(layer "F.SilkS")
+		(uuid "2513f006-3226-4fa2-a41f-1890200392e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 39 93 0)
+		(layer "F.SilkS")
+		(uuid "cbf3a3c3-7ccf-43c8-9eb6-ac1547f9c9bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 48 72 0)
+		(layer "F.SilkS")
+		(uuid "3482874e-d46f-4a08-95de-86d212a989ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 58 72 0)
+		(layer "F.SilkS")
+		(uuid "7ae52cd9-7832-4839-9ecc-eca5e2e6326b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 64.5 102 0)
+		(layer "F.SilkS")
+		(uuid "d6092184-cb6f-4f27-bcee-fcd7e18e259e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 67 72 0)
+		(layer "F.SilkS")
+		(uuid "436d05b3-3552-4fb1-b3b6-0e5c1e6b7e03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 67 81 0)
+		(layer "F.SilkS")
+		(uuid "c1ad2eb3-3dab-48e1-984f-e593529be95a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 67 93 0)
+		(layer "F.SilkS")
+		(uuid "5fa5646d-ae73-45f0-bf4e-61ee2c249924")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "50k"
+		(at 76 72 0)
+		(layer "F.SilkS")
+		(uuid "f29b7011-4486-453e-8626-945445a0a6d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "200k"
+		(at 85 72 0)
+		(layer "F.SilkS")
+		(uuid "27aef645-0879-4d48-88e0-bc9c1caf51e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "100k"
+		(at 86 93 0)
+		(layer "F.SilkS")
+		(uuid "74f9897e-3706-4806-b2fb-f9c285002996")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(gr_text "Sus\nV"
 		(at 34 93 0)
