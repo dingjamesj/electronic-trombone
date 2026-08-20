@@ -2204,6 +2204,16 @@
 		)
 		(uuid "3d93c90a-2f87-4c79-99fd-e1245cb7afe1")
 	)
+	(text "Protective resistor.\nWhen the voltage across the diode ladder\nbecomes too high, then the diodes short,\nwhich may destroy the op amps."
+		(exclude_from_sim no)
+		(at 108.458 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e1516af-5eb9-41ef-9366-d222c01cbef6")
+	)
 	(text "Attenuates 100mV pp. to 10mV pp,\nputs inverted signal back in phase."
 		(exclude_from_sim no)
 		(at 188.976 44.704 0)
@@ -2570,13 +2580,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 39.37) (xy 114.3 39.37)
+			(xy 111.76 39.37) (xy 114.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43af35a1-a456-4e03-8432-408849e2f8ea")
+		(uuid "402e6de4-0f1c-4b5c-82c7-e93d00d0e48b")
 	)
 	(wire
 		(pts
@@ -2847,6 +2857,16 @@
 			(type default)
 		)
 		(uuid "b3368483-4550-437e-9fd9-27992b7164fe")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 104.14 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b458c82c-c3e2-4002-b1ad-b808a90a2fb1")
 	)
 	(wire
 		(pts
@@ -7266,6 +7286,97 @@
 				(path "/d0463ce5-c32c-4d9a-94ac-2a0e117a03ce"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca66e1fc-fbd2-419c-8120-3d7fae8a425f")
+		(property "Reference" "R12"
+			(at 107.95 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 107.95 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 108.204 38.354 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 107.95 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2995b306-e9be-4d8d-9046-d5988100fe56")
+		)
+		(pin "2"
+			(uuid "f657fed2-db94-44b5-90c2-2813bd61627d")
+		)
+		(instances
+			(project "Filter"
+				(path "/d0463ce5-c32c-4d9a-94ac-2a0e117a03ce"
+					(reference "R12")
+					(unit 1)
 				)
 			)
 		)
