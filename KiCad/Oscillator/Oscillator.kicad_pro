@@ -550,7 +550,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "Production/Electronic Trombone.csv",
+    "bom_export_filename": "/home/baibai/Documents/Projects/Electronic Trombone/Build/Aug 20 2026/Oscillator.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -647,7 +647,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

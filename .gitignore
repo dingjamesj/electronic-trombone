@@ -3,8 +3,8 @@
 # ===========================
 /Solidworks/
 /Testing with MCU/
-/Misc Files To Git Ignore/
-/Production/
+/Misc/
+/Build/
 
 # ================
 #     LTSpice:

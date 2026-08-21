@@ -89,6 +89,7 @@
 		)
 		(capping no)
 		(filling no)
+		(aux_axis_origin 14 119)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -7313,7 +7314,7 @@
 		(property "Reference" "U2"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "63731d7c-bed6-410b-8982-9d6edf86544e")
+			(uuid "8fbe49af-c320-4e9a-80f7-1d1c5d8e39b3")
 			(effects
 				(font
 					(size 1 1)
@@ -7324,7 +7325,7 @@
 		(property "Value" "TL074"
 			(at 3.81 7.62 0)
 			(layer "F.SilkS")
-			(uuid "c8b01d2a-2a1c-47ff-8b5a-3201e84a62c2")
+			(uuid "f4539307-ff07-4171-b6c3-cb12e687ae53")
 			(effects
 				(font
 					(size 1 1)
@@ -7336,7 +7337,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1af89226-422e-4825-9b9f-e907ff6a0f7d")
+			(uuid "dc6ddf5d-85d0-45a8-8691-57115f0f8cc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7348,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3bef8365-d7c6-4de9-aae6-780f5e37a131")
+			(uuid "84be8a68-e138-4cd8-ad9c-05f2d6b4dfd1")
 			(effects
 				(font
 					(size 1.27 1.27)
