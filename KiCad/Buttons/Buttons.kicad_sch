@@ -1740,7 +1740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "022705a8-28ed-44ba-b9e9-acc498422b13")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 68.58 59.6899 0)
 			(hide yes)
 			(show_name no)
@@ -1803,7 +1803,7 @@
 		(instances
 			(project "Buttons"
 				(path "/13047048-817a-4b05-9170-e5cf0f7134f2"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -2218,6 +2218,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8038f1b1-a699-4e39-b11e-c9c6dcaf2923")
 		)
@@ -2389,6 +2400,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3b3f13b-fbea-40d6-8511-00d66576f62c")
 		)
@@ -2550,6 +2572,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 54.61 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 54.61 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -2960,7 +2993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80e07d2-bc38-459d-b7d6-5eebc802fce3")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 74.93 66.0399 0)
 			(hide yes)
 			(show_name no)
@@ -3023,7 +3056,7 @@
 		(instances
 			(project "Buttons"
 				(path "/13047048-817a-4b05-9170-e5cf0f7134f2"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -3345,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0b29e7e-7392-4ed9-9f1e-c03091131313")
-		(property "Reference" "TP7"
+		(property "Reference" "TP1"
 			(at 102.87 60.9599 0)
 			(hide yes)
 			(show_name no)
@@ -3408,7 +3441,7 @@
 		(instances
 			(project "Buttons"
 				(path "/13047048-817a-4b05-9170-e5cf0f7134f2"
-					(reference "TP7")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3426,7 +3459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e65ced55-9e01-4950-afdb-ad7da3c78ddd")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 74.93 53.3399 0)
 			(hide yes)
 			(show_name no)
@@ -3489,7 +3522,7 @@
 		(instances
 			(project "Buttons"
 				(path "/13047048-817a-4b05-9170-e5cf0f7134f2"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6eee967-4250-49ab-aa0e-08b3028c428d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 102.87 58.4199 0)
 			(hide yes)
 			(show_name no)
@@ -3570,7 +3603,7 @@
 		(instances
 			(project "Buttons"
 				(path "/13047048-817a-4b05-9170-e5cf0f7134f2"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)

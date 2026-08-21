@@ -5390,6 +5390,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 114.3 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2d0db72-0983-49d8-afc2-cdd043418ef9")
 		)
@@ -5645,6 +5656,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 35.56 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2971004-f6c6-4e42-91ca-ef7e17acab72")
 		)
@@ -5817,6 +5839,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 157.48 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f646e7a-eaff-4120-a598-620a09c08cf5")
 		)
@@ -5961,7 +5994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20b88673-76d1-402b-b5fa-0261e5f78f6f")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 238.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6024,7 +6057,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6185,6 +6218,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3dd022fe-e879-4283-bef2-09f1336cb11f")
 		)
@@ -6267,6 +6311,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 48.26 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,6 +6519,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 157.48 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6916,6 +6982,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b5b4565a-5412-4b18-9a23-d5c06035cb70")
 		)
@@ -7113,6 +7190,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 59.69 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,6 +7457,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7e94cdfb-8be3-479f-8cd9-9952ff8144d4")
 		)
@@ -7395,7 +7494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61caa05c-6cb5-4d51-90db-1405da41737a")
-		(property "Reference" "TP6"
+		(property "Reference" "TP4"
 			(at 238.76 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7458,7 +7557,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP6")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7618,6 +7717,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 234.95 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "b8b64bf5-bc4b-4202-b429-adb5fb95f354")
 		)
@@ -7680,7 +7790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "650487e5-3ec2-49b3-95ea-4525e08df311")
-		(property "Reference" "TP10"
+		(property "Reference" "TP1"
 			(at 184.15 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7743,7 +7853,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP10")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7901,6 +8011,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 157.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02ff272b-4bd1-4ec3-a299-d5da89d7df9a")
 		)
@@ -8019,6 +8140,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 59.69 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,6 +8450,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 114.3 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "32a7310a-1df3-4131-bc97-41164b7f1312")
 		)
@@ -8421,6 +8564,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 157.48 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 157.48 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8651,6 +8805,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 210.82 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "57ef5b8d-1c4a-4503-ad70-48f30b73c9d3")
 		)
@@ -8753,7 +8918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ecac91c-6bc5-4ff0-8e65-461786fb62c6")
-		(property "Reference" "TP11"
+		(property "Reference" "TP5"
 			(at 238.76 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8816,7 +8981,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP11")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9132,6 +9297,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a3d0974-f7af-42a0-adf1-5eb23b98822f")
 		)
@@ -9302,6 +9478,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8a65e4c8-bac9-49b9-8256-5e899e4bd264")
 		)
@@ -9393,6 +9580,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ed5f9e8-d724-4d73-b6c8-6bcd7c8d38c2")
 		)
@@ -9475,6 +9673,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 59.69 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9689,6 +9898,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 35.56 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "556b2379-e6f3-4332-a82d-2376e3b6b856")
 		)
@@ -9854,6 +10074,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 138.43 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10400,6 +10631,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4b89ee3-4c80-41a7-9cd6-fc5e9993088f")
 		)
@@ -10607,6 +10849,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0277a6db-057c-4556-a669-4e10537073ec")
 		)
@@ -10802,6 +11055,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "potentiometer/THT"
 			(at 182.88 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11152,6 +11416,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 196.85 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "b8b64bf5-bc4b-4202-b429-adb5fb95f355")
 		)
@@ -11357,6 +11632,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "b5b4565a-5412-4b18-9a23-d5c06035cb6e")
 		)
@@ -11537,7 +11823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f98d4025-8f74-4cc4-b013-a352b66aa95a")
-		(property "Reference" "TP20"
+		(property "Reference" "TP2"
 			(at 184.15 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11600,7 +11886,7 @@
 		(instances
 			(project "Oscillator"
 				(path "/931827f3-33b7-460f-8885-7db258da2648"
-					(reference "TP20")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11760,6 +12046,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 48.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8d014d90-564b-46b5-9d24-a30f61f14421")
 		)
@@ -11842,6 +12139,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 59.69 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 59.69 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

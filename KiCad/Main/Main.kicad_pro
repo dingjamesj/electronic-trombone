@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -146,22 +140,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.2,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.45,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -209,9 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -238,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -501,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Power.kicad_pro",
+    "filename": "Main.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../Build/Aug 20 2026/",
+      "plot": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -550,7 +537,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "/home/baibai/Documents/Projects/Electronic Trombone/Build/Aug 20 2026/Power.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -587,31 +574,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -624,48 +611,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -705,18 +656,36 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Power.kicad_sch",
-        "name": "Power",
-        "uuid": "81f5f068-5e1a-45ef-aea1-95bb29db9f23"
+        "filename": "Main.kicad_sch",
+        "name": "Oscillator",
+        "uuid": "1c62d81a-4a43-480f-bedf-f31597749030"
+      },
+      {
+        "filename": "oscillator_misc.kicad_sch",
+        "name": "Oscillator Misc",
+        "uuid": "ced593a2-b553-4c2b-b98c-9d377196a61f"
+      },
+      {
+        "filename": "filter.kicad_sch",
+        "name": "Filter",
+        "uuid": "fbe9daf7-5dac-49e5-8604-a34975e691ad"
       }
     ],
-    "used_designators": "#PWR1-64,B1-2,C1-4,D1-4,J1-4,R1-10,TP1-18,RV1-9,SW1,U1-4",
+    "used_designators": "#PWR23-54",
     "variants": []
   },
   "sheets": [
     [
-      "81f5f068-5e1a-45ef-aea1-95bb29db9f23",
-      "Power"
+      "1c62d81a-4a43-480f-bedf-f31597749030",
+      "Oscillator"
+    ],
+    [
+      "ced593a2-b553-4c2b-b98c-9d377196a61f",
+      "Oscillator Misc"
+    ],
+    [
+      "fbe9daf7-5dac-49e5-8604-a34975e691ad",
+      "Filter"
     ]
   ],
   "text_variables": {},

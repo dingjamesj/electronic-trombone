@@ -5479,7 +5479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "701368cd-ca45-4041-a27d-c95f1f601313")
-		(property "Reference" "R3"
+		(property "Reference" "R100"
 			(at 41.91 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5554,7 +5554,7 @@
 		(instances
 			(project "Filter"
 				(path "/d0463ce5-c32c-4d9a-94ac-2a0e117a03ce"
-					(reference "R3")
+					(reference "R100")
 					(unit 1)
 				)
 			)

@@ -2221,6 +2221,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 45.72 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d4fdf48-b2b1-4688-b4ab-a7ada8174e94")
 		)
@@ -2417,6 +2428,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 36.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 36.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2864,6 +2886,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "030243aa-ba30-4918-90f0-ac19f7a49194")
 		)
@@ -2961,6 +2994,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "LED/THT"
+			(at 25.4 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f3c6a921-ad34-493d-a0ec-a3a88de75906")
 		)
@@ -3048,6 +3092,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 45.72 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 45.72 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,6 +3404,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 140.97 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 140.97 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -3662,6 +3728,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d4fdf48-b2b1-4688-b4ab-a7ada8174e96")
 		)
@@ -3879,6 +3956,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "789bcde6-ed4e-4775-a93a-826d238655eb")
 		)
@@ -3966,6 +4054,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 121.92 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 121.92 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4088,6 +4187,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 36.83 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4280,6 +4390,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "LED/THT"
+			(at 25.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6043ff6-0c06-4719-b087-a5d818bcb4e4")
 		)
@@ -4368,6 +4489,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 30.48 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 30.48 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4548,6 +4680,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)

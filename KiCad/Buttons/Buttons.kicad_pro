@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Build/Aug 20 2026/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""

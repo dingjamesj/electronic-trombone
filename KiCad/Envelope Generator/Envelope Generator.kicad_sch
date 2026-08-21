@@ -4458,6 +4458,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 200.66 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b61a55d9-51f3-498b-9b6d-9896b5feba33")
 		)
@@ -4572,6 +4583,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 111.76 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "potentiometer/THT"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4744,6 +4766,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "626b0aa0-135c-413b-81de-ac56dd8dff5f")
 		)
@@ -4847,6 +4880,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 234.95 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "potentiometer/THT"
 			(at 234.95 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5064,6 +5108,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 78.74 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "8848afad-159a-4238-ab88-ceabfa81cc07")
 		)
@@ -5149,6 +5204,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 44.45 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,6 +5328,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 107.95 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5435,6 +5512,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 200.66 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
 			(at 200.66 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5695,6 +5783,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 255.27 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "c8c4bb5e-226a-4f1e-b50f-4f6c9dd0aa36")
 		)
@@ -5891,6 +5990,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 214.63 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6190,6 +6300,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 111.76 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f10ff52c-1b74-43e4-9fe3-d168d4b9a678")
 		)
@@ -6260,6 +6381,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 189.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 189.23 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6385,6 +6517,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 63.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e1a7d303-17ce-40b5-8f7e-a557f4c38633")
 		)
@@ -6469,6 +6612,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 129.54 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 129.54 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6587,6 +6741,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 60.96 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -6747,6 +6912,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 266.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 266.7 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6944,6 +7120,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 170.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fce0735-c987-47b1-a24f-d7f015f6afbf")
 		)
@@ -7026,6 +7213,17 @@
 		)
 		(property "LCSC Part #" ""
 			(at 44.45 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 44.45 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7354,6 +7552,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 214.63 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 214.63 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7764,6 +7973,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 35.56 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "4e7df3c4-18fb-4366-9dfa-edff2ade6927")
 		)
@@ -8015,6 +8235,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 247.65 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "Envelope Generator"
 				(path "/f00ec82e-7fb8-4c7e-bfac-cc036a335e43"
@@ -8256,6 +8487,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 86.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "392514f4-9717-497a-9af4-16b4703276c9")
 		)
@@ -8406,6 +8648,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 58.42 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e624c2f-68c7-452a-9c93-5e1fa17c1ab9")
 		)
@@ -8510,6 +8763,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 48.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "potentiometer/THT"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8636,6 +8900,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 179.07 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "65f9e7b4-522c-4854-b691-59ce87352b16")
 		)
@@ -8741,6 +9016,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 170.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8864,6 +9150,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 179.07 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e541d7f3-32fa-4bde-af0a-e118c85383be")
 		)
@@ -8970,6 +9267,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 179.07 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "potentiometer/THT"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9255,6 +9563,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f846d66f-fe26-46c2-b442-a7b812ebbb4a")
 		)
@@ -9327,6 +9646,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 247.65 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 247.65 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9433,6 +9763,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 170.18 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 170.18 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9610,6 +9951,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e26a1f8-7e4a-4dc5-8b16-4af0c44d1d89")
 		)
@@ -9680,6 +10032,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 232.41 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 232.41 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9762,6 +10125,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 266.7 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 266.7 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -9925,6 +10299,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 189.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce972510-e988-45e8-86e1-f2edcf3a2830")
 		)
@@ -10049,6 +10434,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 78.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "28fede92-b32b-4eb6-a3b9-a9d6c8041efb")
 		)
@@ -10156,6 +10552,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 170.18 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "diode/THT"
 			(at 170.18 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10358,6 +10765,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 179.07 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "c5e7506f-a8ae-4965-805f-6c3c12e7cb90")
 		)
@@ -10533,6 +10951,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 111.76 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fd4d3be1-3150-442e-a06b-69df9476451f")
 		)
@@ -10614,6 +11043,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 44.45 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 44.45 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10988,6 +11428,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "6957776e-cb1b-41a7-b21c-33e5a83f0872")
 		)
@@ -11138,6 +11589,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 63.5 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "76f3537f-eeae-4d37-a00a-8e6e62a0c6d8")
 		)
@@ -11255,6 +11717,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7425c616-e64d-4928-bbff-2a8e0bb7aa57")
 		)
@@ -11335,6 +11808,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 86.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 86.36 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11551,6 +12035,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/DIP/legacy"
+			(at 265.43 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "c8c4bb5e-226a-4f1e-b50f-4f6c9dd0aa38")
 		)
@@ -11699,6 +12194,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 245.11 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0284d992-2eb5-4d5c-9323-5a1706e50326")
 		)
@@ -11826,6 +12332,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 111.76 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "51d3395d-48f6-4a21-8156-8aa6d94cd2f9")
 		)
@@ -11899,6 +12416,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 189.23 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11990,6 +12518,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 129.54 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12151,6 +12690,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "potentiometer/THT"
+			(at 48.26 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7c0493d5-917b-4c4f-b8d6-d3b4788b571e")
 		)
@@ -12268,6 +12818,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 58.42 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eaaefdd3-3a35-4e6f-84db-542e48da52e5")
 		)
@@ -12349,6 +12910,17 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/DIP/legacy"
 			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
