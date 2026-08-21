@@ -545,7 +545,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 16,
     "annotation": {
       "method": 0,
       "sort_order": 0
@@ -715,7 +715,7 @@
         "uuid": "3fd2dffe-1f54-47ff-9fe6-6fb87d577d3b"
       }
     ],
-    "used_designators": "U1-3,RV1-15,TP1-14,R1-10,J1-2,D1-11,C1-11,#PWR1-38,H1-4",
+    "used_designators": "U1-3,RV1-24,TP1-14,TP17-24,R1-10,R33-42,J1-2,D1-11,D13-23,C1-11,C16-26,#PWR1-38,H1-4,H13-16",
     "variants": []
   },
   "sheets": [

@@ -3442,7 +3442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03c23b18-28e4-479e-a5e6-a754b8159032")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 146.05 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +3551,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "U1")
+					(reference "U4")
 					(unit 4)
 				)
 			)
@@ -3569,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0620bc51-01d0-407b-903c-9a46d334da2e")
-		(property "Reference" "J2"
+		(property "Reference" "J6"
 			(at 43.18 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3636,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "J2")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3654,7 +3654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096c600b-7c8f-4cbb-9608-2623c19c7a09")
-		(property "Reference" "R6"
+		(property "Reference" "R28"
 			(at 101.6 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3729,7 +3729,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R6")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ade2118-d6cd-4118-8fcc-e1cabe82385a")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 228.6 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3845,7 +3845,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "U1")
+					(reference "U4")
 					(unit 5)
 				)
 			)
@@ -3941,7 +3941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bc4c12-cdc7-4747-b02e-93f6ca7170f7")
-		(property "Reference" "R9"
+		(property "Reference" "R31"
 			(at 224.79 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,7 +4003,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R9")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -4021,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1978fd6a-abb4-45c9-a7f7-6cf5c54d9548")
-		(property "Reference" "J1"
+		(property "Reference" "J5"
 			(at 43.18 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4088,7 +4088,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "J1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fe1a82d-12ae-4493-9c99-8b6e2d2cffb8")
-		(property "Reference" "TP1"
+		(property "Reference" "TP13"
 			(at 35.56 120.6499 0)
 			(hide yes)
 			(show_name no)
@@ -4169,7 +4169,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP1")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c773e38-3c14-4a94-997a-c77d6af34452")
-		(property "Reference" "TP3"
+		(property "Reference" "TP15"
 			(at 35.56 125.7299 0)
 			(hide yes)
 			(show_name no)
@@ -4328,7 +4328,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP3")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33d78be8-4d97-440f-8288-72b407bfa48c")
-		(property "Reference" "R8"
+		(property "Reference" "R30"
 			(at 130.81 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,7 +4578,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R8")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e2bd52-f68d-4586-ae4a-9da1af8045b2")
-		(property "Reference" "H3"
+		(property "Reference" "H12"
 			(at 224.79 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4891,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "H3")
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -4988,7 +4988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bfefe50-5134-4039-93a8-fcb52faf6a07")
-		(property "Reference" "R2"
+		(property "Reference" "R24"
 			(at 44.45 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5063,7 +5063,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R2")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5081,7 +5081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619abb68-8785-4581-afcc-246a6c4ab9c4")
-		(property "Reference" "D1"
+		(property "Reference" "D11"
 			(at 214.9475 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5154,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "D1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5172,7 +5172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63be06c0-6234-4bef-ae55-8eb17a4d241f")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 72.39 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5281,7 +5281,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b09990d-411a-4399-a628-1c018b03bd08")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 107.95 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5408,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "U1")
+					(reference "U4")
 					(unit 3)
 				)
 			)
@@ -5426,7 +5426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7285832c-114d-4a2e-860c-9a73063dac20")
-		(property "Reference" "TP2"
+		(property "Reference" "TP14"
 			(at 35.56 123.1899 0)
 			(hide yes)
 			(show_name no)
@@ -5489,7 +5489,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP2")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5507,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7310dffd-0e5b-4a53-83f2-252295d82d4c")
-		(property "Reference" "H1"
+		(property "Reference" "H9"
 			(at 205.74 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5565,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "H1")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -5583,7 +5583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae19235-d747-4a21-853c-2dcd126d2f0e")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 124.46 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +5656,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2f0594-c545-49c0-9955-ff7d9e7b8b80")
-		(property "Reference" "R3"
+		(property "Reference" "R25"
 			(at 55.88 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5749,7 +5749,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R3")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5845,7 +5845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd81572-4528-4830-ac08-1767b9e7403b")
-		(property "Reference" "TP4"
+		(property "Reference" "TP16"
 			(at 35.56 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -5908,7 +5908,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "TP4")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d28ee0-6e34-418d-a4d2-52f8c102f81c")
-		(property "Reference" "H2"
+		(property "Reference" "H10"
 			(at 205.74 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6063,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "H2")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -6316,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aff37fb-8d8a-4c55-9576-fb719ef264a5")
-		(property "Reference" "R7"
+		(property "Reference" "R29"
 			(at 106.68 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6389,7 +6389,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R7")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6407,7 +6407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc3e961-5340-42d5-b3ce-9e63055ea3c7")
-		(property "Reference" "H4"
+		(property "Reference" "H11"
 			(at 224.79 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6465,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "H4")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -6483,7 +6483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0b82d7b-98fa-41ec-965f-8ea3a7a0f410")
-		(property "Reference" "R4"
+		(property "Reference" "R26"
 			(at 88.9 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6556,7 +6556,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R4")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aafce223-6c43-424f-a942-b9a64c531af5")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 243.8336 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6715,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2323ec-962a-4ad6-80f9-f6cf22ef9209")
-		(property "Reference" "R10"
+		(property "Reference" "R32"
 			(at 224.79 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6795,7 +6795,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R10")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6813,7 +6813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb0a810-a49d-4ea7-958f-5be590052c81")
-		(property "Reference" "Q2"
+		(property "Reference" "Q6"
 			(at 55.88 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6924,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "Q2")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6942,7 +6942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7772512-3a02-4ec3-82ef-8b4dd32e2b19")
-		(property "Reference" "D2"
+		(property "Reference" "D12"
 			(at 214.9475 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,7 +7015,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "D2")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -7033,7 +7033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad765b4-2b35-47be-998f-8b5eb875aa5d")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 213.3536 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,7 +7095,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7113,7 +7113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8abe3a1-3b39-46be-9d7c-15b4fc56cabb")
-		(property "Reference" "R5"
+		(property "Reference" "R27"
 			(at 88.9 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7186,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R5")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7203,7 +7203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d03a1ea7-769c-4ba9-88a3-db7f1c3144fb")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 72.39 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7312,7 +7312,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "U1")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -7330,7 +7330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8afefb6-f1a7-4392-b2d0-98238f3c59fb")
-		(property "Reference" "R1"
+		(property "Reference" "R23"
 			(at 33.02 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7405,7 +7405,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "R1")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7423,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e10e5e5d-ad56-47b0-8e28-0ccbd19cdc83")
-		(property "Reference" "Q1"
+		(property "Reference" "Q5"
 			(at 33.02 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +7534,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "Q1")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b38c72-e92a-4dfd-a676-b92bb5b961c9")
-		(property "Reference" "RV1"
+		(property "Reference" "RV9"
 			(at 162.56 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,7 +7650,7 @@
 		(instances
 			(project "Amplifier"
 				(path "/4b9119d6-fa5d-4921-8a56-e3e986a94725"
-					(reference "RV1")
+					(reference "RV9")
 					(unit 1)
 				)
 			)

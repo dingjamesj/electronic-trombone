@@ -661,17 +661,37 @@
         "uuid": "1c62d81a-4a43-480f-bedf-f31597749030"
       },
       {
-        "filename": "oscillator_misc.kicad_sch",
-        "name": "Oscillator Misc",
-        "uuid": "ced593a2-b553-4c2b-b98c-9d377196a61f"
+        "filename": "oscillator_power.kicad_sch",
+        "name": "Oscillator Power",
+        "uuid": "941ae2de-688c-4a4a-93ca-25e8daf77ff7"
       },
       {
         "filename": "filter.kicad_sch",
         "name": "Filter",
-        "uuid": "fbe9daf7-5dac-49e5-8604-a34975e691ad"
+        "uuid": "275824bd-c88c-4bac-aedc-120b5bdd27e0"
+      },
+      {
+        "filename": "amplifier.kicad_sch",
+        "name": "Amplifier",
+        "uuid": "1439417e-4b7e-45d8-abc9-cbcfa4a6b791"
+      },
+      {
+        "filename": "envelope_generator.kicad_sch",
+        "name": "Envelope Generator",
+        "uuid": "7747c1fa-8faf-4f5d-b402-c03ce2200a91"
+      },
+      {
+        "filename": "envelope_generator_power.kicad_sch",
+        "name": "Envelope Generator Power",
+        "uuid": "47d75706-d8aa-4ada-ae0b-1a72e7cc5028"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "e3553e0c-ff60-4269-bab4-bb3b51683c86"
       }
     ],
-    "used_designators": "#PWR23-54",
+    "used_designators": "#PWR23-169",
     "variants": []
   },
   "sheets": [
@@ -680,12 +700,28 @@
       "Oscillator"
     ],
     [
-      "ced593a2-b553-4c2b-b98c-9d377196a61f",
-      "Oscillator Misc"
+      "941ae2de-688c-4a4a-93ca-25e8daf77ff7",
+      "Oscillator Power"
     ],
     [
-      "fbe9daf7-5dac-49e5-8604-a34975e691ad",
+      "275824bd-c88c-4bac-aedc-120b5bdd27e0",
       "Filter"
+    ],
+    [
+      "1439417e-4b7e-45d8-abc9-cbcfa4a6b791",
+      "Amplifier"
+    ],
+    [
+      "7747c1fa-8faf-4f5d-b402-c03ce2200a91",
+      "Envelope Generator"
+    ],
+    [
+      "47d75706-d8aa-4ada-ae0b-1a72e7cc5028",
+      "Envelope Generator Power"
+    ],
+    [
+      "e3553e0c-ff60-4269-bab4-bb3b51683c86",
+      "Power"
     ]
   ],
   "text_variables": {},
